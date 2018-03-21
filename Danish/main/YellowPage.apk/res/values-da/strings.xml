@@ -242,7 +242,6 @@ Total: RMB %3$s"</string>
     <string name="sending_shortcut">Sender…</string>
     <string name="service_unavailiable">Service ikke tilgængelig</string>
     <string name="share">Del</string>
-    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">Nummervisning</string>
     <string name="toast_finish_delete_call_log">Opkaldshistorik slettet</string>
     <string name="toast_text_copied">Tekst kopieret</string>

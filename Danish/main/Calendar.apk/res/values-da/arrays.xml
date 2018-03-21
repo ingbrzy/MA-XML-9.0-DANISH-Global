@@ -158,10 +158,6 @@
         <item>2 dage før</item>
         <item>1 uge før</item>
     </string-array>
-    <string-array name="english_premium_league">
-        <item>4</item>
-        <item>@string/english_premium_league</item>
-    </string-array>
     <string-array name="gemini_info">
         <item>tvillingerne</item>
         <item>Tvillingerne</item>

@@ -205,7 +205,6 @@
     <string name="add_flow_fail_vip_msg">Xunlei-downloadaccelerator er tændt</string>
     <string name="all_the_internet">Alle netværker</string>
     <string name="app_downloads">%s download</string>
-    <string name="app_size">%1$s</string>
     <string name="auth_activity_title">Xunlei-konto</string>
     <string name="bind_xunlei_account">Tilføj Xunlei Account</string>
     <string name="bt_download">Download</string>
@@ -231,7 +230,6 @@
     <string name="download_list_open_xl_message">Xunlei-acceleratoren vil gøre downloads hurtigere.</string>
     <string name="download_list_open_xl_title">Xunlei-downloadaccelerator</string>
     <string name="download_list_title_browser">Download</string>
-    <string name="download_num_size">%1$s | %2$s</string>
     <string name="dredge_xunlei_account">Opret en Xunlei Account</string>
     <string name="edit_hint"> Indtast http-, torrent- eller eMule-adresse</string>
     <string name="engine_open">Åbn</string>
@@ -404,7 +402,6 @@ Accelerer downloads på tværs af alle dine enheder."</string>
     <string name="xl_vip_semiannual">6 måneder: %1$s Mi Credits × 6</string>
     <string name="xunlei_account_has_unbind_message">Xunlei Account fjernet</string>
     <string name="xunlei_brand">Drevet af Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_close_tips_button">Tænd</string>
     <string name="xunlei_close_tips_content">Xunlei-downloadaccelerator.</string>
     <string name="xunlei_close_tips_title">Accelerer dine downloads</string>

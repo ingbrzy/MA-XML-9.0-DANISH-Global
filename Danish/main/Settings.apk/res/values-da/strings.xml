@@ -2370,7 +2370,6 @@ Der er andre brugere til stede på denne enhed.
     <string name="memory_title">Tilgængelig: %1$s\u0009\u0009Total: %2$s</string>
     <string name="memory_usage">Hukommelsesforbrug</string>
     <string name="memory_usage_apps">Hukommelse, der bruges af apps</string>
-    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Der er i gennemsnit brugt %1$s hukommelse inden for de sidste tre timer</string>
     <string name="menu_cancel">Kassér</string>
     <string name="menu_check">Oplevelse</string>
@@ -2560,7 +2559,6 @@ vil %1$s vises som en USB-lagerenhed, når den tilsluttes til en computer."</str
     <string name="nfc_how_it_works_got_it">OK, det er forstået</string>
     <string name="nfc_how_it_works_title">Betaling på terminalen</string>
     <string name="nfc_more_title">Flere...</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Standardapp til betaling</string>
     <string name="nfc_payment_default_not_set">Ikke angivet</string>
     <string name="nfc_payment_how_it_works">Sådan fungerer det</string>
@@ -2746,7 +2744,6 @@ Dette gør det også muligt for appen at slå Forstyr ikke til eller fra og ænd
     <string name="overlay_display_devices_title">Simuler sekundære skærme</string>
     <string name="overlay_settings">Vis oven på andre apps</string>
     <string name="owner_info_settings_edit_text_hint">Eksempel: Jacobs Android</string>
-    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Ingen</string>
     <string name="owner_info_settings_title">Låseskærmsunderskrift</string>
     <string name="packages_subtitle">Inkluderede pakker</string>
@@ -3835,7 +3832,6 @@ Muligvis pga. en forkert pinkode."</string>
     <string name="sim_reenter_new">Indtast ny pinkode igen</string>
     <string name="sim_select_card">Vælg et SIM-kort</string>
     <string name="sim_selection_required_pref">Du har ikke valgt endnu</string>
-    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM-kort</string>
     <string name="sim_setup_wizard_title">SIM-kort</string>
     <string name="sim_slot_empty">Intet SIM-kort</string>
@@ -4115,7 +4111,6 @@ Du kan også skifte til et hurtigere ^1 for at få en bedre ydeevne."</string>
     <string name="suggestions_summary">Mere end %1$d</string>
     <string name="suggestions_title">Forslag</string>
     <string name="sum_carrier_select">Vælg en netværksudbyder</string>
-    <string name="summary_range_symbol_combination">%1$s-%2$s</string>
     <string name="summary_range_verbal_combination">%1$s til %2$s</string>
     <string name="supl_not_set">&lt;Ikke indstillet></string>
     <string name="support_account_picker_add_account">Tilføj konto</string>
