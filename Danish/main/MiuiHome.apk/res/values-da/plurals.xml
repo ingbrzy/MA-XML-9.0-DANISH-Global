@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="announce_for_drag">
+        <item quantity="other">Dragging %1$d items</item>
+        <item quantity="one">Dragging %1$d item</item>
+    </plurals>
+    <plurals name="delete_wallpapers_message">
+        <item quantity="other">Delete %1$d wallpapers?</item>
+        <item quantity="one">Slet %1$d baggrundsbilleder?</item>
+    </plurals>
+    <plurals name="editing_mode_title">
+        <item quantity="other">%1$d valgt</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="scroll_tip_format_when_announce_accessibility">
+        <item quantity="other">side %1$d, %2$d apps</item>
+        <item quantity="one">side %1$d, %2$d app</item>
+    </plurals>
+    <plurals name="uninstall_dialog_title_multi_format">
+        <item quantity="other">Afinstaller %1$d apps?</item>
+        <item quantity="one">Afinstaller %1$d app?</item>
+    </plurals>
+    <plurals name="uninstall_result_multi_failed">
+        <item quantity="other">Kan ikke afinstallere %1$d apps</item>
+        <item quantity="one">Kan ikke afinstallere %1$d app</item>
+    </plurals>
+    <plurals name="uninstall_result_multi_succeeded">
+        <item quantity="other">%1$d apps afinstalleret</item>
+        <item quantity="one">%1$d app afinstalleret</item>
+    </plurals>
+</resources>

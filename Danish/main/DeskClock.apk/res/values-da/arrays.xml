@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_set">
+        <item>Alarm starter om mindre end 1 minut.</item>
+        <item>Alarm starter om %1$s.</item>
+        <item>Alarm starter om %2$s.</item>
+        <item>Alarm starter om %1$s og %2$s.</item>
+        <item>Alarm starter om %3$s.</item>
+        <item>Alarm starter om %1$s og %3$s.</item>
+        <item>Alarm starter om %2$s og %3$s.</item>
+        <item>Alarm starter om %1$s %2$s og %3$s.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Aldrig</item>
+        <item>1 minut</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>25 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>1 minut</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>15 minutter</item>
+        <item>20 minutter</item>
+        <item>25 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Gør intet</item>
+        <item>Slumre</item>
+        <item>Afvis</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="alarm_in_furture">
+        <item>Alarm om mindre end 1 minut.</item>
+        <item>Alarm om %1$s</item>
+        <item>Alarm om %2$s</item>
+        <item>Alarm om %1$s %2$s</item>
+        <item>Alarm om %3$s</item>
+        <item>Alarm om %1$s %3$s</item>
+        <item>Alarm om %2$s %3$s</item>
+        <item>Alarm om %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Én gang</item>
+        <item>Daglig</item>
+        <item>Hverdage</item>
+        <item>Fridage</item>
+        <item>Man til fre</item>
+        <item>Brugertilpasset</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Én gang</item>
+        <item>Daglig</item>
+        <item>Man til fre</item>
+        <item>Brugertilpasset</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>God</item>
+        <item>Tilfredsstillende</item>
+        <item>Moderat forurenet</item>
+        <item>Dårlig</item>
+        <item>Meget dårlig</item>
+        <item>Alvorlig</item>
+    </string-array>
+    <string-array name="days">
+        <item>I går</item>
+        <item>I dag</item>
+        <item>I morgen</item>
+    </string-array>
+    <string-array name="weather_tips_value">
+        <item>Begræns udendørs aktiviteter.</item>
+        <item>Gaderne er glatte.</item>
+        <item>Det er stormvejr. Pas på!</item>
+        <item>Luften er forurenet. Bær en maske!</item>
+        <item>Tag en paraply med, når du går ud.</item>
+        <item>Vær forsigtig på gaden.</item>
+        <item>Sandstorm er på vej. Bær en maske!</item>
+        <item>Hav en god dag!</item>
+    </string-array>
+</resources>

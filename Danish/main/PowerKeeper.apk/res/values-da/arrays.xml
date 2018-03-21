@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hmode_app_groups">
+        <item>Brugertilpasset</item>
+        <item>Batteribesparer</item>
+    </string-array>
+    <string-array name="thermal_entries">
+        <item>Standard temperaturstyringstilstand</item>
+        <item>Præstationstilstand</item>
+    </string-array>
+    <string-array name="thermal_summaries">
+        <item>Aktuel temperaturstyringstilstand</item>
+        <item>Aktuel præstationstilstand</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Præstation</item>
+        <item>Balanceret</item>
+    </string-array>
+</resources>

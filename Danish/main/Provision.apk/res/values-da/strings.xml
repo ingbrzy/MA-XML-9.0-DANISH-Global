@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Velkommen</string>
+    <string name="app_name">Klargøring</string>
+    <string name="system_navigation_mode">Systemnavigationstilstand</string>
+    <string name="input_method_setting">Vælg tastatur</string>
+    <string name="input_method_category">Vælg det standardtastatur, som du vil bruge til at skrive beskeder, noter og næsten alt andet. Bemærk, at du senere kan installere andre tredjepartstastaturer.</string>
+    <string name="provision_inputmethod_policy_description">"
+Se det valgte tastaturs Fortrolighedspolitik."</string>
+    <string name="provision_inputmethod_policy_description1">Fortrolighedspolitik</string>
+    <string name="multisim_settings_title">2 SIM-kort registreret</string>
+    <string name="multisim_settings_category">Indstillinger for SIM</string>
+    <string name="sim_card_detection">Indsæt SIM-kort</string>
+    <string name="sim_card_detecting_title">Kontroller for SIM-kort</string>
+    <string name="sim_card_detection_info">For at indsætte dit SIM-kort, læs de instruktioner, der fulgte med din enhed.</string>
+    <string name="sim_card_detecting">Kontroller for SIM-kort…</string>
+    <string name="sim_card_detecting_check">Kunne ikke finde SIM-kort. Sørg for, at SIM-kortet er korrekt installeret, og at du har tilstrækkelig penge på din konto.</string>
+    <string name="other_settings">Yderligere indstillinger</string>
+    <string name="other_settings_location">Placering</string>
+    <string name="other_settings_location_summary">Giv apps adgang til din placering.</string>
+    <string name="other_settings_user_experience">Brugeroplevelsesprogram</string>
+    <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us. Details</string>
+    <string name="other_settings_user_experience_summary_index">Details</string>
+    <string name="other_settings_upload_debug_log_title">Send diagnostisk data automatisk</string>
+    <string name="other_settings_upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
+    <string name="other_settings_auto_update">Installer automatisk</string>
+    <string name="other_settings_auto_update_summary">MIUI vælger det bedste øjeblik til at installere opdateringer.</string>
+    <string name="other_settings_ad_enable">Personlige annonceanbefalinger</string>
+    <string name="other_settings_ad_enable_summary">Recommend personalized ads based on your behavior data</string>
+    <string name="back">Tilbage</string>
+    <string name="next">Næste</string>
+    <string name="skip_underline">Spring dette trin over</string>
+    <string name="sim_dectection_next">Fortsæt</string>
+    <string name="shut_down">Luk ned</string>
+    <string name="sim_redetection">Kontroller igen</string>
+    <string name="navigation_picker_gesture_guide">Gestikvejledning</string>
+    <string name="congratulation_title">Opsætning fuldført</string>
+    <string name="congratulation_label">Du er klar til start!​</string>
+    <string name="pref_title_voice_slot">Foretrukket stemme SIM-kort</string>
+    <string name="pref_title_data_slot">Foretrukket data-SIM-kort</string>
+    <string name="summary_not_set">Ikke indstillet</string>
+    <string name="ime_privacy_policy">Fortrolighedspolitik for valgte tastaturer</string>
+    <string name="ime_privacy_policy_no_network">Ingen netværksforbindelse. Se Fortrolighedspolitik for dette tastatur på %s.</string>
+    <string name="terms_of_use">Vilkår og betingelser</string>
+    <string name="terms_of_use_label">"Your privacy is very important to us. Read our Terms of Service and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
+
+You must agree to our Terms of Service and Privacy Policy before you can use MIUI. Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen, Game center, MAB, MIUI Daemon and MSA system components, web apps, App vault, statistics, smart cards, Mi Link, and Mi Account components will connect to the internet and acquire your location."</string>
+    <string name="terms_of_use_label_gms">"Your privacy is very important to us. Read our Terms of Service and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
+
+You must agree to our Terms of Service and Privacy Policy before you can use MIUI. Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen, Game center, MAB, MIUI Daemon and MSA system components, web apps, App vault, statistics, smart cards, Mi Link, Mi Account, and Google Play services components will connect to the internet and acquire your location."</string>
+    <string name="user_agreement">Servicevilkår</string>
+    <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="application_permissions">App-tilladelser</string>
+    <string name="agree">Godkend</string>
+    <string name="disagree">Annuller</string>
+    <string name="setting_locale">Indstiller region…</string>
+    <string name="agree_terms">Jeg har læst og accepterer Servicevilkår og Fortrolighedspolitik.</string>
+    <string name="miui_terms_no_network">Du har ingen internetforbindelse. Se Servicevilkår på %s.</string>
+    <string name="miui_privacy_policy_no_network">Du har ingen internetforbindelse. Se Fortrolighedspolitik på %s.</string>
+    <string name="locale_picker_title">Vælg din region</string>
+    <string name="install_preinstall_app">Indlæser apps…</string>
+    <string name="title_fingerprint">Indstil kodeord</string>
+    <string name="item_fingerprint">Fingeraftryk</string>
+    <string name="item_lock_screen_password">Kun skærmlås</string>
+    <string name="desc_fingerprint">Brug dit fingeraftryk til at låse din enhed op, kontrollere Mi Pay-transaktioner eller logge på apps og tjenester.</string>
+    <string name="desc_extra_fingerprint" />
+    <string name="next_fingerprint">Næste</string>
+    <string name="desc_extra_international_fingerprint" />
+    <string name="desc_international_fingerprint">Brug dit fingeraftryk til at låse din enhed op eller logge på apps og tjenester.</string>
+    <string name="content_description_start">Start</string>
+    <string name="content_description_miui_version">MIUI 9</string>
+    <string name="content_description_complete">Færdig</string>
+    <string name="language_picker_other_languages_title">Flere sprog</string>
+    <string name="language_settings">Vælg sprog</string>
+    <string name="navigation_picker_radio_text_full_screen">Full screen gestures</string>
+    <string name="navigation_picker_radio_text_virtual_key">Buttons</string>
+    <string name="congratulation_swipe">Stryg opad for at komme ind i systemet</string>
+    <string name="enable_accessibility_dialog_message">Du har slået TalkBack til ved at trykke på skærmen med 2 fingre i mere end 10 sekunder. TalkBack giver stemmefeedback til personer med synshandicap. Hvis du slår det til ved et uheld, skal du trykke på knappen Annuller og dobbeltklikke på skærmen.</string>
+    <string name="enable_accessibility_dialog_positive_btn">OK</string>
+    <string name="enable_accessibility_dialog_negative_btn">Annuller</string>
+    <string name="cm_terms_title">Mobilnetværksoperatøraftale</string>
+    <string name="cm_terms_content">For at forbedre de tjenester, der leveres til dig, kan mobilnetværksudbyderen efter eget valg uploade dine personlige data og oplysningerne om denne enhed til sine servere ved hjælp af Wi-Fi-netværk eller mobildataforbindelse. Disse oplysninger vil kun blive brugt til statistiske formål for at forbedre tjenestens kvalitet og give mere personligt indhold. Disse oplysninger vil ikke blive brugt til at identificere dig personligt og vil ikke blive videregivet til tredjepart.</string>
+    <string name="enable_accessibility_canceled">Tilgængelighed annulleret.</string>
+    <string name="accessibility_enabled">Tilgængelighed aktiveret.</string>
+    <string name="continue_to_enable_accessibility">Hold to fingre nede for aktivere tilgængelighed.</string>
+    <string name="voice_assist_title">Væk med stemme</string>
+    <string name="voice_assist_desp">Sig \"Mi Al\" ind i telefonen. Mi Al vil genkende din stemme og vil kunne styre din enhed.</string>
+</resources>
