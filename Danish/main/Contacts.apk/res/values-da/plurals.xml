@@ -41,8 +41,8 @@
         <item quantity="one">Slet %1$d kontakter</item>
     </plurals>
     <plurals name="callNoAnswerTimeFormat">
-        <item quantity="other">Rang %1$d times</item>
-        <item quantity="one">Ringede %1$d gange.</item>
+        <item quantity="other">Ringede %1$d gange</item>
+        <item quantity="one">Ringede %1$d gange</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d kontakter eller fotos er ikke blevet synkroniseret</item>
@@ -93,11 +93,11 @@
         <item quantity="one">%1$d kontakt</item>
     </plurals>
     <plurals name="hint_search_emails">
-        <item quantity="other">%1$d emails</item>
-        <item quantity="one">%1$d e-mails</item>
+        <item quantity="other">%1$d e-mails</item>
+        <item quantity="one">%1$d e-mail</item>
     </plurals>
     <plurals name="hint_search_phone_numbers">
-        <item quantity="other">%1$d numbers</item>
+        <item quantity="other">%1$d tal</item>
         <item quantity="one">%1$d tal</item>
     </plurals>
     <plurals name="listFoundAllContacts">
@@ -133,11 +133,11 @@
         <item quantity="one">1 gruppe</item>
     </plurals>
     <plurals name="number_of_items_available">
-        <item quantity="other">%1$d items remaining</item>
-        <item quantity="one">%1$d elementer tilbage</item>
+        <item quantity="other">%1$d elementer tilbage</item>
+        <item quantity="one">%1$d element tilbage</item>
     </plurals>
     <plurals name="number_of_items_selected">
-        <item quantity="other">%1$d selected</item>
+        <item quantity="other">%1$d valgt</item>
         <item quantity="one">%1$d valgt</item>
     </plurals>
     <plurals name="pick_favorites_contacts_list_title">

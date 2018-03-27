@@ -59,6 +59,8 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">Synkroniser</string>
     <string name="sync_dspt_provision">Synkroniser dine fotos, kontakter, noter og mere på tværs af alle dine enheder eller få adgang til dem på</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". Du kan når som helst slå denne funktion til og fra i Indstillinger.
 "</string>
     <string name="sync_dspt_entrance_provision">"Med Mi Cloud kan du synkronisere fotos, kontakter og andre elementer på tværs af enheder. Du kan hvor som helst få adgang til synkroniserede elementer på %s. "</string>
@@ -70,6 +72,8 @@
     <string name="sync_dspt_entrance_provision_skip">Spring dette trin over</string>
     <string name="sync_dspt_entrance_provision_network">Denne app er nødt til at tilslutte til internettet for at fungere normalt. Synkronisering af data kan kræve mobildataforbindelse, og at wi-fi er tændt.</string>
     <string name="find_device_dspt_provision">Hvis du mister din enhed, kan du gå til %s for at finde, låse eller nulstille den. Du kan når som helst slå denne funktion til og fra i Indstillinger.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">. Du kan når som helst slå denne funktion til og fra i Indstillinger.</string>
     <string name="find_device_dspt_provision_4">Hvis du skifter SIM-kort, vil en SMS-besked automatisk blive sendt for at genaktivere denne funktion.</string>
     <string name="find_device_send_sms_alert">Hvis du skifter SIM-kort, vil en anden SMS muligvis blive sendt automatisk for at genaktivere denne funktion.</string>
@@ -89,9 +93,8 @@ Denne funktion krypterer og sender din enheds ID til MI's servere."</string>
 Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="user_agreement_p5">"
 "</string>
-    <string name="user_agreement_p6">"Ved at bruge denne service accepterer du "</string>
-    <string name="user_agreement_p7">Mi Clouds Vilkår og Betingelser</string>
-    <string name="user_agreement_p8">.</string>
+    <string name="user_agreement_link">"Mi Cloud's Terms of Service"</string>
+    <string name="user_agreement_content">"By using this service, you're agreeing to %s."</string>
     <string name="user_agreement_title">Mi Clouds Vilkår og Betingelser</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
     <string name="loading">Lige et øjeblik…</string>
@@ -119,6 +122,7 @@ Denne funktion krypterer og sender din enheds ID til Mi's servere."</string>
     <string name="find_device_error_server">Serverfejl</string>
     <string name="find_device_success_title">Find enhed</string>
     <string name="find_device_notice_p1">Gå til</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"at finde, låse eller gendanne din telefon.
 Hvis du skifter SIM-kort, vil en anden SMS-besked automatisk blive sendt for at genaktivere denne funktion."</string>
     <string name="i_know">OK</string>
@@ -168,7 +172,7 @@ Hvis du skifter SIM-kort, vil en anden SMS-besked automatisk blive sendt for at 
     <string name="micloud_user_space_usage">Lagerplads</string>
     <string name="micloud_web_discription_01">Log ind på i.mi.com</string>
     <string name="micloud_web_discription_02">for at gemme og få adgang til dine filer fra hvor som helst.</string>
-    <string name="micloud_web_discription_place_holder">Visit %1$s</string>
+    <string name="micloud_web_discription_place_holder">Visit %1$s on your computer to manage your data.</string>
     <string name="micloud_full_influence_title">Når din Mi Cloud er fuld…</string>
     <string name="micloud_warn_low_title">Næsten løbet tør for lagerplads</string>
     <string name="micloud_warn_low_sum">Din Mi Cloud er 90 % fuld.</string>
@@ -361,9 +365,6 @@ Du skal have et Mainland China-bankkort for at kunne købe yderligere lagerplads
     <string name="buy_more_space_c_class">"Denne funktion kræver et Mainland China-bankkort.
 For at få mere lagerplads skal du besøge mi.com/micloud."</string>
     <string name="micloud_member_buy_title">Bekræft bestilling</string>
-    <string name="micloud_member_buy_content" formatted="false">"Gyldig indtil %s-%s-%s
-
-%s Mi Credits"</string>
     <string name="micloud_member_net_error_alert_title">Kan ikke tilslutte til netværket.</string>
     <string name="micloud_member_net_error_alert_message">Du har ikke en internetforbindelse.</string>
     <string name="micloud_member_pay_fail_toast">Kunne ikke fuldføre betaling.</string>
@@ -479,6 +480,8 @@ Sidst taget backup den %2$s"</string>
     <string name="micloud_find_device_opened">Find enhed tændt</string>
     <string name="micloud_find_device_open_fail">Kunne ikke tænde Find enhed.</string>
     <string name="micloud_find_device_opened_content">Find din enhed på %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">Kunne ikke genaktivere Find enhed.</string>
     <string name="micloud_find_device_close_fail">Kunne ikke slukke Find enhed,</string>
     <string name="micloud_find_device_finish">Udført</string>
@@ -558,6 +561,8 @@ Sidst taget backup den %2$s"</string>
     <string name="micloud_main_head_menu_state_close">Slukket</string>
     <string name="micloud_main_head_menu_state_unavailable">Utilgængelig</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Find device is unavailable in Second space, you can use it in First space.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Betaling med fingeraftryk</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>

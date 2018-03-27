@@ -176,7 +176,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="report_success">Besked anmeldt</string>
     <string name="report_error">Kunne ikke anmelde besked</string>
     <string name="report_warning">Anmeld %1$s SMS til Mi? Disse beskeder og de telefonnumre, de blev sendt fra, vil blive uploadet til Mis servere for gennemsyn. Enhver personlig information tilknyttet disse beskeder vil altid blive holdt anonyme.</string>
-    <string name="report_warning_title">Anmeld SMS</string>
+    <string name="report_warning_title">Attention</string>
     <string name="st_sub_title_customize_mode_name">Navn</string>
     <string name="read_all_sms">Læs alt</string>
     <string name="loding">Loader data</string>
@@ -423,6 +423,7 @@ svarer"</string>
     <string name="detail_app_button">App-oplysninger</string>
     <string name="pref_about_traffic_title">Indstillinger for dataforbrug</string>
     <string name="pref_traffic_manage_title">Databrug</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Sæt dataforbrug</string>
     <string name="pref_category_title_other">Yderligere indstillinger</string>
@@ -942,6 +943,7 @@ Denne aktivitet forkorter batterilevetiden."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denne app kan hæmme
 din enhed"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Afinstaller %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Afinstaller denne app for at ordne problemer med batteriforbrug.</string>
     <string name="om_ill_proc_type_wakelock_title">Denne app blokerer sovetilstand og dræner batteriet</string>
@@ -1000,6 +1002,7 @@ din enhed"</string>
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uden et signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="power_screen">Skærm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1345,6 +1348,7 @@ din enhed"</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">kB</string>
@@ -1705,6 +1709,7 @@ din enhed"</string>
     <string name="card_main_deepclean_wechat_action">Ryd</string>
     <string name="card_main_sectool_title">Værktøjer</string>
     <string name="card_main_monthreport_action">Se</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test netværk</string>
     <string name="card_main_netcheck_summary">Testforbindelse for netværksfejl</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -2111,8 +2116,8 @@ din enhed"</string>
     <string name="open_game">Åbn</string>
     <string name="try_game">Prøv</string>
     <string name="more_game">Flere spil</string>
-    <string name="sys_title_gamebooster_unit_gb">G</string>
-    <string name="sys_title_gamebooster_unit_mb">M</string>
+    <string name="sys_title_gamebooster_unit_gb">GB</string>
+    <string name="sys_title_gamebooster_unit_mb">MB</string>
     <string name="gmscore_support_service">Google-tjenester</string>
     <string name="gmscore_support_remind">Slå denne funktion til, hvis du oplever problemer med at bruge Gmail, Google Maps og andre Google-apps. Det vil reducere batteriets levetid en smule.</string>
     <string name="google_base_app_install_choice">\"%s\" kræver Google Services Framework for at fungere normalt. Download og installer?</string>
@@ -2200,9 +2205,9 @@ din enhed"</string>
     <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
     <string name="gb_sign_gift">Check in to get rewards</string>
     <string name="signed_rule">Rules</string>
-    <string name="signed_rule_one">1.Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
-    <string name="signed_rule_two">2.You can get only 1 Xunyou boost per month.</string>
-    <string name="signed_rule_three">"3.Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
+    <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
+    <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
+    <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
     <string name="gb_get_gift_right_now">Check in now</string>
     <string name="gb_have_signed">Checked in today</string>
     <string name="gb_sign_gift_button_text">Receive</string>
