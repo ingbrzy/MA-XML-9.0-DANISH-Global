@@ -169,7 +169,6 @@
     <string name="color_picker_dialog_title">Vælg farve</string>
     <string name="color_picker_hue">Nuance</string>
     <string name="color_picker_saturation">Mætning</string>
-    <string name="color_picker_value">Værdi</string>
     <string name="comment_app_menu">Kommenter</string>
     <string name="comment_description">Kommenter</string>
     <string name="comment_hint">Kommenter</string>
