@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="adblock_notification">
-        <item quantity="other">%d ads blocked</item>
+        <item quantity="other">%d apps blokeret</item>
         <item quantity="one">%d apps blokeret</item>
     </plurals>
     <plurals name="adblock_rules_number_text">
@@ -13,11 +13,11 @@
         <item quantity="one">Slet %d opgave?</item>
     </plurals>
     <plurals name="find_on_page_matches">
-        <item quantity="other">%d matches</item>
+        <item quantity="other">%d maches</item>
         <item quantity="one">%d matches</item>
     </plurals>
     <plurals name="last_num_days">
-        <item quantity="other">Last %d days</item>
+        <item quantity="other">Sidste %d dag</item>
         <item quantity="one">Sidste %d dage</item>
     </plurals>
     <plurals name="matches_found">
@@ -25,11 +25,11 @@
         <item quantity="one">1 match</item>
     </plurals>
     <plurals name="nav_screen_incognito_time">
-        <item quantity="other">After %d seconds will automatically create a new page</item>
-        <item quantity="one">After %d second will automatically create a new page</item>
+        <item quantity="other">Efter %d sekunder oprettes automatisk en ny side</item>
+        <item quantity="one">Efter %d sekunder oprettes automatisk en ny side</item>
     </plurals>
     <plurals name="pref_adblock_counts">
-        <item quantity="other">%d blocked</item>
+        <item quantity="other">%d blokeret</item>
         <item quantity="one">%d blokeret</item>
     </plurals>
     <plurals name="suggest_access_item_album_songs">
@@ -69,11 +69,11 @@
         <item quantity="one">%1$d opdateringer er tilgængelige.</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
-        <item quantity="other">%d minutes remaining</item>
+        <item quantity="other">%d minutter tilbage</item>
         <item quantity="one">%d minutter tilbage</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">Clear</item>
-        <item quantity="one">Clear</item>
+        <item quantity="other">Nulstil</item>
+        <item quantity="one">Nulstil</item>
     </plurals>
 </resources>

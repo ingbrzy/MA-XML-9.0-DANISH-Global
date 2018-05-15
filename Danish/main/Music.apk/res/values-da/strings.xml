@@ -25,11 +25,12 @@
     <string name="s5">Opret kalenderbegivenhed</string>
     <string name="s6">Vil du tillade, at annoncen opretter en kalenderbegivenhed?</string>
     <string name="s7">Testannonce</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_and_cloud">Konto</string>
-    <string name="action_item_add">Tilføj</string>
+    <string name="action_item_add">Add to</string>
     <string name="action_item_add_song">Tilføj til afspilningsliste</string>
-    <string name="action_item_add_to_current_playlist">Aktuel afspilningsliste</string>
-    <string name="action_item_add_to_favorite_playlist">Favorit afspilningsliste</string>
+    <string name="action_item_add_to_current_playlist">Kø</string>
+    <string name="action_item_add_to_favorite_playlist">Favoritter</string>
     <string name="action_item_add_to_new_playlist">Ny</string>
     <string name="action_item_delete">Slet</string>
     <string name="action_item_download">Download</string>
@@ -38,14 +39,15 @@
     <string name="action_item_hide">Skjul</string>
     <string name="action_item_hifi">Hovedtelefoner &amp; audioeffekter</string>
     <string name="action_item_play_all">Afspil alt</string>
+    <string name="action_item_play_next">Afspil senere</string>
     <string name="action_item_remove">Fjern</string>
     <string name="action_item_remove_from_favorite">Ikke favorit</string>
     <string name="action_item_share">Del</string>
     <string name="action_settings">Indstillinger</string>
     <string name="ad_close">Luk</string>
     <string name="ad_data_exception">Reklame-datafejl</string>
-    <string name="ad_recommend">Anbefalinger</string>
-    <string name="ad_setting">Tilføj indstillinger</string>
+    <string name="ad_recommend">Modtag anbefalinger</string>
+    <string name="ad_setting">Yderligere indstillinger</string>
     <string name="add_music">Tilføj sange</string>
     <string name="add_to_last_of_playlist">Tilføj til slutning af afspilningslisten</string>
     <string name="add_to_playlist_successful">Tilføjet</string>
@@ -53,6 +55,8 @@
     <string name="alaka_required">Du bør betale for denne sang for at lytte til den</string>
     <string name="album_label">Album-covers</string>
     <string name="album_name">Album</string>
+    <string name="all_album_count">Alle albummer (%d)</string>
+    <string name="all_playlist_count">Alle afspilningslister (%d)</string>
     <string name="all_tracks">Alle sange</string>
     <string name="already_download">Downloader…</string>
     <string name="already_download_btn">Downloader…</string>
@@ -86,7 +90,6 @@
     <string name="audio_recognition_setting_title">Find album-covers og tekster</string>
     <string name="auto_payment">Automatisk fornyelse</string>
     <string name="auto_payment_date">Næste betaling: %s</string>
-    <string name="auto_upgrade">Opdater automatisk</string>
     <string name="available_playlist_name_format">Ny afspilningsliste %d</string>
     <string name="avoid_to_use_traffic_summary">Undlad at bruge mobile netværk til at streame musik</string>
     <string name="avoid_to_use_traffic_title">Gør opmærksom på, når du bruger mobildata til at afspille sange</string>
@@ -133,6 +136,7 @@
     <string name="continue_backup">Fortsæt</string>
     <string name="cp_info_first">"Online musik streamingservice
 leveres hovedsageligt af Ultimate Inc."</string>
+    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Kunne ikke oprette ordre, prøv igen.</string>
     <string name="create_playlist">Opret afspilningsliste</string>
     <string name="create_playlist_failure">Kunne ikke oprette afspilningsliste</string>
@@ -172,8 +176,6 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="dialog_insufficient_space_on_external">Ikke nok plads i ekstern hukommelse</string>
     <string name="dialog_media_not_found">Kan ikke downloade. SD-kortet er ikke tilgængeligt.</string>
     <string name="dialog_queued_body">Denne fil står i kø til kommende download.</string>
-    <string name="dialog_show_more_backup">Back up local songs</string>
-    <string name="dialog_show_more_optimize_all">Optimize song info</string>
     <string name="dialog_song_sort_type">Sorter sange</string>
     <string name="dialog_song_sort_type_name">Efter navn</string>
     <string name="dialog_song_sort_type_playing_times">Efter antal gange de er blevet afspillet</string>
@@ -183,7 +185,7 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="dialog_song_view_type_artist">Efter kunstner</string>
     <string name="dialog_song_view_type_folder">Efter mappe</string>
     <string name="dialog_song_view_type_song">Efter sang</string>
-    <string name="dialog_title_clearlist_tracks">Ryd afspilningslisten</string>
+    <string name="dialog_title_clearlist_tracks">Remove from queue</string>
     <string name="dialog_title_delete_tracks">Slet</string>
     <string name="dialog_title_name_playlist">Afspilningslistens navn</string>
     <string name="dialog_title_not_available">Kunne ikke downloade</string>
@@ -229,6 +231,7 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="download_method">Download</string>
     <string name="download_no_application_title">Kan ikke åbne fil</string>
     <string name="download_paused_in_power_save_mode">Download er sat på pause, når batterisparer er slået til</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Downloader…</string>
     <string name="download_quality">Downloadkvalitet</string>
     <string name="download_quality_summary">Yderligere indstillinger for sange som du downloader</string>
@@ -264,6 +267,7 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="downloading_apk">Downloader… Se fremskridt i meddelelsesskyggen.</string>
     <string name="downloading_empty">Tom</string>
     <string name="downloading_pause_apk">Sat på pause. Fortsæt download i meddelelsesskyggen.</string>
+    <string name="edit_playlist_info">Edit playlist info</string>
     <string name="empty_page_no_album">Ingen albummer.</string>
     <string name="empty_page_no_artist">Ingen kunstnere.</string>
     <string name="enable_auto_payment_fail">Kunne ikke slå til</string>
@@ -295,6 +299,7 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="error_title">Kan ikke synkronisere med Mi Account</string>
     <string name="error_unauthorized">Synkroniseringen er slået fra pga. for mange forsøg på at logge ind.</string>
     <string name="expired">Udløbet</string>
+    <string name="facebook_not_installed">Installér først Facebook.</string>
     <string name="fail_to_fetch_payment_page_url">Kunne ikke få betalingsinfo</string>
     <string name="fail_to_play">Kan ikke afspille sang</string>
     <string name="fav_login_msg">Log ind på din Mi-konto for at downloade sange</string>
@@ -406,6 +411,7 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="local_page_custom_title">Til dig</string>
     <string name="local_page_playlist">Mine afspilningsliste</string>
     <string name="local_page_song_download_history">Download</string>
+    <string name="long_press_to_select_lyric">Press &amp; hold to select local lyrics file</string>
     <string name="lrc_search_failed">Kunne ikke finde tekster</string>
     <string name="lrc_searching">Søger…</string>
     <string name="lyric_is_empty">Ingen tekster tilgængelige</string>
@@ -443,12 +449,13 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="mobile_recommended_title">Mobil databrug</string>
     <string name="modify_info_disable_note">Hvis du ønsker at redigere informationen manuelt, slå \"Find album-covers og tekster\" fra først.</string>
     <string name="modify_lyric">Rediger tekst</string>
+    <string name="modify_pic">Change cover</string>
     <string name="modify_progress">Ændr hastigheden hvormed teksten scrolles</string>
     <string name="modify_progress_helper">Stryg op eller ned for at justere tekstens fremskridt.</string>
     <string name="modify_song_info">Rediger info om sang</string>
     <string name="modify_song_info_success">Info om sang er blevet opdateret</string>
     <string name="more">Mere</string>
-    <string name="more_add_song_list">Tilføj den aktuelle afspilningsliste</string>
+    <string name="more_add_song_list">Add songs to queue</string>
     <string name="more_settings">Avancerede indstillinger</string>
     <string name="more_settings_summary">Download indstillinger, sleep timer, mobil datastyring, filtre til filer osv.</string>
     <string name="more_share">Del</string>
@@ -456,7 +463,7 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="music_filter">Filtrer audiofiler</string>
     <string name="music_service">Musikservice</string>
     <string name="music_settings">Musik</string>
-    <string name="my_account">Mi Account</string>
+    <string name="my_account">Mi-konto</string>
     <string name="my_music_empty">Afspilningslisten er tom.</string>
     <string name="my_music_empty_goto_online">Ingen sange fundet</string>
     <string name="nav_online_playlist">Afspilningslister</string>
@@ -477,12 +484,14 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="no_online_song_selected">Ingen sange valgt</string>
     <string name="no_results_return">Ingen søgeresultater</string>
     <string name="no_scanned_songs">Tom</string>
-    <string name="no_song">Ingen sange</string>
     <string name="no_song_downloaded">Kunne ikke få forbindelse til serveren</string>
+    <string name="no_song_subtitle">Immerse yourself in sound</string>
+    <string name="no_song_title">Mi Musik</string>
     <string name="no_system_cropper_find">Systemet kan ikke ændre billedets størrelse</string>
     <string name="normal_quality">God</string>
     <string name="not_login">Ikke logget ind</string>
     <string name="not_selected">Vælg en sang</string>
+    <string name="nothing_changed_toast">"You haven't changed anything yet."</string>
     <string name="notif_title_file_size">%1$d i alt</string>
     <string name="notif_title_multiple_downloading">Downloader %1$d filer</string>
     <string name="notif_title_single_downloading">Downloader %1$s</string>
@@ -499,12 +508,10 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="nowplaying_circle_style">Play button style</string>
     <string name="nowplaying_circle_style_rainbow">Regnbue</string>
     <string name="nowplaying_circle_style_wave">Bølge</string>
-    <string name="nowplaying_dialog_title_delete_tracks">Ryd aktuel afspilningsliste?</string>
-    <string name="nowplaying_menu_item_delete">Ryd</string>
+    <string name="nowplaying_dialog_title_delete_tracks">Remove this song from queue?</string>
+    <string name="nowplaying_menu_item_delete">Remove from queue</string>
     <string name="ok">OK</string>
     <string name="online_list_delete_message">Alle downloadede sange i denne afspilningsliste slettes fra den interne hukommelse.</string>
-    <string name="online_music_enabled_summary">Lyt og download favoritsange. Se topsange og samlede afspilningslister hvor end du går!</string>
-    <string name="online_music_enabled_title">Gratis streaming er her</string>
     <string name="online_recommend">Afspilningsliste</string>
     <string name="online_service_open_tip">Online musiktjenester er slået til</string>
     <string name="online_service_title">Online tjenester</string>
@@ -524,21 +531,27 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="paused_waiting_for_network">Venter på forbindelse</string>
     <string name="paused_waiting_to_retry">Venter på nyt forsøg</string>
     <string name="pay_now">Aktuel service</string>
+    <string name="payment_success_message">Thank you! Your payment was processed successfully. Enjoy PRO services.</string>
+    <string name="payment_success_title">Tillykke!</string>
     <string name="pending_apk">Venter…</string>
     <string name="permission_declaration_message">Tillad adgang til hukommelsen i Security > Tilladelser > Tilladelser > Hukommelse > Music for at være i stand til at bruge Music normalt.</string>
     <string name="permission_declaration_negative_text">Senere</string>
     <string name="permission_declaration_positive_text">Gå til Security</string>
     <string name="permission_declaration_title">Tillad adgang</string>
-    <string name="pick_favorite_song">Favorites</string>
+    <string name="pick_favorite_song">Favoritter</string>
     <string name="pick_local_song">Lokale sange</string>
     <string name="pick_recent_song">Spillet for nylig</string>
     <string name="play_all_song">Afspil alt</string>
+    <string name="play_empty_playlist">"Can't play songs. The playlist is empty."</string>
     <string name="play_mode_all_loop">Gentag alt</string>
     <string name="play_mode_one_loop">Sløjfe</string>
     <string name="play_mode_play_all">Afspil alt</string>
     <string name="play_mode_shuffle_all">Bland</string>
     <string name="play_next">Spil som den næste</string>
     <string name="playlist_empty">Ingen afspilningslister fundet.</string>
+    <string name="playlist_title">Afspilningslistens navn</string>
+    <string name="playlist_title_is_empty">"Playlist name can't be blank"</string>
+    <string name="playlist_title_is_invalid">Afspilningslistens eksisterer allerede</string>
     <string name="playlist_type_album">Albummer</string>
     <string name="playlist_type_artist">Kunstner</string>
     <string name="playlist_type_billboard">Hitlister</string>
@@ -552,11 +565,13 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="priority_storage">Brug eksternt SD-kort</string>
     <string name="priority_storage_summary">Automatisk download til eksternt SD-kort, hvis det er tilgængeligt</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi Phone</string>
     <string name="prompt_grant_write_settings_permission">Allow changing system settings</string>
     <string name="pulluprefreshrecyclerview_loading_error">Kunne ikke indlæse</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Indlæst</string>
     <string name="pulluprefreshrecyclerview_loading_running">Indlæser…</string>
+    <string name="queue_is_empty">Playing queue is empty.</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_click_to_retry">Tryk for at prøve igen</string>
     <string name="radar_fail">Ingen resultater</string>
@@ -604,22 +619,19 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="search_hint">Søg efter kunstnere, sange, albummer og anbefalinger</string>
     <string name="search_history_clear_all">Ryd</string>
     <string name="search_instant_online_music">Online</string>
+    <string name="search_songs_count">Sange: %d</string>
     <string name="search_title">Søg</string>
     <string name="select_all">Vælg alt</string>
     <string name="select_device">Vælg enhed</string>
     <string name="select_displayed_folders">Vælg mapper at vise frem</string>
-    <string name="select_local_album">Vælg album</string>
-    <string name="select_local_lyric">Vælg tekster</string>
+    <string name="select_local_cover">Select local cover</string>
+    <string name="select_local_lyric_file">Select local lyrics file</string>
     <string name="select_none">Vælg alle fra</string>
     <string name="selected_count">Valgt %1$d out of %2$d</string>
     <string name="send_to_title">Send til (%1$s)</string>
     <string name="server_error">An error occurred, wait a minute or two and try again.</string>
     <string name="service_and_settings">Service og indstillinger</string>
     <string name="set_as_ring">Indstil som ringetone</string>
-    <string name="set_id3_failed">Kan ikke gemme information</string>
-    <string name="set_id3_not_have_read_or_write_permission">Du har ikke tilladelse til at redigere denne fil</string>
-    <string name="set_id3_not_support_format">Kan ikke redigere dette filformat</string>
-    <string name="set_id3_successful">Information om sang gemt</string>
     <string name="set_ringtones_failed">Kunne ikke indstille ringetone</string>
     <string name="set_ringtones_successful">%s indstillet som ringetone</string>
     <string name="setting_feature_setting">Vis indstillinger</string>
@@ -652,16 +664,16 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="shuffle_off_notif">Blande er slået fra.</string>
     <string name="shuffle_on_notif">Blande er slået til</string>
     <string name="similar_songs">Lignende sange</string>
-    <string name="sleep_mode">Sleep timer</string>
+    <string name="sleep_mode">Sovetimer</string>
     <string name="sleep_mode_canceled">Slumretilstand slået fra</string>
     <string name="sleep_mode_summary">Stop afspilningen efter et vist tidsrum</string>
-    <string name="sleep_mode_title">Sleep timer</string>
-    <string name="song_exist_in_playlist">Denne sang er allerede på afspilningslisten</string>
+    <string name="sleep_mode_title">Sovetimer</string>
+    <string name="song_exist_in_playlist">This song is already in the queue</string>
     <string name="song_info">Info om sang</string>
     <string name="song_is_empty">Sangnavn kan ikke være tom.</string>
     <string name="song_name">Sang</string>
     <string name="song_not_find">Denne sang er ikke tilgængelig.</string>
-    <string name="song_offline">This song is no longer available.</string>
+    <string name="song_offline">Dette sang er ikke længere tilgængeligt.</string>
     <string name="songgroup_pick_album">Albummer</string>
     <string name="songgroup_pick_playlist">Afspilningslister</string>
     <string name="sort_by_name">Navn</string>
@@ -726,6 +738,7 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="upgrade_music">Opdater Music</string>
     <string name="upgrade_music_message">Opdateringer er parat. Genstart for at opdatere.</string>
     <string name="user_agreement">Brugeraftale</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Udgave</string>
     <string name="vip_after_tomorrow_auto_renew_message">Dit Music-abonnement fornys automatisk i overmorgen aften. Sørg for at have nok Mi Credits på din konto til at gennemføre denne betaling.</string>
     <string name="vip_after_tomorrow_renew_message">Du vil ikke være i stand til at streame audio i høj kvalitet, men nogle sange vil være tilgængelige i normal kvalitet.</string>
@@ -741,4 +754,11 @@ leveres hovedsageligt af Ultimate Inc."</string>
 
 Tryk %s for at starte dette download næste gang du er tilsluttet til et wifi-netværk."</string>
     <string name="wifi_required_title">Du bør tilslutte til wifi for at downloade denne fil</string>
+    <string name="auto_upgrade">Opdater automatisk</string>
+    <string name="dialog_show_more_backup">Back up local songs</string>
+    <string name="dialog_show_more_optimize_all">Optimize song info</string>
+    <string name="set_id3_failed">Kan ikke gemme information</string>
+    <string name="set_id3_not_have_read_or_write_permission">Du har ikke tilladelse til at redigere denne fil</string>
+    <string name="set_id3_not_support_format">Kan ikke redigere dette filformat</string>
+    <string name="set_id3_successful">Information om sang gemt</string>
 </resources>

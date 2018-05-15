@@ -44,10 +44,11 @@
     <string name="cloud_app_no_network">Kan ikke oprette forbindelse til netværket</string>
     <string name="button_delete">Slet</string>
     <string name="customization"><u>Brugertilpas</u></string>
+    <string name="home_hint_global_launcher">Poco-startskærm</string>
     <string name="self_phone">Denne telefon</string>
+    <string name="self_phone_home">Denne telefon: %s</string>
     <string name="process_whole_recovery">Gendanner \"%s\"</string>
     <string name="device_xiaomi">Mi Phone</string>
-    <string name="device_corrupt">Mi Phone (data er beskadiget)</string>
     <string name="size_unknown">Ukendt størrelse</string>
     <string name="recovering">Gendanner %s</string>
     <string name="start_recover">Gendan %s</string>
@@ -69,7 +70,7 @@
     <string name="desktop_downloading">Downloader</string>
     <string name="desktop_installing">Installerer</string>
     <string name="desktop_wait_wifi">Venter</string>
-    <string name="desktop_failed">Mislykkedes</string>
+    <string name="desktop_failed">Fejl</string>
     <string name="recover_from_micloud">Gendan fra Mi Cloud-sikkerhedskopi</string>
     <string name="click_try_to_restore_again">Tryk for at prøve igen</string>
     <string name="open_wifi">Slå Wi-Fi til nu</string>
@@ -132,6 +133,8 @@
     <string name="no_account">Ikke logget på Mi-konto.</string>
     <string name="no_backup">Ingen sikkerhedskopier i Mi Cloud.</string>
     <string name="download_meta_failed">Kunne ikke indlæse data.</string>
+    <string name="home_restore_error">Kunne ikke gendanne startskærm</string>
+    <string name="get_device_id_error">Kunne ikke få enheds-ID</string>
     <string name="download_home_data">Downloader layout for startskærm…</string>
     <string name="restore_home_failed">Kunne ikke gendanne startskærmen.</string>
     <string name="arrange_restore_order">Omarrangerer apps…</string>
@@ -142,10 +145,10 @@
     <string name="download_meta_again">Kunne ikke indlæse sikkerhedskopi. Prøv igen.</string>
     <string name="cancel_restore_home">Annullerer…</string>
     <string name="cancel_backup">Afbryder sikkerhedskopiering…</string>
-    <string name="dialog_title_require_wlan">Connect to Wi-Fi</string>
-    <string name="dialog_msg_restore_require_wlan">Restoring backups requires connecting to Wi-Fi.</string>
-    <string name="dialog_btn_next">Next</string>
-    <string name="dialog_btn_restore_skip">Restore later</string>
+    <string name="dialog_title_require_wlan">Tilslut til Wi-Fi</string>
+    <string name="dialog_msg_restore_require_wlan">Gendannelse af sikkerhedskopier kræver tilslutning til Wi-Fi.</string>
+    <string name="dialog_btn_next">Næste</string>
+    <string name="dialog_btn_restore_skip">Gendan senere</string>
     <string name="cloud_backup">Mi Cloud sikkerhedskopieringer</string>
     <string name="open_backup_switch">Tryk på sikkerhedskopieringsknappen</string>
     <string name="restore_cloud_backup_to_phone">Gendan elementer fra Mi Cloud</string>

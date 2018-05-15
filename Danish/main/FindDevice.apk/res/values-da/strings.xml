@@ -22,8 +22,9 @@
     <string name="find_device_noise_title">Find enhedsalarm</string>
     <string name="find_device_success_title">Find enhed</string>
     <string name="find_device_notice_p1">Gå til</string>
-    <string name="find_device_notice_p3">"for at finde, låse eller gendanne din telefon.
-Hvis du skifter SIM-kort, sendes automatisk en ny SMS for at genaktivere denne funktion."</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
+    <string name="find_device_notice_p3">til at finde, låse eller gendanne din enhed.</string>
+    <string name="find_device_notice_sms_alert">Hvis du skifter SIM-kort, sendes der muligvis automatisk en anden SMS for at genaktivere denne funktion.</string>
     <string name="i_know">Ok</string>
     <string name="unlock_error_network">Kan ikke oprette forbindelse til netværket</string>
     <string name="unlock_error_device_id">Kan ikke hente enheds-id</string>
@@ -38,7 +39,7 @@ Hvis du skifter SIM-kort, sendes automatisk en ny SMS for at genaktivere denne f
     <string name="unlock_error_rpc">RPC-fejl</string>
     <string name="unlock_error_abort">Annulleret af bruger</string>
     <string name="unlock_error_passport_sdk_timeout">Mi-konto SDK svarer ikke</string>
-    <string name="open_wifi_settings">Open Wi-Fi settings</string>
+    <string name="open_wifi_settings">Åbn Wi-Fi-indstillinger</string>
     <string name="activate_xiaomi_account">Aktiver denne enhed</string>
     <string name="login_extra_steps">Loginbekræftelse</string>
     <string name="phone_locked">Denne enhed kan være knyttet til en eksisterende Mi-konto (%s). Log på for at aktivere denne enhed.</string>
@@ -57,14 +58,14 @@ Hvis du skifter SIM-kort, sendes automatisk en ny SMS for at genaktivere denne f
     <string name="login_failed">Kunne ikke logge på. %s.</string>
     <string name="change_find_device_status_failed">Kunne ikke låse op. %s.</string>
     <string name="unlock_help_title">Hjælp til oplåsning:</string>
-    <string name="unlock_help">"Forbliv forbundet til netværket
-Sørg for, at du har installeret et fungerende SIM-kort og at din enhed ikke er forbundet til et inaktivt Wi-Fi-netværk
+    <string name="unlock_help">"Hold forbindelsen til netværket
+Sørg for, at du har installeret et fungerende SIM-kort (hvis din enhed understøtter det) og at din enhed er forbundet til et inaktivt Wi-Fi-netværk
 
 Glemt adgangskode?
 Gå til id.mi.com for at nulstille din adgangskode
 
 Andre årsager
-Log på i.mi.com og prøv at låse din enhed op derfra"</string>
+Log på i.mi.com og prøv at låse din enhed op derfra."</string>
     <string name="passport_vcode_prompt_long">Indtast verifikationskode</string>
     <string name="passport_trust_device">Hav tillid til denne enhed</string>
     <string name="passport_verify">Kontroller</string>
@@ -78,8 +79,8 @@ Log på i.mi.com og prøv at låse din enhed op derfra"</string>
     <string name="default_lock_msg_words_with_phone">Hej! Jeg har mistet min telefon. Er du sød at kontakte mig? Tak!</string>
     <string name="default_lock_msg_words">Denne enhed for knyttet til en eksisterende Mi-konti. Af sikkerhedsmæssige årsager skal du indtaste din adgangskode for at bekræfte enheden.</string>
     <string name="lock_msg_phone">Kontaktoplysninger: %s</string>
-    <string name="emergency_call">Emergency Call</string>
-    <string name="return_to_call">Return to Call</string>
+    <string name="emergency_call">Nødopkald</string>
+    <string name="return_to_call">Vend tilbage til opkald</string>
     <string name="default_debt_msg_words">"Denne enhed låst pga. en forfalden afdragsbetaling.
 Kontakt din salgsrepræsentant for flere oplysninger."</string>
     <string name="sys_notification_async_verify_title">Genaktiver Find enhed</string>

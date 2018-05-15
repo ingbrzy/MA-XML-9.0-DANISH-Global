@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_calllog_detail">Oplysninger om opkaldshistorik</string>
     <string name="accessibility_contact_detail">Kontaktoplysninger</string>
     <string name="account_container_title">Importeret fra</string>
-    <string name="account_default">Telefon</string>
-    <string name="account_phone">Kun telefon, usynkroniseret</string>
+    <string name="account_default">Lokal</string>
+    <string name="account_phone">Kun enhed, ikke synkroniseret</string>
+    <string name="account_sdn">SDN</string>
+    <string name="account_sdn2">SDN %d</string>
     <string name="account_sim">SIM-kort</string>
     <string name="account_sim2">SIM-kort %d</string>
     <string name="account_type_format">%1$s kontakt</string>
@@ -55,7 +58,7 @@
     <string name="button_join_service_number">Tilføj servicenummer</string>
     <string name="button_my_center">Profil</string>
     <string name="button_scan">Scan på ny</string>
-    <string name="caching_vcard_message">Cacher vCard til telefon…</string>
+    <string name="caching_vcard_message">Cacher vCard for enheden…</string>
     <string name="caching_vcard_title">Cacher</string>
     <string name="callAgain">Ring op igen</string>
     <string name="callBack">Ring tilbage</string>
@@ -97,6 +100,7 @@
     <string name="call_sim_menu_title_suffix">(Primær)</string>
     <string name="call_telex">Opkald telex</string>
     <string name="call_tty_tdd">Opkald TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Opkald arbejde</string>
     <string name="call_work_mobile">Opkald arbejde mobil</string>
@@ -162,7 +166,7 @@
     <string name="chat_qq">Chat ved hjælp af QQ</string>
     <string name="chat_skype">Chat ved hjælp af Skype</string>
     <string name="chat_yahoo">Chat ved hjælp af Yahoo</string>
-    <string name="checkhint">Kontrollér måltelefonen</string>
+    <string name="checkhint">Tjek destinationsenheden</string>
     <string name="clearCallLogConfirmation">Alle dine samtaleoptagelser vil blive slettet.</string>
     <string name="clearCallLogConfirmation_title">Nulstil alle opkalds-logge?</string>
     <string name="clearCallLogProgress_title">Nulstiller opkalds-log…</string>
@@ -187,7 +191,7 @@
     <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
     <string name="composer_failed_to_get_database_infomation">Kunne ikke få databaseoplysninger.</string>
-    <string name="composer_has_no_exportable_contact">Der er ingen eksporterbare kontakter. Hvis du har kontakter på din telefon, kan det være, at nogle dataleverandører ikke tillader, at kontakter bliver eksporteret fra telefonen.</string>
+    <string name="composer_has_no_exportable_contact">Der er ingen eksporterbare kontakter. Hvis du har kontakter på din enhed, kan det være, at nogle dataleverandører ikke tillader, at kontakter bliver eksporteret fra enheden.</string>
     <string name="composer_not_initialized">vCard-komponisten startede ikke ordentligt.</string>
     <string name="confirm_delete_contact_all_call_logs">Nulstil opkaldshistorik?</string>
     <string name="confirm_delete_selected_all_call_logs">Nulstil opkaldshistorik?</string>
@@ -291,7 +295,7 @@ Kontaktkort er slået fra"</string>
     <string name="deleteConfirmation_title">Slet denne kontakt?</string>
     <string name="delete_call_log_message">Nulstil opkaldshistorik?</string>
     <string name="delete_call_log_selected_title">Nulstil valgte opkaldshistorik?</string>
-    <string name="delete_call_log_title">Vælg opkaldshistorik</string>
+    <string name="delete_call_log_title">Nulstil opkaldshistorik</string>
     <string name="delete_contact_calllog_title">Nulstil opkaldshistorik?</string>
     <string name="delete_dial_input">Slet</string>
     <string name="delete_duplicate">Sammenlæg</string>
@@ -362,9 +366,9 @@ Kontaktkort er slået fra"</string>
     <string name="device_import_progress_message">Importerer…</string>
     <string name="device_import_progress_toast">%1$d kontakter importeret.</string>
     <string name="device_import_title">Importér</string>
-    <string name="device_list_title">Vælg en telefon</string>
-    <string name="device_other_guide">Supporterer anden telefon bluetooth?</string>
-    <string name="device_other_title">Importér fra andre telefoner</string>
+    <string name="device_list_title">Vælg en enhed</string>
+    <string name="device_other_guide">Supporterer anden enhed bluetooth?</string>
+    <string name="device_other_title">Importér fra en anden enhed</string>
     <string name="device_paired_dialog_message">Henter kontakter…</string>
     <string name="device_paired_dialog_title">Henter kontakter…</string>
     <string name="device_pairing_dialog_message">Sammenkobler…</string>
@@ -454,7 +458,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="export_to_sim2">Eksportér til SIM-kort 2</string>
     <string name="export_to_sim_prepare_title">Forbereder…</string>
     <string name="export_to_sim_title">Eksporterer…</string>
-    <string name="export_vcard_description">Eksportér vCard til telefonens lager</string>
+    <string name="export_vcard_description">Eksportér vCard til enhedens lager</string>
     <string name="exporting_contact_failed_message">"Kontaktdataene blev ikke eksporteret.
 Årsag: \"%s\""</string>
     <string name="exporting_contact_failed_title">Kunne ikke eksportere.</string>
@@ -485,6 +489,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="force_touch_new_contact">Ny kontakt</string>
     <string name="foundTooManyContacts">Flere end %d fundet.</string>
     <string name="frequentList">Ofte</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Navn</string>
     <string name="gallery">Galleri</string>
     <string name="generic_no_account_prompt">Opbevar dine kontakter sikkert, selv hvis du mister din telefon: synkroniser med en onlineservice.</string>
@@ -532,7 +537,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="import_contact_card_button">Importér kontakt</string>
     <string name="import_failure_no_vcard_file">Ingen vCard-filer fundet i lager.</string>
     <string name="import_from_onekey_migrate">Importér ved hjælp af Mi Mover</string>
-    <string name="import_from_other_phone">Importér fra en anden telefon</string>
+    <string name="import_from_other_device">Importér fra en anden enhed</string>
     <string name="import_from_sdcard">Importér fra lager</string>
     <string name="import_from_sim">Importér fra SIM-kort</string>
     <string name="import_from_sim1">Importér fra SIM-kort 1</string>
@@ -550,7 +555,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="import_to_xiaomi_account_progress_message">Importerer…</string>
     <string name="import_to_xiaomi_account_progress_title">Importér kontakter til Mi Account</string>
     <string name="import_to_xiaomi_account_title">Importér til Mi Account</string>
-    <string name="import_vcard_description">Importér kontakter fra din telefons lager</string>
+    <string name="import_vcard_description">Importér kontakter fra din enheds lager</string>
     <string name="import_vcard_dialog_message">Importér vCard?</string>
     <string name="importing_sim_contacts_miui">Importerer kontakter fra SIM-kort….</string>
     <string name="importing_sim_contacts_miui_prepare">Forbereder kontakter….</string>
@@ -561,8 +566,9 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="insertGroupDescription">Opret gruppe</string>
     <string name="invalidContactMessage">Kontakt findes ikke.</string>
     <string name="keep_local">Synkroniser ikke</string>
-    <string name="keep_local_btn">Brug telefonens interne lager</string>
+    <string name="keep_local_btn">Brug enhedens interne lager</string>
     <string name="label_custom_type">Brugertilpasset</string>
+    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">Ingen dubletter fundet.</string>
     <string name="label_notes">Noter</string>
     <string name="label_sip_address">Internetopkald</string>
@@ -634,7 +640,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="menu_newContact">Opret en ny kontakt</string>
     <string name="menu_newContactButton">Tilføj</string>
     <string name="menu_new_contact_action_bar">Ny</string>
-    <string name="menu_new_favorite_action_bar">Føj til favoritter</string>
+    <string name="menu_new_favorite_action_bar">Tilføj til favoritter</string>
     <string name="menu_new_group_action_bar">Ny</string>
     <string name="menu_not_redirect_calls_to_vm">Voicemail ikke i brug.</string>
     <string name="menu_redirect_calls_to_vm">Alle opkald til voicemail</string>
@@ -666,6 +672,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="miprofile_contact_header">Kontakter med kontaktkort</string>
     <string name="miprofile_contact_meaasge">Lokale kontakter</string>
     <string name="miprofile_contact_verifying">Bekræfter</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Rediger profil</string>
     <string name="miprofile_error_accept_self">Kan ikke udveksle dit eget kontaktkort</string>
     <string name="miprofile_error_no_miaccount">Log på din Mi-konto</string>
@@ -753,10 +760,11 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
 • Lav sikker backup af dine kontakter."</string>
     <string name="no_contact_details">Ingen yderligere oplysninger om denne kontakt.</string>
     <string name="no_contact_in_other_phone">Ingen kontakter fundet.</string>
-    <string name="no_contacts_dialog_message">Kontakter kan være gemt på dit SIM-kort. Prøv at importere dem fra dit SIM-kort til din telefons interne hukommelse og prøv så igen.</string>
+    <string name="no_contacts_dialog_message">Kontaktpersoner kan være gemt på dit SIM-kort. Prøv at importere dem fra dit SIM-kort til din telefons interne lagerplads og prøv så igen.</string>
     <string name="no_contacts_dialog_title">Kan ikke finde kontakter</string>
     <string name="no_contacts_selected">Ingen kontakter valgt.</string>
     <string name="no_sdcard_message">Intet SD blev fundet.</string>
+    <string name="no_setting_menu">No menu options available</string>
     <string name="non_phone_add_to_contacts">Føj til en eksisterende kontakt</string>
     <string name="non_phone_caption">Telefonnummer</string>
     <string name="non_phone_close">Luk</string>
@@ -782,7 +790,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="organizationLabelsGroup">Organisation</string>
     <string name="organization_company_and_title">%1$s, %2$s</string>
     <string name="other_contacts">Andre kontakter</string>
-    <string name="other_phone">Andre telefoner</string>
+    <string name="other_phone">Andre enheder</string>
     <string name="path_batch_delete">System-apps/Kontakter/Organiser kontakter/Delete batch</string>
     <string name="path_contacts_display">System-apps/Kontakter/Vis præferencer</string>
     <string name="path_contacts_more">System-apps/Kontakter/Organiser kontakter</string>
@@ -809,10 +817,13 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="path_wipe_data">System-apps/Kontakter/Organiser kontakter/Clear data</string>
     <string name="payphone">Mønttelefon</string>
     <string name="people">Kontakter</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefon</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Nummer er for langt.</string>
     <string name="phone_primary">Primær</string>
-    <string name="photoPickerNotFoundText">Der er ingen tilgængelige billeder på telefonen.</string>
+    <string name="photoPickerNotFoundText">Der er ingen tilgængelige billeder på enheden.</string>
     <string name="photo_fragment">Foto</string>
     <string name="photo_load_failed">Kunne ikke loade foto</string>
     <string name="pick_new_photo">Vælg nyt foto fra %s</string>
@@ -845,6 +856,9 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="pref_key_photo_word_title">Tildel kontaktfotos</string>
     <string name="pref_key_rebuild_t9_index_message">Genopbygger indeks for at løse søgeproblemer.</string>
     <string name="pref_key_rebuild_t9_index_title">Genopbygger indeksdata</string>
+    <string name="pref_key_sdn_manage">Se SDN</string>
+    <string name="pref_key_sdn_manage1">Se SDN-kort 1</string>
+    <string name="pref_key_sdn_manage2">Se SDN-kort 2</string>
     <string name="pref_key_sim_manage">SIM-kort</string>
     <string name="pref_key_sim_manage1">Opsæt SIM-kort 1</string>
     <string name="pref_key_sim_manage2">Opsæt SIM-kort 2</string>
@@ -874,7 +888,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="preference_key_trash_bin_title">Gendan kontakter</string>
     <string name="preference_other">Andet</string>
     <string name="preference_others">Andet</string>
-    <string name="preference_phone">Telefon</string>
+    <string name="preference_phone">Enhed</string>
     <string name="preference_phone_more_title">Opkaldsindstillinger</string>
     <string name="preference_remove_duplicate">Slå dubletkontakter sammen</string>
     <string name="preference_show_yellowpage_tab_description">De Gule Sider vil måske ikke fungere ordentligt, når denne funktion er slukket.</string>
@@ -966,12 +980,14 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">Årsag: \"%s\".</string>
     <string name="scanning_sdcard_failed_title">Lageret kunne ikke scannes.</string>
+    <string name="sdnContacts_empty">Intet SDN</string>
+    <string name="sdnContacts_emptyLoading">Loader SDN…</string>
     <string name="searchHint">Søg kontakter</string>
     <string name="search_batch_delete">Organiser;Kontakter</string>
     <string name="search_contacts_display">Kontakter;Vis</string>
     <string name="search_contacts_more">Organiser;Kontakter</string>
     <string name="search_contacts_recovery">Kontaktpersoner</string>
-    <string name="search_contacts_setting">Kontaktindstillinger;Vis fotos og info;Tildel kontakfotos;Importer og eksporter;Del; Importer fra SD-kort;Importer fra SIM-kort;IMporter fra anden telefon;Eksporter fra SD-kort;Eksporter fra SIM-kort;Del kontakter; Vis præferencer;Skjul ufuldstændige numre;Vis SIM-kontakter;Konfigurer kontaktliste;Smarte grupper;Organiser kontakter; Flet duplikerede kontakter;Slet batch;Ryd data;Genopbyg indeks-data;t9 SIM-kort;SIM-kort hukommelse;Introduktion til kontaktgendannelse;Kontaktfotos</string>
+    <string name="search_contacts_setting">Kontaktindstillinger;Vis fotos og oplysninger;Tildel kontaktfotos;Importér og eksportér;Del; Importér fra lager;Importér fra SIM-kort;Importér fra anden telefon;Eksportér til lager;Eksportér til SIM-kort;Del kontakter; Vis præferencer;Skjul ukomplette numre;Vis SIM-kontakter;Konfigurer kontaktlister;Smarte grupper;Organiser kontakter; Sammenlæg dubletkontakter;Slet batch;Nulstil data;Genopbyg indeksdata;t9;SIM-kort;SIM-kortshukommelse;Introduktion til gendannelse af kontakter;Kontaktfotos</string>
     <string name="search_display_only_phones">Kontakter;Vis</string>
     <string name="search_display_sim_contacts">Kontakter;Vis</string>
     <string name="search_export_to_sdcard">Kontakter;Eksporter;hukommelse</string>
@@ -994,12 +1010,12 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="search_simple_mode">Vis;info;fotos;Kontakter</string>
     <string name="search_smart_group_title">Kontakter;Vis</string>
     <string name="search_wipe_data">Organiser;Kontakter</string>
-    <string name="searching_vcard_message">Søger efter vCard-data på SD-kort…</string>
+    <string name="searching_vcard_message">Søger efter vCard-data fra enhed…</string>
     <string name="select_all">Vælg alle</string>
     <string name="select_all_exceed">Vælg ikke flere end %1$d. Kan ikke vælge alle.</string>
     <string name="select_exceed">Vælg ikke flere end %1$d</string>
     <string name="select_groups">Vælg grupper</string>
-    <string name="select_none">Intet valgt.</string>
+    <string name="select_none">Ingen valgte elementer</string>
     <string name="select_show_contacts">Kontaktliste</string>
     <string name="select_vcard_title">Vælg vCard-fil</string>
     <string name="send_contact_shortcut_todesktop_success">Føjet til startskærm</string>
@@ -1050,6 +1066,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="sim_unloaded">SIM-kort er ikke installeret.</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ingen gruppemedlemmer</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Firmaer</string>
     <string name="smart_group_company_unavailable">Ingen firmaoplysninger</string>
     <string name="smart_group_frequency_1">Indenfor den sidste måned</string>
@@ -1086,6 +1103,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="sms_work_pager">SMS arbejde personsøger</string>
     <string name="social_widget_label">Kontakt</string>
     <string name="social_widget_loading">Loader…</string>
+    <string name="special_code_security_exception">Kunne ikke fuldføre handling. Dette er ikke dit standard opkaldstastatur.</string>
     <string name="splitConfirmation">Denne kontakt vil blive adskilt i flere kontakter.</string>
     <string name="splitConfirmation_title">Adskil kontakt?</string>
     <string name="starredList">Fremhævet</string>
@@ -1096,6 +1114,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="strequentList">Favoritter</string>
     <string name="success_message_import_from_account">Kontakt importeret.</string>
     <string name="summary_kind_title">Resumé</string>
+    <string name="sv">SV</string>
     <string name="t9_search_empty_create_contact">Ny kontakt</string>
     <string name="t9_search_empty_edit_contact">Føj til kontakter</string>
     <string name="t9_search_empty_send_sms">Send besked</string>
@@ -1113,8 +1132,8 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="toast_copy_done">Udført</string>
     <string name="toast_copying">Kopierer…</string>
     <string name="toast_displaying_all_contacts">Viser alle kontakter</string>
-    <string name="toast_finish_delete_call_log">Opkaldshistorik nulstillet.</string>
-    <string name="toast_finish_delete_selected_call_log">Opkaldshistorik nulstillet.</string>
+    <string name="toast_finish_delete_call_log">Nulstilling lykkedes</string>
+    <string name="toast_finish_delete_selected_call_log">Nulstilling lykkedes</string>
     <string name="toast_for_failed_saving_nickname">Kunne ikke gemme øgenavn.</string>
     <string name="toast_for_saving_nickname">Øgenavn gemt.</string>
     <string name="toast_join_with_empty_contact">Indtast kontaktnavn inden sammenlægning med en anden</string>
@@ -1181,6 +1200,7 @@ Vælg en af de følgende muligheder:"</string>
     <string name="voip_audio_description">VoIP-opkald</string>
     <string name="voip_video_description">VoIP-videoopkald</string>
     <string name="websiteLabelsGroup">Website</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Nulstil data</string>
     <string name="yellowPageNavigationIconLabel">De Gule Sider</string>
     <string name="yellowPageNavigationLabel">De Gule Sider</string>

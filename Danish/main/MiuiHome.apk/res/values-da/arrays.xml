@@ -4,6 +4,10 @@
         <item>4x4</item>
         <item>4x5</item>
     </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
     <string-array name="editing_mode_entries">
         <item>Baggrundsbillede</item>
         <item>Widgets</item>
@@ -33,7 +37,7 @@
         <item>Let sandstorm</item>
         <item>Sandstorm</item>
         <item>Hagl</item>
-        <item>Flydende støv</item>
+        <item>Flyvende støv</item>
         <item>Dis</item>
     </string-array>
     <string-array name="gadget_weather_theme_type_entries">
@@ -42,12 +46,12 @@
     </string-array>
     <string-array name="transformation_entries">
         <item>Dias</item>
-        <item>Crossfade</item>
-        <item>Tumble</item>
+        <item>Krydsfade</item>
+        <item>Væltende</item>
         <item>Side</item>
-        <item>Cascade</item>
+        <item>Kaskade</item>
         <item>Roter</item>
-        <item>Cube</item>
+        <item>Kubus</item>
     </string-array>
     <string-array name="wallpaper_scroll_entries">
         <item>Temastandard</item>

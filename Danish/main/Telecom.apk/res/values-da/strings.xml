@@ -68,6 +68,7 @@
     <string name="accessibility_wifi_two_bars">Wi-Fi har to bjælker.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi har tre bjælker.</string>
     <string name="accessibility_wifi_signal_full">Wi-Fi har fuldt signal.</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="data_usage_uninstalled_apps">Fjernede apps</string>
     <string name="data_usage_uninstalled_apps_users">Fjernede apps og brugere</string>
     <string name="tether_settings_title_usb">Netdeling via USB</string>

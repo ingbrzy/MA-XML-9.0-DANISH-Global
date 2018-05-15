@@ -90,6 +90,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Hukommelse</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerede apps: %d</string>
     <string name="toast_resolve_apk_error">Ret APK-fejl</string>
@@ -127,8 +128,8 @@
     <string name="msg_update_error_code_no_newer_db">Renser er opdateret</string>
     <string name="msg_update_error_code_already_running">Opdaterer…</string>
     <string name="msg_update_error_code_network_error">Kan ikke oprette forbindelse til netværket</string>
-    <string name="msg_update_error_code_unknown_error">Ukendt fejl</string>
-    <string name="msg_cleanup_db_update_time_unknown">Sidste opdatering ukendt</string>
+    <string name="msg_update_error_code_unknown_error">Servers are busy. Wait a minute or two and try again.</string>
+    <string name="msg_cleanup_db_update_time_unknown">Last update: Unknown</string>
     <string name="item_title_process_mode">Vælg en handling</string>
     <string name="clean_content_zero">Ingen</string>
     <string name="clean_content_one">1 element</string>
@@ -265,12 +266,13 @@
     <string name="hints_cleanfinish">Oprydning gennemført</string>
     <string name="hints_num">0</string>
     <string name="mainbtn_text_quick_cleanup">Rens %s</string>
+    <string name="mainbtn_text_no_trash">Spring over</string>
     <string name="mainbtn_text_quick_cleanup_default">Rens</string>
     <string name="pref_title_open_optimizer_memory_scan">Scan apphukommelse</string>
     <string name="toast_select_white_need_remove">Vælg elementer at fjerne</string>
     <string name="network_not_available">Kan ikke oprette forbindelse til netværket</string>
     <string name="no_network_btn">Prøv igen</string>
-    <string name="name_debuglog_dir">Bsp-fejlfindingslog</string>
+    <string name="name_debuglog_dir">BSP debug log</string>
     <string name="just_now">Lige nu</string>
     <string name="yesterday">I går</string>
     <string name="month_day_format">d. MMM</string>
@@ -296,6 +298,7 @@
     <string name="downloading">Downloader</string>
     <string name="installing">Installerer</string>
     <string name="start_install">Installer nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åbn i browser</string>
     <string name="title_share_link">Del URL</string>
     <string name="connecting">Opretter forbindelse…</string>
@@ -495,4 +498,25 @@
     <string name="auto_clean_time_three_day">Hver 3. dag</string>
     <string name="auto_clean_time_seven_day">Hver 7. dag</string>
     <string name="auto_clean_time_fifteen_day">Hver 15. dag</string>
+    <string name="pref_category_title_auto_clean_config_settings">Automatiske rensninger</string>
+    <string name="pref_title_auto_clean">Rens automatisk</string>
+    <string name="pref_title_auto_clean_operation">Rensemetode</string>
+    <string name="pref_title_auto_clean_trigger">Rens lager</string>
+    <string name="auto_clean_operation_dialog_title">Rensemetode</string>
+    <string name="auto_clean_operation_clean_and_alert">Mind om og rens</string>
+    <string name="auto_clean_operation_just_clean">Rens kun</string>
+    <string name="auto_clean_trigger_dialog_title">Rens lager</string>
+    <string name="auto_clean_trigger_percent_ninety">Når 90 % er optaget</string>
+    <string name="auto_clean_trigger_percent_eighty">Når 80 % er optaget</string>
+    <string name="auto_clean_trigger_percent_sixty">Når 60 % er optaget</string>
+    <string name="auto_clean_notification_title">Mind om at rense</string>
+    <string name="auto_clean_notification_content">Renset for %s affald</string>
+    <string name="guide_secure_dialog_title">Optimer ydeevne</string>
+    <string name="guide_secure_dialog_message">Din enheds optimerings-score er lavere end 80 point. Optimer nu?</string>
+    <string name="guide_secure_dialog_positive">Optimer</string>
+    <string name="guide_secure_dialog_negative">Annuller</string>
+    <string name="guide_virus_dialog_title">Virusscanning</string>
+    <string name="guide_virus_dialog_message">Scannings-apper og installationspakker beskytter din enhed mod vira og malware. Scan din enhed nu?</string>
+    <string name="guide_virus_dialog_positive">Scan</string>
+    <string name="guide_virus_dialog_negative">Annuller</string>
 </resources>

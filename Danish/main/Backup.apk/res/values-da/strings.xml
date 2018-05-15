@@ -6,6 +6,9 @@ Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
 Størrelse delta-opdatering: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Ingen ledig hukommelse, kontroller dit SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke påbegynde download. Kontroller at Download Manager fungerer normalt.</string>
     <string name="app_name">Sikkerhedskopiering</string>
     <string name="local_app_name">Sikkerhedskopiering</string>
@@ -46,7 +49,7 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="restore_launcher_layout_hit">Gendan aktivatorindstillinger</string>
     <string name="settings_summary">Telefon- og beskedindstillinger</string>
     <string name="camera_summary">Kameraindstillinger (omfatter ikke fotos)</string>
-    <string name="account_summary">Back up Google Account, Mi Account, and other user data</string>
+    <string name="account_summary">Tag backup af Google Account, Mi Account og andre brugerdata</string>
     <string name="cloud_app_name">Mi Cloud-backup</string>
     <string name="cloud_home_title">Mi Cloud</string>
     <string name="prompt_reading">Læser…</string>
@@ -194,7 +197,7 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="enable_encrypt_summery1">Log ind med din Mi Account for at få adgang til krypterede backups.</string>
     <string name="enable_encrypt_summery2">Dine backups vil blive krypteret automatisk. Du er nødt til at logge ind på din Mi Account for at få adgang til dem.</string>
     <string name="enable_encrypt_xiaomi_account">Denne backup blev lavet af %1$s. For at gendanne skal du slette den aktuelle konto og logge ind som %2$s.</string>
-    <string name="enable_encrypt_ok">OK</string>
+    <string name="button_got_it">OK</string>
     <string name="no_encrypt_password">Ingen adgangskode.</string>
     <string name="enable_encrypt_fail">Krypteringsfejl</string>
     <string name="read_encrypt_fail">Kunne ikke læse krypteret backup.</string>
@@ -225,6 +228,7 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="restore_backup">Gendan</string>
     <string name="enable_encrypt_description">Kryptér</string>
     <string name="disable_encrypt_description">Kryptér ikke</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Lige et øjeblik…</string>
     <string name="state_mounting">Får adgang til routerlager…</string>
     <string name="abort_backup_confirm">Backup er ikke færdig. Stop alligevel?</string>
@@ -246,7 +250,11 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="err_filesystem_mount">Kan ikke få adgang til routerlager.</string>
     <string name="err_router_disconnected">Kontrollér din routers forbindelse og prøv igen.</string>
     <string name="err_router_files_delete">Kunne ikke slette backupfiler på router.</string>
-    <string name="err_not_allow">Not supported</string>
+    <string name="err_not_allow">Ikke understøttet</string>
+    <string name="err_bakfile_not_exist">Backup-filen findes ikke.</string>
+    <string name="err_pkg_not_exist">Kunne ikke finde app.</string>
+    <string name="err_user_abort">Annulleret af brugeren.</string>
+    <string name="err_binder_died">Appen stoppede uventet.</string>
     <string name="backup_is_running">Tager backup af enhed.</string>
     <string name="restore_is_running">Gendanner enhed.</string>
     <string name="notif_backup_title">Tag backup af data</string>
@@ -286,8 +294,7 @@ Sluk ikke for wi-fi.
 Hold enheder tæt på hinanden."</string>
     <string name="trans_receiver_time_remained">"%s resterer.
 Sluk ikke for wi-fi-hotspot.old enheder tæt på hinanden."</string>
-    <string name="trans_time_spent">"
-Forbrugt tid: %s"</string>
+    <string name="trans_time_spent">Brugt tid: %s</string>
     <string name="trans_restoring_no_items">Synkroniserer elementer</string>
     <string name="trans_detail_category_sysdata">Systemdata (herunder beskeder, kontakter og opkaldshistorik)</string>
     <string name="trans_detail_category_userdata">Apps</string>
@@ -334,7 +341,7 @@ Forbrugt tid: %s"</string>
     <string name="trans_device_wait_for_reconnecting">Forbindelsen blev afbrudt. Tilslut igen for at fortsætte.</string>
     <string name="trans_device_auto_reconnecting">Enhed frakoblet. Tilslutter igen automatisk…</string>
     <string name="trans_connecting_toast">Tilslutter…</string>
-    <string name="trans_switching_5g">Switching to 5GHz Wi-Fi…</string>
+    <string name="trans_switching_5g">Skifter til 5 GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Kunne ikke tilslutte.</string>
     <string name="trans_generate_qr_code_failed">Kunne ikke oprette QR-kode.</string>
     <string name="trans_scan_invalid_qrcode">QR-kode ugyldig.</string>
@@ -353,21 +360,27 @@ Tryk [Jeg er en modtager] for at oprette en QR-kode."</string>
 Tryk så \"Tilslut igen\" for at oprette en QR-kode."</string>
     <string name="trans_operate_reconnect_old_tips">"Vent, indtil den gamle telefon viser \"Forbindelsen blev afbrudt\".
 Tryk så \"Tilslut igen\" for at scanne QR-koden."</string>
+    <string name="trans_generating_qrcode">Genererer QR-kode…</string>
+    <string name="trans_generate_qrcode_failed">Kunne ikke generere QR-kode. Prøv igen.</string>
     <string name="trans_wait_trans_data">"Tilsluttet til den gamle enhed.
 Venter på overførslen…"</string>
     <string name="trans_select_data">Vælg elementer, der skal sendes.</string>
     <string name="trans_select_data_tips">"Vælg elementer til overførsel.
 Identiske filer på den nye enhed vil blive overskrevet."</string>
-    <string name="trans_select_data_no_space">"Ikke nok lagerplads på den nye enhed.
-Vælg filer igen eller frigør %s lagerplads på den nye enhed."</string>
+    <string name="trans_select_data_no_space">"Der er ikke nok lagerplads i den nye enhed (%s til rådighed).
+Frigør lagerplads eller overfør kun vigtige elementer."</string>
     <string name="trans_select_data_too_large">"Du valgte for mange elementer til overførsel.
 Vælg kun vigtige elementer for at gøre overførslen hurtigere."</string>
     <string name="trans_calculating_base_size">Beregner datastørrelse</string>
     <string name="trans_calculating">Beregner…</string>
-    <string name="trans_native_no_space">"Ikke nok lagerplads på denne enhed.
-Frigør mindst %s."</string>
+    <string name="trans_native_no_space">"Der er ikke nok lagerplads i den gamle enhed (%s til rådighed).
+Frigør lagerplads eller overfør kun vigtige elementer."</string>
     <string name="trans_calculating_app_sd_size">Beregner størrelse: %s</string>
     <string name="trans_please_waiting">Lige et øjeblik…</string>
+    <string name="trans_old_phone_low_space_title">Ikke nok lagerplads</string>
+    <string name="trans_old_phone_low_space_msg">Mi Mover har brug for lagerplads til at pakke de overførte data, men det ser ud, som om der ikke er nok plads til rådighed i den gamle enhed. Frigør plads under \"Sikkerhed\" eller overfør kun vigtige elementer.</string>
+    <string name="button_clean_garbage">Frigør plads</string>
+    <string name="button_quit">Afslut</string>
     <string name="size_byte">B</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
@@ -422,6 +435,7 @@ Frigør mindst %s."</string>
     <string name="trans_disconnected_tips_title">Fjernenhed afbrudt</string>
     <string name="trans_disconnected_tips_message">Fjernenhed afbrudt. Tilslut igen manuelt eller annuller overførslen.</string>
     <string name="trans_button_cancel">Annuller</string>
+    <string name="trans_failed_details_page_title">Overførsler der mislykkedes</string>
     <string name="close_twice_auth_tutor">"Sluk Apple ID's tofaktor-autentifikation"</string>
     <string name="close_twice_auth_steps">"Følg disse trin for at slukke for Apple ID's tofaktor-autentifikation:"</string>
     <string name="close_twice_auth_step_1">1. Åbn en hvilken som helst browser på en hvilken som helst computer og gå til appleid.apple.com.</string>
@@ -488,6 +502,7 @@ https://appleid.apple.com/#!&amp;page=signin at lukke"</string>
 bør du først oprette en iCloud-backup."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund af kompatibilitetsproblemer kan du kun overføre en del af dataene fra iOS-enheder. Vær sikker på, at du har oprettet en iCloud-backup, inden du begynder overførslen.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importér</string>
     <string name="select_empty">Vælg elementer til import</string>
     <string name="select_item_summary_wait">Venter…</string>
@@ -511,7 +526,7 @@ Dataene, der ikke blev importeret, skal importeres igen."</string>
     <string name="error_permissions">Denne app har ikke den nødvendige tilladelse til at få adgang til Kalender. Gå til Indstillinger og kontrollér tilladelser for at fortsætte.</string>
     <string name="succ_description">Lykkedes</string>
     <string name="failed_description">Mislykkedes</string>
-    <string name="notif_miasist_try_to_connect">Mi PC Suite is trying to connect to your device</string>
+    <string name="notif_miasist_try_to_connect">Mi PC Suite prøver at tilslutte til din enhed</string>
     <string name="notif_connect_miasist">Tilsluttet til Mi PC Suite.</string>
     <string name="notif_disconnect_miasist">Ikke tilsluttet til Mi PC Suite.</string>
     <string name="notif_sending_transingsd">Sender %1$s (%2$s)…</string>

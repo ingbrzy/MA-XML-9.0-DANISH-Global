@@ -15,18 +15,19 @@ Se det valgte tastaturs Fortrolighedspolitik."</string>
     <string name="sim_card_detection_info">For at indsætte dit SIM-kort, læs de instruktioner, der fulgte med din enhed.</string>
     <string name="sim_card_detecting">Kontroller for SIM-kort…</string>
     <string name="sim_card_detecting_check">Kunne ikke finde SIM-kort. Sørg for, at SIM-kortet er korrekt installeret, og at du har tilstrækkelig penge på din konto.</string>
+    <string name="sim_card_detecting_confirm_turn_on_network">Vil du tillade tilslutning til mobil datanetværk? Hvis du gør, bruges det SIM-kort, som du indsætter, til tilslutning til mobile datanetværk.</string>
     <string name="other_settings">Yderligere indstillinger</string>
     <string name="other_settings_location">Placering</string>
-    <string name="other_settings_location_summary">Allow apps to access your location</string>
+    <string name="other_settings_location_summary">Giv apps adgang til din placering</string>
     <string name="other_settings_user_experience">Brugeroplevelsesprogram</string>
-    <string name="other_settings_user_experience_summary">Help us improve our products and services by sharing your usage stats with us. View details</string>
-    <string name="other_settings_user_experience_summary_index">View details</string>
+    <string name="other_settings_user_experience_summary">Hjælp os med at forbedre vores produkter og tjenester ved at dele forbrugsstatistikker med os. Se yderligerer oplysninger</string>
+    <string name="other_settings_user_experience_summary_index">Se oplysninger</string>
     <string name="other_settings_upload_debug_log_title">Send diagnostisk data automatisk</string>
-    <string name="other_settings_upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
-    <string name="other_settings_auto_update">Update automatically</string>
-    <string name="other_settings_auto_update_summary">MIUI will select the best moment to install updates</string>
-    <string name="other_settings_ad_enable">Personalized ad recommendations</string>
-    <string name="other_settings_ad_enable_summary">Receive personalized ads based on your behavior data</string>
+    <string name="other_settings_upload_debug_log_summary">Forbrugsstatistikker, der hjælper os med at lokalisere og løse problemer, kan indeholde dine personlige oplysninger</string>
+    <string name="other_settings_auto_update">Opdater automatisk</string>
+    <string name="other_settings_auto_update_summary">MUI vil vælge det bedste tidspunkt at installere opdateringer</string>
+    <string name="other_settings_ad_enable">Anbefalinger til personlige reklamer</string>
+    <string name="other_settings_ad_enable_summary">Modtag personlige reklamer baseret på dit adfærdsmønster</string>
     <string name="back">Tilbage</string>
     <string name="next">Næste</string>
     <string name="skip_underline">Spring dette trin over</string>
@@ -42,12 +43,12 @@ Se det valgte tastaturs Fortrolighedspolitik."</string>
     <string name="ime_privacy_policy">Fortrolighedspolitik for valgte tastaturer</string>
     <string name="ime_privacy_policy_no_network">Ingen netværksforbindelse. Se Fortrolighedspolitik for dette tastatur på %s.</string>
     <string name="terms_of_use">Vilkår og betingelser</string>
-    <string name="terms_of_use_label">"Your privacy is very important to us. Read our Terms of Service and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
+    <string name="terms_of_use_label">"Dit privatliv er meget vigtigt for os. Læs vores Servicevilkår og Privatlivspolitik og se, hvilke oplysninger vi indsamler, hvordan vi bruger dem, samt hvilke valg du har.
 
-You must agree to our Terms of Service and Privacy Policy before you can use MIUI. Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen, Game center, MAB, MIUI Daemon and MSA system components, web apps, App vault, statistics, smart cards, Mi Link, and Mi Account components will connect to the internet and acquire your location."</string>
-    <string name="terms_of_use_label_gms">"Your privacy is very important to us. Read our Terms of Service and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
+Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvende MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Find enhed, Startskærm, Spilcenter, MAB, MIUI Daemon og MSA-systemkomponenter, hurtige apper, App-boks, statistikker, smartkort, Mi Link og Mi Account-komponenter tilsluttes til nettet og beder om din placering."</string>
+    <string name="terms_of_use_label_gms">"Dit privatliv er meget vigtigt for os. Læs vores Servicevilkår og Privatlivspolitik og se, hvilke oplysninger vi indsamler, hvordan vi bruger dem samt hvilke valg, du har.
 
-You must agree to our Terms of Service and Privacy Policy before you can use MIUI. Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen, Game center, MAB, MIUI Daemon and MSA system components, web apps, App vault, statistics, smart cards, Mi Link, Mi Account, and Google Play services components will connect to the internet and acquire your location."</string>
+Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvende MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Find enhed, Startskærm, Spilcenter, MAB, MIUI Daemon og MSA-systemkomponenter, web-apper, App-boks, statistikker, smartkort, Mi Link og Mi Account-komponenter og Google Play-tjenester tilsluttes til nettet og beder om din placering."</string>
     <string name="user_agreement">Servicevilkår</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
     <string name="application_permissions">App-tilladelser</string>
@@ -72,8 +73,8 @@ You must agree to our Terms of Service and Privacy Policy before you can use MIU
     <string name="content_description_complete">Færdig</string>
     <string name="language_picker_other_languages_title">Flere sprog</string>
     <string name="language_settings">Vælg sprog</string>
-    <string name="navigation_picker_radio_text_full_screen">Full screen gestures</string>
-    <string name="navigation_picker_radio_text_virtual_key">Buttons</string>
+    <string name="navigation_picker_radio_text_full_screen">Fuldskærms-gestusser</string>
+    <string name="navigation_picker_radio_text_virtual_key">Knapper</string>
     <string name="congratulation_swipe">Stryg opad for at komme ind i systemet</string>
     <string name="enable_accessibility_dialog_message">Du har slået TalkBack til ved at trykke på skærmen med 2 fingre i mere end 10 sekunder. TalkBack giver stemmefeedback til personer med synshandicap. Hvis du slår det til ved et uheld, skal du trykke på knappen Annuller og dobbeltklikke på skærmen.</string>
     <string name="enable_accessibility_dialog_positive_btn">OK</string>

@@ -3,7 +3,7 @@
     <string name="paused_waiting_for_network">Venter på netværk</string>
     <string name="notif_title_file_size">%1$d i alt</string>
     <string name="notif_title_single_downloading">Downloader %1$s</string>
-    <string name="download_filesize_unknown">Unknown</string>
+    <string name="download_filesize_unknown">Ukendt</string>
     <string name="app_label">Download</string>
     <string name="permlab_downloadManager">Få adgang til download.</string>
     <string name="permdesc_downloadManager">Tillader, at appen får adgang til downloads og bruger den til at downloade filer. Ondsindede apps kan bruge dette til at forstyrre downloads og få adgang til privat information.</string>

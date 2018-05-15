@@ -33,7 +33,7 @@
     <string name="attach_sound">Lyd</string>
     <string name="attach_subject">Emne</string>
     <string name="attach_take_photo">Tag foto</string>
-    <string name="attach_transaction">Send money</string>
+    <string name="attach_transaction">Overfør penge</string>
     <string name="attach_video">Video</string>
     <string name="audio_download_failed">Kunne ikke downloade audio</string>
     <string name="audio_message_expired">Denne stemmebesked er udløbet.</string>
@@ -51,6 +51,16 @@
     <string name="bookmark_confirm_delete_message">Fjern stjernemarkering fra valgte beskeder?</string>
     <string name="bookmark_empty">Ingen stjernemarkerede beskeder</string>
     <string name="bookmark_list_title">Stjernemarkeret</string>
+    <string name="button_emoji_creature">Dyr-humørikon</string>
+    <string name="button_emoji_lifestyle">Livsstil humørikon</string>
+    <string name="button_emoji_smiley">Smilende humørikon</string>
+    <string name="button_emoji_symbol">Symbol humørikon</string>
+    <string name="button_emoji_text">Tekst-humørikon</string>
+    <string name="button_fold">fold</string>
+    <string name="button_next_slide">Næste</string>
+    <string name="button_pre_slide">Forrige</string>
+    <string name="button_resend_message">Gensend</string>
+    <string name="button_unfold">Fold ud</string>
     <string name="call_sender">Ring til afsender</string>
     <string name="cannot_add_picture_and_video">Kan ikke tilføje video og billede til et dias.</string>
     <string name="cannot_add_slide_anymore">Kan ikke tilføje flere dias.</string>
@@ -84,8 +94,8 @@
     <string name="confirm_export_dialog_description">Tidligere samtaler med denne kontaktperson vil ikke længere være skjulte.</string>
     <string name="confirm_export_dialog_title">Fjern fra private kontaktpersoner</string>
     <string name="confirm_no_block_positive">Stop blokering</string>
-    <string name="confirm_no_block_title">"Unblock and restore all messages sent from this number?
-(The number will be added to exceptions.)"</string>
+    <string name="confirm_no_block_title">"Afblokér og gendan alle beskeder sendt fra dette nummer?
+(Nummeret vil blive føjet til undtagelser.)"</string>
     <string name="confirm_rate_limit">Et stort antal multimediebeskeder sendes.</string>
     <string name="confirm_restore_all_title">Gendan alle beskeder sendt fra dette nummer?</string>
     <string name="confirm_restore_checkbox">Gendan blokerede beskeder</string>
@@ -138,6 +148,7 @@
     <string name="download_later">Kan ikke downloade lige nu. Prøv igen senere.</string>
     <string name="downloading">Downloader</string>
     <string name="downloading_file_can_not_play">Vent, indtil optagelse er færdig med at downloade</string>
+    <string name="draft">Kladde</string>
     <string name="duration_not_a_number">Varighed skal være et tal</string>
     <string name="duration_sec">Varighed (%s sek)</string>
     <string name="duration_selector_title">Varighed for dias</string>
@@ -152,9 +163,9 @@
     <string name="enter_edit_mode">Redigér beskeder</string>
     <string name="error_code_label">"Fejlkode: "</string>
     <string name="error_state">Usammenhængende tilstand</string>
-    <string name="error_state_text">Tilstanden af tråde og modtagere hænger ikke sammen. Optag en fejlrapport og send den via http://go/droidanizer</string>
+    <string name="error_state_text">Tilstanden af tråde og modtagere er uoverensstemmende. Opret en fejlrapport og anmeld det via http://go/droidanizer</string>
     <string name="error_timed_msg">Ugyldig tid.</string>
-    <string name="ex_type_guide">Information</string>
+    <string name="ex_type_guide">Oplysninger</string>
     <string name="ex_type_mx">Mi Message</string>
     <string name="ex_type_sms">SMS/MMS</string>
     <string name="exceed_message_size_limitation">Beskedens størrelsesgrænse er nået.</string>
@@ -168,7 +179,6 @@
     <string name="failed_to_resize_image">Billede fik ikke ny størrelse.</string>
     <string name="fake_cell_alert_hint">"Det ser ud til, at denne besked blev sendt fra et telefonnummer, som er anderledes end det, der er vist. Pas på med SMS'er, der indeholder finansielle forespørgsler."</string>
     <string name="fake_cell_checking_hint">Tjekker sikkerhed…</string>
-    <string name="fake_cell_detection_entry">Falsk basestationopdagelse</string>
     <string name="fake_cell_safe_hint">Denne besked er sikker</string>
     <string name="fake_cell_timeout_hint">Kunne ikke tjekke sikkerhed</string>
     <string name="favorite_at_time">Stjernemarkeret den: %1s</string>
@@ -179,6 +189,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny besked</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_prefix">"Vds: "</string>
@@ -313,7 +324,7 @@
     <string name="mx_dspt_listview">Send beskeder til andre MIUI-enheder uden omkostninger</string>
     <string name="mx_dspt_provision">Mi Message lader dig sende beskeder til andre MIUI-brugere uden at betale gebyrer. En udgående SMS kan være nødvendig for at genaktivere Mi Message. Din udbyder vil opkræve dig for den besked. Derudover kræver servicen adgang til mobildata for at fungere normalt.</string>
     <string name="mx_dspt_provision_ex2">Fortrolighedspolitik</string>
-    <string name="mx_enable">Mi Message</string>
+    <string name="mx_enable">Mi besked</string>
     <string name="mx_enable_ex">Mi Message &amp; Voice</string>
     <string name="mx_enable_popup_msg">Mi Message lader dig sende beskeder til andre MIUI-enheder uden omkostninger.</string>
     <string name="mx_filter_message_from_stranger">Blokér Mi Message fra ukendte numre</string>
@@ -447,7 +458,7 @@
     <string name="privacy_password_title4">Adgangskode opgraderet</string>
     <string name="private_message">Private beskeder</string>
     <string name="private_new_notification">Beskednotifikationer</string>
-    <string name="private_protect">Adgangskoder</string>
+    <string name="private_protect">Beskyttelse af personlige oplysninger</string>
     <string name="private_settings">Private beskedindstillinger</string>
     <string name="processing">Arbejder…</string>
     <string name="prvate_contact">Private kontaktpersoner</string>
@@ -512,7 +523,7 @@
     <string name="select_local_audio">Vælg lyd</string>
     <string name="select_local_video">Vælg video</string>
     <string name="select_message_send_sim">Vælg SIM-kort</string>
-    <string name="select_phone_number">Select phone number</string>
+    <string name="select_phone_number">Vælg telefonnummer</string>
     <string name="select_recipient">Vælg modtagere</string>
     <string name="select_sim">Vælg SIM-kort</string>
     <string name="select_top_text">Tekst øverst</string>
@@ -527,6 +538,7 @@
     <string name="send_signature_confirm_dialog_title">Send besked</string>
     <string name="send_sms">Send besked</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt den: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Besked udløbet eller utilgængelig</string>
@@ -656,4 +668,5 @@ Forsøg udført: %s."</string>
     <string name="wild_msg_title">Vælg telefonnumre at synkronisere</string>
     <string name="yes">OK</string>
     <string name="yesterday">I går</string>
+    <string name="fake_cell_detection_entry">Falsk basestationopdagelse</string>
 </resources>

@@ -123,7 +123,7 @@
     <string name="unlock_phone">Lås op for enhed</string>
     <string name="remind_unlock_message">Din enhed er låst nu. \"%s\" vil være til rådighed, efter at du låser din enhed op. Lås op nu?</string>
     <string name="user_locked_prompt">Lås op for enhed for adgang til kontakter.</string>
-    <string name="package_not_available">"\"%s\" isn't available"</string>
+    <string name="package_not_available">\"%s\" er ikke tilgængelig</string>
     <string name="select_voice_call_sim">Vælg SIM-kort</string>
     <string name="msim_select_default_time_left">(%d s)</string>
     <string name="select_sim_hint">Kan ikke anvende SIM %2$d, mens SIM %1$d er i brug.</string>
@@ -172,6 +172,9 @@
     <string name="close_camera_failed">Kunne ikke slukke for kamera…</string>
     <string name="change_to_voice_tips_when_background">Den anden part har skiftet til stemmeopkald</string>
     <string name="video_crbt_title">%s videotilbagekaldstone</string>
+    <string name="crbt_second_hold_prompt">%s er sat i venteposition…</string>
+    <string name="crbt_second_hold_prompt_no_name">Det tidligere opkald er sat i venteposition…</string>
+    <string name="crbt_second_hold_prompt_conference">Konferenceopkald er sat i venteposition…</string>
     <string name="call_button_tools_text">Funktioner</string>
     <string name="call_button_dialer_text">Tastatur</string>
     <string name="call_button_mute_text">Gør tavs</string>
@@ -193,4 +196,5 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
+    <string name="prompt_no_volte_when_failed">VoLTE-tjenester er ikke tilgængelige.</string>
 </resources>

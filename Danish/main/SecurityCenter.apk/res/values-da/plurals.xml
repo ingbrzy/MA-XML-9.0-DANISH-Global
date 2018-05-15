@@ -309,7 +309,7 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="one">%d dag tilbage, før sessionen til netværkshastighedsboost slutter. Forny din session nu for at undgå problemer med netværkshastigheden.</item>
     </plurals>
     <plurals name="gb_signed_days_sum">
-        <item quantity="other">Checked in %d days in a row</item>
-        <item quantity="one">Checked in %d time</item>
+        <item quantity="other">Loggede ind %d days i træk</item>
+        <item quantity="one">Loggede ind %d gang</item>
     </plurals>
 </resources>

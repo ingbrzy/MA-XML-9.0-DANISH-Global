@@ -199,6 +199,7 @@
     <string name="ola_trip">Ring efter en taxi</string>
     <string name="ola_trip_content">Anslå prisen og ring efter en Ola</string>
     <string name="ola_trip_content_detail">Anslå cirkaprisen og ring efter en Ola.</string>
+    <string name="phone_check">Optimering</string>
     <string name="place_label">Hyppige steder</string>
     <string name="record_name">Optag</string>
     <string name="record_parent">Optager</string>
@@ -259,9 +260,10 @@
     <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Farvetema</string>
     <string name="stock_list_empty_text">Du følger ikke nogen virksomheder.</string>
+    <string name="stock_provider">Børsnyheder er leveret af Webull</string>
     <string name="stock_search_empty">Kunne ikke finde aktier</string>
     <string name="stock_title">Aktier</string>
-    <string name="stock_title_schema">Stocks display options</string>
+    <string name="stock_title_schema">Muligheder for visning af aktier</string>
     <string name="stock_toast_add_max_count">Du kan følge op til 8 virksomheder</string>
     <string name="stock_web_lable">Aktier</string>
     <string name="time_just_now">Lige nu</string>
@@ -290,17 +292,18 @@
     <string name="uber_target">Hvortil?</string>
     <string name="uber_trip">Ring efter en taxi</string>
     <string name="uber_x">UberX</string>
-    <string name="upgrade_being">Updating…</string>
-    <string name="upgrade_fail_message">"Couldn't update. Make sure you're using the latest version of MIUI."</string>
-    <string name="upgrade_find">Update is available</string>
-    <string name="upgrade_later">Update later</string>
-    <string name="upgrade_log_default">"1. Improved performance.
-2. Fixed bugs."</string>
-    <string name="upgrade_log_subtitle">(Downloaded via Wi-Fi)</string>
-    <string name="upgrade_log_title">New version</string>
-    <string name="upgrade_now">Update</string>
+    <string name="upgrade_being">Opdaterer…</string>
+    <string name="upgrade_fail_message">Kunne ikke opdatere. Sørg for at du bruger den nyeste version af MIUI.</string>
+    <string name="upgrade_find">Der er en opdatering tilgængelig</string>
+    <string name="upgrade_later">Opdater senere</string>
+    <string name="upgrade_log_default">"1. Forbedret ydelse. 
+2. Repareret bugs."</string>
+    <string name="upgrade_log_subtitle">(Downloadet via Wi-Fi)</string>
+    <string name="upgrade_log_title">Ny version</string>
+    <string name="upgrade_now">Opdatér</string>
     <string name="user_id">Bruger-id: %s</string>
     <string name="walk">Gå</string>
+    <string name="webull_title">Webull</string>
     <string name="which_transport">Hvordan kommer du normalt til din destination?</string>
     <string name="year_month_day_all_format_en">dd/MM/yyyy HH:mm:ss</string>
     <string name="year_month_day_format">dd/MM/yyyy</string>

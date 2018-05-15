@@ -2,6 +2,6 @@
 <resources>
     <plurals name="accessibility_focus_face_detect">
         <item quantity="other">Focused. %d faces detected</item>
-        <item quantity="one">Focused. %d face detected</item>
+        <item quantity="one">Fokuseret, %d ansigt detekteret</item>
     </plurals>
 </resources>

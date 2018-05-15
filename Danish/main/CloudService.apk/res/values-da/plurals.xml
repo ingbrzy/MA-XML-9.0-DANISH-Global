@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="sync_items_close">
-        <item quantity="other">%d er slukket</item>
-        <item quantity="one">%d er slukket</item>
-    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Elementer, der venter på at blive synkroniseret: %d</item>
         <item quantity="one">Elementer, der venter på at blive synkroniseret: %d</item>
-    </plurals>
-    <plurals name="items_waiting_to_sync">
-        <item quantity="other">%d elementer, der venter på at blive synkroniseret.</item>
-        <item quantity="one">%d elementer, der venter på at blive synkroniseret.</item>
     </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">%d kontakter</item>
@@ -58,7 +50,7 @@
     </plurals>
     <plurals name="dirty_personalAssistant_count">
         <item quantity="other">%d App vault entries</item>
-        <item quantity="one">%d App vault entry</item>
+        <item quantity="one">Indgang til %d app-boks</item>
     </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">%d skjulte fotos er ikke synkroniseret. Log ud, efter at alle elementer er synkroniseret, for at beholde dem. Ellers vil elementerne blive slettet.</item>

@@ -5,8 +5,8 @@
         <item quantity="one">%d dage før</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d hours before</item>
-        <item quantity="one">%d timer før</item>
+        <item quantity="other">%d timer før</item>
+        <item quantity="one">%d time før</item>
     </plurals>
     <plurals name="Nminutes">
         <item quantity="other">%d minutes before</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Om %1$d dage kl. %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d dage siden kl. %2$s</item>
-        <item quantity="one">%1$d dag siden kl. %2$s</item>
+        <item quantity="other">%1$d days before at %2$s</item>
+        <item quantity="one">%1$d day before at %2$s</item>
     </plurals>
     <plurals name="Nweeks">
         <item quantity="other">%d weeks before</item>

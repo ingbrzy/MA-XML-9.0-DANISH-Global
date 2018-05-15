@@ -64,13 +64,17 @@
     <string name="button_abandon">Fjern ændringer</string>
     <string name="button_add_city">Tilføj placering</string>
     <string name="button_allow">OK</string>
-    <string name="button_confirm">Tillad</string>
-    <string name="button_exit">Afslut</string>
+    <string name="button_confirm">Godkend</string>
+    <string name="button_exit">Er ikke enig</string>
     <string name="button_not_allow">Annuller</string>
+    <string name="button_settings_cancel">Annuller</string>
+    <string name="button_settings_confirm">Tilbagekalde</string>
+    <string name="button_settings_confirm_to_revoke_msg">Du vil ikke være i stand til at bruge Vejret efter du har tilbagekaldt tilladelsen.</string>
+    <string name="button_settings_confirm_to_revoke_title">Tilbagekalde tilladelse?</string>
     <string name="button_sure_abandon">Kasser ændringer?</string>
     <string name="card_vote_item_vs">VS</string>
     <string name="change_alert">Kontroller din netværksforbindelse og prøv igen</string>
-    <string name="china_version_first_start_network_msg">"By using this product, you agree to Xiaomi's%1$s and %2$s.This app needs to connect to the internet and access your location to work normally."</string>
+    <string name="china_version_first_start_network_msg">Ved at bruge dette produkt accepterer du Xiaomis %1$s og %2$s. Denne app er nødt til at tilslutte til nettet og få adgang til din placering for at fungere normalt.</string>
     <string name="city_exceeded_warning">Du kan tilføje op til 10 byer</string>
     <string name="commercial">Kommercielt</string>
     <string name="common_loading_text">Lige et øjeblik…</string>
@@ -91,11 +95,14 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">Prognoseoplysninger</string>
     <string name="daily_forecast_detail_date">M/d</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunne ikke hente vejroplysninger
 Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="data_provided_by">Data leveret af</string>
     <string name="edit_alert_city_title">Administrer alarmer</string>
     <string name="edit_city">Administrer by</string>
+    <string name="empty">" "</string>
+    <string name="eu_region_version_first_start_network_msg">Ved at bruge dette produkt accepterer du, at Xiaomi indsamler, bearbejder og bruger dine personoplysninger, her iblandt koordinaterne for de byer, som du leder efter og andre former for data specificeret vi vores Fortrolighedspolitik. Se vores Fortrolighedspolitik for at finde ud af, hvordan vi indsamler og bearbejder oplysninger. Ved at trykke på \"Accepter\", erklærer du dig enig i Xiaomis %1$s og %2$s.</string>
     <string name="feedback_heavy_rain">Kraftig nedbør</string>
     <string name="feedback_heavy_snow">Sne</string>
     <string name="feedback_light_rain">Let regn</string>
@@ -103,12 +110,14 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="feedback_result_fail_no_choice">Vælg de aktuelle vejrforhold</string>
     <string name="feedback_result_success">Indsendt korrekt. Tak for din feedback.</string>
     <string name="feedback_sand">Sand</string>
-    <string name="feedback_sunny">Solrigt</string>
+    <string name="feedback_sunny">Nulstil</string>
     <string name="first_start_network_msg">Denne app skal have forbindelse til internettet og adgang til placering for at fungere normalt.</string>
     <string name="first_start_network_title">Adgangs til internetforbindelse og placering</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="gps_hint">Aktuel placering</string>
     <string name="hourly_forcast_now">Nu</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title">Timebaseret prognose</string>
     <string name="index_item_experience_now">Installer nu</string>
@@ -133,11 +142,13 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="information_manager_extension">Vejrudvidelse</string>
     <string name="information_views" />
     <string name="install">Installer</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_detail_menu_title">Oplysninger</string>
     <string name="international_details_pressure_title">TRYK</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Oplysninger</string>
     <string name="international_details_uv_index_title">UV-INDEKS</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer til at regne</string>
     <string name="locate_fail_detail_err">"Kan ikke finde enheden
@@ -160,7 +171,6 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">Træk ned for at opdatere</string>
     <string name="minute_rain_refreshing_now">Opdaterer…</string>
-    <string name="missing_required_permission">Du har deaktiveret en påkrævet tilladelse.</string>
     <string name="more_details">Flere oplysninger</string>
     <string name="network_not_available">Kan ikke oprette forbindelse til netværket</string>
     <string name="network_unavailable">Kan ikke oprette forbindelse til netværket.</string>
@@ -176,12 +186,19 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="particulate_matter_exceeded">Høj</string>
     <string name="particulate_matter_not_exceeded">Normal</string>
     <string name="particulate_matter_serious_exceeded">For høj</string>
+    <string name="policy_settings">Vilkår og betingelser</string>
     <string name="precipitation_degree_five">Tung</string>
     <string name="precipitation_degree_four">Stærk</string>
     <string name="precipitation_degree_one">Ingen</string>
     <string name="precipitation_degree_three">Moderat</string>
     <string name="precipitation_degree_two">Lys</string>
     <string name="pressure_connect">%1$s mb</string>
+    <string name="privacy_grant_failed">Kunne ikke give tilladelse. Vent et minut eller to og prøv så igen.</string>
+    <string name="privacy_grant_or_revoke_settings">Give &amp; tilbagekalde tilladelse</string>
+    <string name="privacy_grant_success">Tilladelse givet</string>
+    <string name="privacy_revoke_failed">Kunne ikke tilbagekalde tilladelsen. Vent et minut eller to og prøv så igen.</string>
+    <string name="privacy_revoke_success">Det lykkedes at tilbagekalde tilladelsen</string>
+    <string name="privacy_settings">Fortrolighedspolitik</string>
     <string name="pull_fresh_updated">Opdatering fuldført</string>
     <string name="pull_fresh_updating">Opdaterer…</string>
     <string name="radar_cloud_image_title">Radarkort</string>
@@ -191,7 +208,7 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="real_time_sunset">Solnedgang %1$s</string>
     <string name="realtime_aqi_title">Luftkvalitetsindeks</string>
     <string name="realtime_humidity_title">Relativ luftfugtighed</string>
-    <string name="realtime_temperature_no_data">N/A</string>
+    <string name="realtime_temperature_no_data">Kan ikke købes</string>
     <string name="realtime_wind_default_title">Vind</string>
     <string name="refresh_fail">Kunne ikke få forbindelse til netværk</string>
     <string name="reminder_from_xiaomi_weather_app">Mi-vejrmelding</string>
@@ -211,6 +228,7 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="share_subject">Del</string>
     <string name="share_title">Del vejret</string>
     <string name="share_weather_desc">\#MIUI Vejr#I dag %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke tage skærmbillede</string>
     <string name="some_where_on_earth">Et sted på jorden</string>
@@ -262,5 +280,4 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="xiaomi_weather_description_title">Om vejret</string>
     <string name="yes_vote_ratio">For %1$s%%</string>
     <string name="your_location">Din placeringer</string>
-    <string name="international_version_first_start_network_msg">"By using this product, you agree to Xiaomi's%1$s.This app needs to connect the network, upload the city information you entered in order to obtain the corresponding city weather data. Click agree to continue."</string>
 </resources>

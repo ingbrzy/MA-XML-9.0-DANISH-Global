@@ -102,10 +102,10 @@
     <string name="durationDayHours">%1$d dag %2$d timer</string>
     <string name="durationHourMinute">%1$d time %2$d min</string>
     <string name="durationHourMinutes">%1$d time %2$d min</string>
-    <string name="durationMinute">%1$d min</string>
+    <string name="durationMinute">%1$d min.</string>
     <string name="durationMinuteSecond">%1$d min %2$d sek.</string>
     <string name="durationMinuteSeconds">%1$d min %2$d sek.</string>
-    <string name="durationMinutes">%1$d min</string>
+    <string name="durationMinutes">%1$d min.</string>
     <string name="durationSecond">%1$d sek.</string>
     <string name="durationSeconds">%1$d sek.</string>
     <string name="editmode_menu_delete">Slet</string>
@@ -197,6 +197,9 @@
     <string name="toast_only_wifi_download">Opret forbindelse til Wi-Fi for at downloade dette element</string>
     <string name="total_speedup">Hastighedsforøgelse (total)</string>
     <string name="version">Version %s</string>
-    <string name="app_downloads">%sdownloads</string>
-    <string name="dialog_confirm_delete_downloads_message">Delete selected tasks?</string>
+    <string name="get_data_failed">Kunne ikke hente oplysninger. Vent et minut eller to og prøv så igen.</string>
+    <string name="load_finish_hint">Det er alt for nu.</string>
+    <string name="loading">Et øjeblik…</string>
+    <string name="net_error">Tilslut til netværket og prøv igen</string>
+    <string name="rank_app_list">Top downloads</string>
 </resources>
