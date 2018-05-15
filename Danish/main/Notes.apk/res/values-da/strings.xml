@@ -95,7 +95,6 @@
     <string name="menu_title_select_folder">Vælg mappe</string>
     <string name="menu_unhide">Gør synlig</string>
     <string name="menu_unstick">Tag ned</string>
-    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Ikke nu</string>
     <string name="note_alert_expired">Udløbet</string>
     <string name="note_description_content">Appen Noter er et godt værktøj til skrive dine ideer ned. Den har indbyggede påmindelser og synkroniserer dine varer til Mi Cloud, så du kan få adgang til dem overalt, når som helst. Sørg for, at du kan undvære disse funktioner, inden du sletter appen.</string>

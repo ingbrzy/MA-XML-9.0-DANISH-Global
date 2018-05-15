@@ -25,7 +25,6 @@
     <string name="s5">Opret kalenderbegivenhed</string>
     <string name="s6">Vil du tillade, at annoncen opretter en kalenderbegivenhed?</string>
     <string name="s7">Testannonce</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_and_cloud">Konto</string>
     <string name="action_item_add">Add to</string>
     <string name="action_item_add_song">Tilføj til afspilningsliste</string>
@@ -136,7 +135,6 @@
     <string name="continue_backup">Fortsæt</string>
     <string name="cp_info_first">"Online musik streamingservice
 leveres hovedsageligt af Ultimate Inc."</string>
-    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Kunne ikke oprette ordre, prøv igen.</string>
     <string name="create_playlist">Opret afspilningsliste</string>
     <string name="create_playlist_failure">Kunne ikke oprette afspilningsliste</string>
@@ -231,7 +229,6 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="download_method">Download</string>
     <string name="download_no_application_title">Kan ikke åbne fil</string>
     <string name="download_paused_in_power_save_mode">Download er sat på pause, når batterisparer er slået til</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">Downloader…</string>
     <string name="download_quality">Downloadkvalitet</string>
     <string name="download_quality_summary">Yderligere indstillinger for sange som du downloader</string>
@@ -565,7 +562,6 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="priority_storage">Brug eksternt SD-kort</string>
     <string name="priority_storage_summary">Automatisk download til eksternt SD-kort, hvis det er tilgængeligt</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi Phone</string>
     <string name="prompt_grant_write_settings_permission">Allow changing system settings</string>
     <string name="pulluprefreshrecyclerview_loading_error">Kunne ikke indlæse</string>
@@ -738,7 +734,6 @@ leveres hovedsageligt af Ultimate Inc."</string>
     <string name="upgrade_music">Opdater Music</string>
     <string name="upgrade_music_message">Opdateringer er parat. Genstart for at opdatere.</string>
     <string name="user_agreement">Brugeraftale</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Udgave</string>
     <string name="vip_after_tomorrow_auto_renew_message">Dit Music-abonnement fornys automatisk i overmorgen aften. Sørg for at have nok Mi Credits på din konto til at gennemføre denne betaling.</string>
     <string name="vip_after_tomorrow_renew_message">Du vil ikke være i stand til at streame audio i høj kvalitet, men nogle sange vil være tilgængelige i normal kvalitet.</string>
