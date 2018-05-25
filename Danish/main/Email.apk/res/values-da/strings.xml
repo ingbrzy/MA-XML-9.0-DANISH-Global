@@ -835,10 +835,8 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="recognize_hotel_other_money">Andre udgifter %1$s</string>
     <string name="recognize_hotel_reverse_date">Check ind før %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Værelse</string>
-    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Hotelreservation</string>
     <string name="recognize_hotel_user_names">Gæst</string>
-    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Rejseindstillinger</string>
     <string name="recognize_ticket_air_notification_content">Nyd flyveturen!</string>
     <string name="recognize_ticket_air_notification_title">Flyafgangen %3$s (%1$s/%2$s) flyver snart. Dobbelttjek din afgangsinfo.</string>

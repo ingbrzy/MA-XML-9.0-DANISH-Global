@@ -415,7 +415,6 @@ og optimerer dine billeder baseret på denne information"</string>
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
     <string name="pref_camera_zoom_mode_entry_standard">ALMINDELIG</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">LAV BELYSNING</string>
-    <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="pref_camera_portrait_mode_title">Portrættilstand</string>
     <string name="pref_camera_portrait_mode_entry_off">Portrættilstand er slukket.</string>
     <string name="pref_camera_portrait_mode_entry_on">Portrættilstand er tændt.</string>
