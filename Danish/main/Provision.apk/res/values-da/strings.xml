@@ -15,6 +15,8 @@ Se det valgte tastaturs Fortrolighedspolitik."</string>
     <string name="sim_card_detection_info">For at indsætte dit SIM-kort, læs de instruktioner, der fulgte med din enhed.</string>
     <string name="sim_card_detecting">Kontroller for SIM-kort…</string>
     <string name="sim_card_detecting_check">Kunne ikke finde SIM-kort. Sørg for, at SIM-kortet er korrekt installeret, og at du har tilstrækkelig penge på din konto.</string>
+    <string name="sim_card_detection_mobile_not_available">SIM-kortet kunne ikke få forbindelse til netværket</string>
+    <string name="sim_scard_detecting_check_mobile_not_available">Dit SIM-kort kunne ikke få forbindelse til et gyldigt mobiloperatørnetværk. Sørg for, at du har tilstrækkelige midler på din saldo og forsøg at oprette forbindelse igen.</string>
     <string name="sim_card_detecting_confirm_turn_on_network">Vil du tillade tilslutning til mobil datanetværk? Hvis du gør, bruges det SIM-kort, som du indsætter, til tilslutning til mobile datanetværk.</string>
     <string name="other_settings">Yderligere indstillinger</string>
     <string name="other_settings_location">Placering</string>
@@ -45,10 +47,10 @@ Se det valgte tastaturs Fortrolighedspolitik."</string>
     <string name="terms_of_use">Vilkår og betingelser</string>
     <string name="terms_of_use_label">"Dit privatliv er meget vigtigt for os. Læs vores Servicevilkår og Privatlivspolitik og se, hvilke oplysninger vi indsamler, hvordan vi bruger dem, samt hvilke valg du har.
 
-Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvende MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Find enhed, Startskærm, Spilcenter, MAB, MIUI Daemon og MSA-systemkomponenter, hurtige apper, App-boks, statistikker, smartkort, Mi Link og Mi Account-komponenter tilsluttes til nettet og beder om din placering."</string>
-    <string name="terms_of_use_label_gms">"Dit privatliv er meget vigtigt for os. Læs vores Servicevilkår og Privatlivspolitik og se, hvilke oplysninger vi indsamler, hvordan vi bruger dem samt hvilke valg, du har.
+Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvende MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Find enhed, Startskærm, Spilcenter, MAB, MIUI Daemon og MSA-systemkomponenter, oversættelsestjenester, hurtige apps, App-boks, statistikker, chipkort, Mi Link og Mi Account-komponenter opretter forbindelse til nettet og beder om din placering."</string>
+    <string name="terms_of_use_label_gms">"Dit privatliv er meget vigtigt for os. Læs vores Servicevilkår og Privatlivspolitik og se, hvilke oplysninger vi indsamler, hvordan vi bruger dem, samt hvilke valg du har.
 
-Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvende MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Find enhed, Startskærm, Spilcenter, MAB, MIUI Daemon og MSA-systemkomponenter, web-apper, App-boks, statistikker, smartkort, Mi Link og Mi Account-komponenter og Google Play-tjenester tilsluttes til nettet og beder om din placering."</string>
+Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvende MIUI. Mi-tjenester, Mi SIM-aktiveringstjenester, Mi Cloud, Find enhed, Startskærm, Spilcenter, MAB, MIUI Daemon og MSA-systemkomponenter, oversættelsestjenester, hurtige apps, App-boks, statistikker, smartkort, Mi Link, Mi Account-komponenter og Google Play-tjenester opretter forbindelse til nettet og beder om din placering."</string>
     <string name="user_agreement">Servicevilkår</string>
     <string name="privacy_policy">Fortrolighedspolitik</string>
     <string name="application_permissions">App-tilladelser</string>
@@ -69,6 +71,7 @@ Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvend
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Brug dit fingeraftryk til at låse din enhed op eller logge på apps og tjenester.</string>
     <string name="content_description_start">Start</string>
+    <string name="start_up_slogan">Designet til fuldskærmsoplevelse</string>
     <string name="content_description_miui_version">MIUI 9</string>
     <string name="content_description_complete">Færdig</string>
     <string name="language_picker_other_languages_title">Flere sprog</string>
@@ -80,7 +83,7 @@ Du skal acceptere vores Servicevilkår og Privatlivspolitik, inden du kan anvend
     <string name="enable_accessibility_dialog_positive_btn">OK</string>
     <string name="enable_accessibility_dialog_negative_btn">Annuller</string>
     <string name="cm_terms_title">Mobilnetværksoperatøraftale</string>
-    <string name="cm_terms_content">For at forbedre de tjenester, der leveres til dig, kan mobilnetværksudbyderen efter eget valg uploade dine personlige data og oplysningerne om denne enhed til sine servere ved hjælp af Wi-Fi-netværk eller mobildataforbindelse. Disse oplysninger vil kun blive brugt til statistiske formål for at forbedre tjenestens kvalitet og give mere personligt indhold. Disse oplysninger vil ikke blive brugt til at identificere dig personligt og vil ikke blive videregivet til tredjepart.</string>
+    <string name="cm_terms_content">For at forbedre de tjenester, der leveres til dig, kan mobilnetværksudbyderen efter eget valg uploade dine personlige data og oplysningerne om denne enhed til sine servere ved hjælp af Wi-Fi-netværker eller mobildataforbindelse. Disse oplysninger vil kun blive brugt til statistiske formål for at forbedre tjenestens kvalitet og give mere personligt indhold. Disse oplysninger vil ikke blive brugt til at identificere dig personligt og vil ikke blive videregivet til tredjepart.</string>
     <string name="enable_accessibility_canceled">Tilgængelighed annulleret.</string>
     <string name="accessibility_enabled">Tilgængelighed aktiveret.</string>
     <string name="continue_to_enable_accessibility">Hold to fingre nede for aktivere tilgængelighed.</string>

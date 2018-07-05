@@ -21,8 +21,7 @@
     <string name="find_device_stop_noise">Tryk på slukke lyden</string>
     <string name="find_device_noise_title">Find enhedsalarm</string>
     <string name="find_device_success_title">Find enhed</string>
-    <string name="find_device_notice_p1">Gå til</string>
-    <string name="find_device_notice_p3">til at finde, låse eller gendanne din enhed.</string>
+    <string name="find_device_notice">Gå til&lt;br />&lt;b>&lt;font color=#e84700>i.mi.com&lt;/font>&lt;/b>&lt;br />for at finde, låse eller gendamme din enhed.</string>
     <string name="find_device_notice_sms_alert">Hvis du skifter SIM-kort, sendes der muligvis automatisk en anden SMS for at genaktivere denne funktion.</string>
     <string name="i_know">Ok</string>
     <string name="unlock_error_network">Kan ikke oprette forbindelse til netværket</string>

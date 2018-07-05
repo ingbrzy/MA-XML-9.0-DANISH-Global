@@ -433,6 +433,7 @@
     <string name="theme_is_external_priority_storage">Gem på SD-kort</string>
     <string name="theme_is_external_priority_storage_summary">Tema-appen genstartes øjeblikkeligt for at anvende denne indstilling.</string>
     <string name="theme_multiple_button_title_customize">Brugertilpas</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Nej</string>
     <string name="theme_precast_create_notification_content">Tryk for at se nye temaer.</string>
     <string name="theme_precast_create_notification_title">Opdateret til MIUI 7</string>

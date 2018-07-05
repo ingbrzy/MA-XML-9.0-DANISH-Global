@@ -93,6 +93,7 @@ Indtast det telefonnummer, der er knyttet til dit nye SIM-kort, for at aktivere 
     <string name="activate_popup_confirm_error_device_id">Prøv igen</string>
     <string name="activate_feature_mx">Mi Message</string>
     <string name="activate_feature_mx_and_voip">Mi Message og Voice</string>
+    <string name="activate_feature_voip">Mi Message Voice</string>
     <string name="activate_feature_mms_sync">Synkroniser beskeder</string>
     <string name="activate_feature_call_log_sync">Synkroniser opkaldshistorik</string>
     <string name="activate_feature_find_device">Find enhed</string>
@@ -117,4 +118,10 @@ Indtast det telefonnummer, der er knyttet til dit nye SIM-kort, for at aktivere 
     <string name="agree">Tillad</string>
     <string name="privacy_revoke_tips">Efter du tilbagekalder tilladelsen, holder appen op med at indsamle dine data og slette alle dine data fra sine servere. Synkroniserer du med MiCloud, er Mi Message og andre Messaging-funktioner ikke længere tilgængelige. Tilbagekald autorisation alligevel?</string>
     <string name="privacy_revoke_failed_msg">Aktivering kræver tildeling af autorisation, så Messaging kan få fat i dit telefonnummer.</string>
+    <string name="waiting_sim_in_service">waiting sim in service</string>
+    <string name="checking_client">checking client env</string>
+    <string name="error_sim_not_in_service">sim not in service</string>
+    <string name="error_checking_client">client env error</string>
+    <string name="error_network_io">network error</string>
+    <string name="error_no_send_sms_permission">no send sms permission</string>
 </resources>

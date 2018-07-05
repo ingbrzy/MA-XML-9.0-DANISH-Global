@@ -57,4 +57,8 @@
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
     <string name="app_description_title">Om Compass</string>
     <string name="app_description_content">Compass bruges til navigation og orientering og viser dig retning. Vær sikker på, at du kan klare dig uden disse funktioner, inden du installerer appen.</string>
+    <string name="open_perm_msg">Compass needs access to location info and camera. This is necessary to determine coordinates and provide live previews. Allow?</string>
+    <string name="open_perm_title">Permissions required</string>
+    <string name="cancel">Cancel</string>
+    <string name="allow">Allow</string>
 </resources>

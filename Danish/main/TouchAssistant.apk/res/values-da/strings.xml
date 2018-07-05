@@ -15,6 +15,7 @@
     <string name="hide_touch_assistant_intro">Skjul Kvikbold i valgte apps</string>
     <string name="hide_when_fullscreen">Flyt til siden ved fuld skærm</string>
     <string name="hide_when_fullscreen_intro">Fly til siden når der gås i fuldskærmstilstand.</string>
+    <string name="mi_wallet_summary">Transport card/Mi Pay/Key card</string>
     <string name="motion_behavior">Foretrukken fagt</string>
     <string name="name_alipay_payment_code">Alipay betaling</string>
     <string name="name_alipay_scan">Alipay scanner</string>
@@ -22,6 +23,7 @@
     <string name="name_handy_mode">Enhåndstilstand</string>
     <string name="name_long_press_power_key">Tryk længe på afbryderknappen</string>
     <string name="name_memory_clean">Ryd cache</string>
+    <string name="name_mi_wallet">Mi Wallet</string>
     <string name="name_music_next_song">Næste sang</string>
     <string name="name_music_prev_song">Forrige sang</string>
     <string name="name_music_toggle">Sand afspil/sæt på pause</string>

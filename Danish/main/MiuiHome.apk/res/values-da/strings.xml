@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Tilføj til arbejdsområde</string>
     <string name="activity_not_found">Appen er ikke installeret på din enhed</string>
     <string name="add_screen">Tilføj skærm</string>
+    <string name="announce_for_checked">%1$s, markeret</string>
     <string name="announce_for_choose_default_screen">Sæt skærm %1$d som standard startskærmen</string>
     <string name="announce_for_close_default_preview">Lukket standardindstillinger for startskærm</string>
     <string name="announce_for_close_folder">Lukket mappe</string>
@@ -22,10 +24,13 @@
     <string name="announce_for_drop_workspace">Skærmnummer %1$d, linjenummer %2$d, kolonnenummer %3$d</string>
     <string name="announce_for_edit_mode">Gået i redigeringstilstand</string>
     <string name="announce_for_edit_mode_disable">Spændende redigeringstilstand</string>
+    <string name="announce_for_move">Flyt til række %1$d kolonne %2$d</string>
+    <string name="announce_for_move_hotseat">Flyt til dockposition %1$d</string>
     <string name="announce_for_open_default_preview">Åbnet standardindstillinger for startskærm</string>
     <string name="announce_for_open_folder">Åbnet mappe %1$s</string>
     <string name="announce_for_open_launcher_menu">Åbnet menu</string>
     <string name="announce_for_show_uninstall_dialog">Afinstallationsmenu kom frem. Annuller eller bekræft.</string>
+    <string name="announce_for_unchecked">%1$s, afmarkeret</string>
     <string name="app_already_exist">Appen eksisterer allerede</string>
     <string name="app_being_backup_message">Appen sikkerhedskopieres</string>
     <string name="app_being_restored_message">Appen gendannes</string>
@@ -58,6 +63,7 @@
     <string name="aqi_quality_index_light_pollution">Advarsel</string>
     <string name="aqi_quality_index_moderate">Moderat</string>
     <string name="aqi_quality_index_unhealthy">Usund</string>
+    <string name="backup_fail">Kunne ikke sikkerhedskopiere launcher</string>
     <string name="bad_wallpaper_source_prompt">Kan ikke indlæse baggrundsbillede</string>
     <string name="buffering">Buffer…</string>
     <string name="cancel_action">Annuller</string>
@@ -87,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Flere apps</string>
     <string name="default_folder_title_security">System</string>
+    <string name="default_folder_title_services">Servicer</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Værktøj</string>
     <string name="default_screen_preview_title">Tryk for at indstille standardskærm</string>
@@ -175,6 +182,7 @@
     <string name="guide_install_app_title">Find og installer app?</string>
     <string name="guide_tips_editing_mode">Tryk &amp; hold for at vælge en dims</string>
     <string name="home_screen">Startskærm</string>
+    <string name="icon_reorganize_channel">Arranger ikoner</string>
     <string name="image_too_small_message">Originalbilledet er ikke stort nok.</string>
     <string name="install">Installer</string>
     <string name="invalid_contact_shortcut">Ugyldig kontakt</string>
@@ -224,12 +232,14 @@
     <string name="normal_wallpaper">Baggrundsbillede</string>
     <string name="notification_installed">Installeret med succes</string>
     <string name="notification_open_button">Åbn</string>
+    <string name="notification_reset_title">Arrangeret ikoner</string>
     <string name="online_wallpaper">Online</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Annuller</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Slå fra</string>
     <string name="open_personal_assistant_dialog_desc">Du vil ikke være i stand til at bruge App Vault og modtage dens opdateringer. Slå fra nu?</string>
+    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
     <string name="open_personal_assistant_dialog_title">Slå App Vault fra</string>
-    <string name="open_personal_assistant_title">Slå App Vault til/fra</string>
+    <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">Ikke mere plads på denne startskærm</string>
     <string name="permdesc_install_shortcut">Gør det muligt for en app at tilføje genveje uden brugerintervention.</string>
     <string name="permdesc_install_widget">Gør det muligt for en app at tilføje widgets uden brugerintervention.</string>
@@ -260,6 +270,7 @@
     <string name="preferences_general_title">Yderligere indstillinger</string>
     <string name="preferences_title">Indstillinger for lanceringsprogram</string>
     <string name="preferred_app_settings_not_selected">Ikke valgt</string>
+    <string name="quick_app">Hurtig-apps</string>
     <string name="recents_config_title">Nylige</string>
     <string name="recommend_apk_size_and_desc">%1$d MB | %2$s</string>
     <string name="recommend_apps_default_title">Tom</string>
@@ -269,7 +280,12 @@
     <string name="recommend_apps_switch_title">Reklamerede apps</string>
     <string name="recommend_apps_tips">Denne funktion kræver tilslutning til nettet for at fungere normalt. For at slukke denne funktion, skal du trykke på denne mappes navn.</string>
     <string name="recommend_loading">Indlæser</string>
+    <string name="refresh">Opdatér</string>
+    <string name="reset_description_first_time">You can restore the layout from %1$s within 2 hours</string>
+    <string name="reset_description_others">You can restore the layout from %1$s</string>
+    <string name="reset_fail">"Couldn't restore"</string>
     <string name="reset_scene_prompt">Skærmen bliver nulstillet til standardlayout.</string>
+    <string name="reset_title">Restore</string>
     <string name="screen_cells_config_title">Startskærmlayout</string>
     <string name="screen_locked_toast">Startskærmens layout er låst.</string>
     <string name="screen_number">%d skærm</string>

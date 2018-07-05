@@ -3,6 +3,7 @@
     <string name="camera_setting">Kamera</string>
     <string name="path_settings">System-apps/Kamera/Indstillinger</string>
     <string name="search_settings">Kameraindstillinger;Kvalitet;Billedkvalitet;Billedplacering;Fotoplacering;Ansigtsgenkendelse;Kameralyd</string>
+    <string name="hibernate_hint">Tryk på skærmen for at vække kamera</string>
     <string name="camera_error_title">Kamerafejl</string>
     <string name="cannot_connect_camera_once">Kan ikke tilslutte til kamera.</string>
     <string name="cannot_connect_camera_twice">Kan stadig ikke tilslutte til kamera. Prøv at genstarte din enhed.</string>
@@ -31,10 +32,15 @@
     <string name="pref_front_mirror_title">Spejl frontkamera</string>
     <string name="pref_video_quality_title">Videokvalitet</string>
     <string name="pref_video_hfr_title">Video HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_video_quality_entry_480p">SD 480P</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
+    <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
+    <string name="pref_video_encoder_title">Videooptager</string>
+    <string name="pref_video_encoder_entry_h264">H.264 High-kompabilitet</string>
+    <string name="pref_video_encoder_entry_h265">H.265 High-ydeevne</string>
     <string name="pref_video_time_lapse_frame_interval_title">Interval for tidsforsinkelse</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">2X (interval på 0,06 sekunder)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4">4X (interval på 0,12 sekunder)</string>
@@ -92,11 +98,6 @@
     <string name="pref_camera_coloreffect_entry_negative" />
     <string name="pref_camera_coloreffect_entry_posterize" />
     <string name="pref_camera_coloreffect_entry_aqua" />
-    <string name="pref_camera_ai_scene_title">AI-kamera</string>
-    <string name="pref_camera_front_ai_scene_entry_on">AI-kamera</string>
-    <string name="pref_camera_front_ai_scene_entry_off">AI-kamera er slukket</string>
-    <string name="ai_scene_mode_use_hint_text">"AI-kamera detekterer automatisk scenarier
-og optimerer dine billeder baseret på denne information"</string>
     <string name="pref_camera_coloreffect_entry_none">Normal</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">Lomo</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">Farvepop</string>
@@ -217,6 +218,8 @@ og optimerer dine billeder baseret på denne information"</string>
     <string name="accessibility_filter_close_panel">Lukket filtermenu</string>
     <string name="accessibility_bokeh_normal">Baggrundssløring for frontkamera er slukket</string>
     <string name="accessibility_bokeh_on">Baggrundssløring for frontkamera er tændt</string>
+    <string name="accessibility_ai_scene_on">AI-kamera er tændt</string>
+    <string name="accessibility_ai_scene_off">AI camera is off</string>
     <string name="accessibility_more">Mere</string>
     <string name="accessibility_setting">Indstillinger</string>
     <string name="accessibility_protrait">Portræt</string>
@@ -408,6 +411,7 @@ og optimerer dine billeder baseret på denne information"</string>
     <string name="dual_camera_lens_covered_toast">Linsen er dækket.</string>
     <string name="dual_camera_use_hint">Vær sikker på, at objektet ikke er længere væk end 2 meter.</string>
     <string name="bokeh_use_hint">Dybdevirkning</string>
+    <string name="back_bokeh_use_hint">Vær sikker på, at objektet ikke er mere end 1,5 meter væk.</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">LINSE</string>
@@ -415,6 +419,7 @@ og optimerer dine billeder baseret på denne information"</string>
     <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
     <string name="pref_camera_zoom_mode_entry_standard">ALMINDELIG</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">LAV BELYSNING</string>
+    <string name="pref_camera_zoom_value_title">Zoom</string>
     <string name="pref_camera_portrait_mode_title">Portrættilstand</string>
     <string name="pref_camera_portrait_mode_entry_off">Portrættilstand er slukket.</string>
     <string name="pref_camera_portrait_mode_entry_on">Portrættilstand er tændt.</string>
@@ -424,6 +429,7 @@ og optimerer dine billeder baseret på denne information"</string>
     <string name="portrait_mode_depth_effect_success_hint">Dybdeeffekt</string>
     <string name="portrait_mode_use_hint">"Portræt slører baggrunden
 og fremhæver folk tæt på."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Kvadrat</string>
     <string name="simple_mode_button_text_square">Sluk Kvadrat</string>
     <string name="face_beauty_smart">Smart</string>
@@ -438,6 +444,7 @@ og fremhæver folk tæt på."</string>
     <string name="pref_camera_beautify_entry_low">Lav</string>
     <string name="pref_camera_beautify_entry_normal">Mellem</string>
     <string name="pref_camera_beautify_entry_high">Høj</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Tilstande</string>
     <string name="button_front_camera_title">Tag en selfie</string>
     <string name="button_normal_video_title">Optag video</string>
@@ -459,6 +466,7 @@ og så skabe et foto med minimal støj."</string>
     <string name="hint_fast_motion">Videoen, du optager, vil blive afspillet hurtigere.</string>
     <string name="hint_slow_motion">Videoen, du optager, vil blive afspillet langsommere.</string>
     <string name="hunt_dual_water_mark">Dobbelte kameravandmærker vil blive påført automatisk.</string>
+    <string name="hint_ae_af_lock">Automatisk fokus/automatisk eksponering er blevet låst</string>
     <string name="hint_device_water_mark">Fotovandmærker vil automatisk blive tilføjet.</string>
     <string name="module_name_fun">Kort video</string>
     <string name="module_name_video">Video</string>
@@ -480,11 +488,21 @@ og så skabe et foto med minimal støj."</string>
     <string name="config_name_super_resolution">Super opløsning</string>
     <string name="beauty_fragment_tab_name_beauty">Skønhed</string>
     <string name="beauty_fragment_tab_name_makeup">Avanceret</string>
+    <string name="beauty_fragment_tab_name_3d_beauty">Skønhed</string>
+    <string name="beauty_fragment_tab_name_3d_remodeling">Remodellering</string>
     <string name="edit_skin_white">Tone</string>
     <string name="edit_skin_smooth">Glat</string>
     <string name="edit_eye_large">Store øjne</string>
     <string name="edit_face_slender">Slank</string>
     <string name="edit_face_ruddy">Rødmosset</string>
+    <string name="edit_nose">Næse</string>
+    <string name="edit_risorius">Lattermuskel</string>
+    <string name="edit_lips">Læber</string>
+    <string name="edit_chin">Kind</string>
+    <string name="edit_neck">Hals</string>
+    <string name="edit_smile">Smli</string>
+    <string name="edit_slim_nose">Næse</string>
+    <string name="popup_tip_3d_beauty_intro_text">3D-skønhed</string>
     <string name="sticker_tab1">Nuttet</string>
     <string name="sticker_tab2">Sjov</string>
     <string name="user_agreement2">Servicevilkår</string>
@@ -505,8 +523,20 @@ og så skabe et foto med minimal støj."</string>
     <string name="front_camera_hint_text_rotate">Rotér dit foto</string>
     <string name="front_camera_hint_text_place">"Det er nemmere at tage selfies,
 hvis du roterer din telefon"</string>
+    <string name="pref_camera_ai_scene_title">AI-kamera</string>
+    <string name="pref_camera_front_ai_scene_entry_on">AI-kamera</string>
+    <string name="pref_camera_front_ai_scene_entry_off">AI-kamera er slukket</string>
     <string name="text_ai_scene_selector_text_on">SILHUET</string>
     <string name="text_ai_scene_selector_text_off">MODLYS</string>
+    <string name="ai_scene_mode_use_hint_text">"AI-kamera detekterer automatisk scenarier
+og optimerer dine billeder baseret på denne information"</string>
     <string name="pref_camera_asd_popup_title">Giv besked, når blitz er nødvendig</string>
     <string name="pref_video_captrue_ability_title">Tag billede under optagelse</string>
+    <string name="face_analyze_info">Alder: %2$s (%1$s)</string>
+    <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">Fuld skærm 16:9</string>
+    <string name="lens_dirty_detected_title_back">Linsen på bagkameraet er snavset</string>
+    <string name="lens_dirty_detected_title_front">Linsen på forkameraet er snavset</string>
+    <string name="lens_dirty_detected_content">"Det ser ud til, at dit kameras linse er snavsede.
+Rens linsen for at få bedre effekt."</string>
 </resources>

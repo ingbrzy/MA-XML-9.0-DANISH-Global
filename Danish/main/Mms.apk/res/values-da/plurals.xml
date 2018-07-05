@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="batch_delete_confirm_dialog_message">
-        <item quantity="other">Delete %1$s messages?</item>
-        <item quantity="one">Slet %1$s beskeder?</item>
+        <item quantity="other">Slet %1$s besked?</item>
+        <item quantity="one">Slet %1$s besked?</item>
     </plurals>
     <plurals name="cloud_sms_count">
         <item quantity="other">%d messages</item>
@@ -13,8 +13,8 @@
         <item quantity="one">%d beskeder er ikke blevet synkroniseret</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Slet %1$s valgte samtaler?</item>
-        <item quantity="one">Slet %1$s valgte samtale?</item>
+        <item quantity="other">Slet %1$d valgte samtaler?</item>
+        <item quantity="one">Slet %1$d valgt samtale?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">%d valgt</item>
@@ -41,8 +41,8 @@
         <item quantity="one">%1$s resultat for %2$s\"</item>
     </plurals>
     <plurals name="send_to_count">
-        <item quantity="other">Sent %1$s messages</item>
-        <item quantity="one">Sendt %1$s beskeder</item>
+        <item quantity="other">Har sendt %1$s besked</item>
+        <item quantity="one">Har sendt %1$s beskeder</item>
     </plurals>
     <plurals name="slide_audio_duration">
         <item quantity="other">%d sek.</item>
@@ -53,12 +53,12 @@
         <item quantity="one">%d sek.</item>
     </plurals>
     <plurals name="timed_message_expired_title">
-        <item quantity="other">"%d timed messages haven't been sent"</item>
-        <item quantity="one">%d beskeder på tid er ikke blevet sendt</item>
+        <item quantity="other">%d besked på tid er ikke blevet sendt</item>
+        <item quantity="one">%d besked på tid er ikke blevet sendt</item>
     </plurals>
     <plurals name="timed_message_in_total">
-        <item quantity="other">(%d messages)</item>
-        <item quantity="one">(%d beskeder)</item>
+        <item quantity="other">(%d besked)</item>
+        <item quantity="one">(%d besked)</item>
     </plurals>
     <plurals name="to_count">
         <item quantity="other">%d modtager</item>

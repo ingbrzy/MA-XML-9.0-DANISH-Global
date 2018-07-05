@@ -5,16 +5,16 @@
     <string name="private_num">Privat nummer</string>
     <string name="payphone">Betalingstelefon</string>
     <string name="voicemail">Telefonsvarer</string>
-    <string name="callFailed_userBusy">Linje optaget</string>
-    <string name="callFailed_congestion">Netværk optaget</string>
+    <string name="callFailed_userBusy">Linjen er optaget</string>
+    <string name="callFailed_congestion">Netværket er optaget</string>
     <string name="callFailed_timedOut">Intet svar fra server</string>
     <string name="callFailed_server_unreachable">Kan ikke forbinde til server</string>
-    <string name="callFailed_number_unreachable">Kan ikke få forbindelse til nummer</string>
+    <string name="callFailed_number_unreachable">Nummeret kan ikke kontaktes</string>
     <string name="callFailed_invalid_credentials">Forkert brugernavn eller adgangskode</string>
     <string name="callFailed_out_of_network">Opkald udenfor netværk</string>
     <string name="callFailed_server_error">Serverfejl. Prøv igen senere.</string>
     <string name="callFailed_noSignal">Intet signal</string>
-    <string name="callFailed_limitExceeded">ACM-grænse overskredet</string>
+    <string name="callFailed_limitExceeded">Overskred ACM-grænse</string>
     <string name="callFailed_powerOff">Antenne slukket</string>
     <string name="callFailed_simError">Fejl SIM-kort</string>
     <string name="callFailed_outOfService">Uden for serviceområde</string>
@@ -29,8 +29,8 @@
     <string name="callFailed_dsac_restricted_normal">Almindelige opkald begrænses af adgangskontrol.</string>
     <string name="callFailed_unobtainable_number">Ugyldigt nummer</string>
     <string name="incall_error_supp_service_unknown">Denne service understøttes ikke.</string>
-    <string name="incall_error_supp_service_switch">Kunne ikke skifte opkald.</string>
-    <string name="incall_error_supp_service_separate">Kunne ikke adskille opkald.</string>
+    <string name="incall_error_supp_service_switch">Kan ikke skifte opkald.</string>
+    <string name="incall_error_supp_service_separate">Kan ikke adskille opkald</string>
     <string name="incall_error_supp_service_transfer">Kan ikke overføre opkald.</string>
     <string name="incall_error_supp_service_conference">Kan ikke anvende konferenceopkald.</string>
     <string name="incall_error_supp_service_reject">Kan ikke afvise opkald.</string>
@@ -79,7 +79,6 @@
     <string name="respond_via_sms_custom_message">Brugerdefineret SMS</string>
     <string name="manageConferenceLabel">Administrer konferenceopkald</string>
     <string name="emergency_call_dialog_number_for_display">Nødnummer</string>
-    <string name="call_extension_conference_mode">Konferencetilstand</string>
     <string name="notification_dialing">Ringer op</string>
     <string name="notification_ongoing_call">Opkald i gang</string>
     <string name="notification_on_hold">På pause</string>
@@ -143,11 +142,12 @@
     <string name="call_recording_notification_message_sd_unmounted">SD-kort er blevet fjernet.</string>
     <string name="call_recording_deny_permission_msg">Du nægtede tilladelse til optagelse, kan ikke optage.</string>
     <string name="call_contacts_deny_permission_msg">Du nægtede adgang til at læse kontakter, kan ikke vise kontaktoplysninger.</string>
+    <string name="conference_call_recorder_title">Konferenceopkald</string>
     <string name="antispam_marked_count">Rapporteret af %1$d MIUI-brugere</string>
-    <string name="antispam_local_marked">Lokalt marked</string>
+    <string name="antispam_local_marked">Markeret lokalt</string>
     <string name="antispam_provider">Identificeret af %s</string>
     <string name="antispam_notification_title">Ukendt nummer</string>
-    <string name="suspect_info">Vær forsigtig med dine personlige oplysninger.</string>
+    <string name="suspect_info">Pas på dine personlige oplysninger.</string>
     <string name="card_title_video_call_paused">Video på pause</string>
     <string name="card_title_incoming_conference_call">Indkommende konferenceopkald</string>
     <string name="onscreen_change_to_voice">Stemmeopkald</string>
@@ -178,7 +178,7 @@
     <string name="call_button_tools_text">Funktioner</string>
     <string name="call_button_dialer_text">Tastatur</string>
     <string name="call_button_mute_text">Gør tavs</string>
-    <string name="call_button_conference_manager_text">Konferenceadministrator</string>
+    <string name="call_button_conference_manager_text">Styr</string>
     <string name="select_audio_dialog_title">Vælg svartilstand</string>
     <string name="incoming_circle_text_reject_p">Stryg op</string>
     <string name="incoming_circle_text_reject">Giv slip</string>
@@ -196,5 +196,5 @@
     <string name="dialpad_seven">7</string>
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
-    <string name="prompt_no_volte_when_failed">VoLTE-tjenester er ikke tilgængelige.</string>
+    <string name="prompt_no_volte_when_failed">Kan ikke foretage opkald. Sørg for, at din enhed har forbindelse til et 4G-netværk med VoLTE-understøttelse.​</string>
 </resources>

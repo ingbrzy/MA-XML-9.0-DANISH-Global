@@ -92,4 +92,34 @@
         <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> apps har ikke været brugt i længere tid. Tag et kig på dem.&lt;/Data></item>
         <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> app har ikke været brugt i længere tid. Tag et kig på dem.&lt;/Data></item>
     </plurals>
+    <plurals name="clean_long_msg_p1">
+        <item quantity="other">"Renser %1$d filer (%2$d%%)
+"</item>
+        <item quantity="one">"Renser %1$d fil (%2$d%%)
+"</item>
+    </plurals>
+    <plurals name="clean_long_msg_p2">
+        <item quantity="other">%1$d emner pr. sekund| Tilbageværende tid: %2$s</item>
+        <item quantity="one">%1$d emne pr. sekund| Tilbageværende tid: %2$s</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d timer</item>
+        <item quantity="one">%1$d time</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d minutter</item>
+        <item quantity="one">%1$d minut</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d sekunder</item>
+        <item quantity="one">%1$d sekund</item>
+    </plurals>
+    <plurals name="wechat_video_time_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="wechat_video_time_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
 </resources>

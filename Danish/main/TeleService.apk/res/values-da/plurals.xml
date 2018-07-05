@@ -21,7 +21,7 @@
         <item quantity="one">Du kan tilføje op til %s person. Vælg igen.</item>
     </plurals>
     <plurals name="auto_answer_summary_delay">
-        <item quantity="other">delay: %s seconds</item>
+        <item quantity="other">forsinkelse: %s sekunder</item>
         <item quantity="one">forsinkelse: %s sekunder</item>
     </plurals>
     <plurals name="pin_attempts">
@@ -29,9 +29,5 @@
 %d forsøg tilbage."</item>
         <item quantity="one">"
 %d forsøg tilbage."</item>
-    </plurals>
-    <plurals name="phone_in_ecm_notification_time">
-        <item quantity="other">Ingen dataforbindelse i %s minutter</item>
-        <item quantity="one">Ingen dataforbindelse i %s minutt</item>
     </plurals>
 </resources>

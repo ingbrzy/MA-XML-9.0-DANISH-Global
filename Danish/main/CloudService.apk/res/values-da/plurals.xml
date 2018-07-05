@@ -49,7 +49,7 @@
         <item quantity="one">%d optegnelser på blokeringsliste</item>
     </plurals>
     <plurals name="dirty_personalAssistant_count">
-        <item quantity="other">%d App vault entries</item>
+        <item quantity="other">%d app-vault-poster</item>
         <item quantity="one">Indgang til %d app-boks</item>
     </plurals>
     <plurals name="dirty_secretphoto_count">

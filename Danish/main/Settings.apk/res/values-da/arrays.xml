@@ -22,7 +22,7 @@
         <item>Skræddersyet</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animation fra</item>
+        <item>Animation slukket</item>
         <item>Animationsskala 0,5x</item>
         <item>Animationsskala 1x</item>
         <item>Animationsskala 1,5x</item>
@@ -228,72 +228,72 @@
         <item>IS95A</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Brug systemvalg (standard)</item>
-        <item>16 bit pr. eksempel</item>
-        <item>24 bit pr. eksempel</item>
-        <item>32 bit pr. eksempel</item>
+        <item>Brug systempræference (standard)</item>
+        <item>16 bits/prøve</item>
+        <item>24 bits/prøve</item>
+        <item>32 bits/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Brug systemvalg (standard)</item>
-        <item>16 bit pr. eksempel</item>
-        <item>24 bit pr. eksempel</item>
-        <item>32 bit pr. eksempel</item>
+        <item>Brug systempræference (standard)</item>
+        <item>16 bits/prøve</item>
+        <item>24 bits/prøve</item>
+        <item>32 bits/prøve</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
         <item>Optimeret til lydkvalitet</item>
-        <item>Afbalancer lyd- og forbindelseskvalitet</item>
+        <item>Velafbalanceret lyd- og forbindelseskvalitet</item>
         <item>Optimeret til forbindelseskvalitet</item>
-        <item>Bedste resultat (tilpasset bithastighed)</item>
+        <item>Bedste effekt (adaptiv bithastighed)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimeret til lydkvalitet (990 kbps/909 kbps)</item>
-        <item>Afbalancer lyd- og forbindelseskvalitet (660 kbps/606 kbps)</item>
-        <item>Optimeret til forbindelseskvalitet (330 kbps/303 kbps)</item>
-        <item>Bedste resultat (tilpasset bithastighed)</item>
+        <item>Optimeret til lydkvalitet (990kbps/909kbps)</item>
+        <item>Optimeret til lyd- og forbindelseskvalitet (660kbps/606kbps)</item>
+        <item>Optimeret til forbindelseskvalitet (330kbps/303kbps)</item>
+        <item>Bedste effekt (adaptiv bithastighed)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>44,1 kHz</item>
         <item>48,0 kHz</item>
         <item>88,2 kHz</item>
         <item>96,0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>Aktivér Optional Codecs</item>
-        <item>Deaktiver Optional Codecs</item>
+        <item>Aktiver valgfri kodeks</item>
+        <item>Deaktiver valgfri kodeks</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Brug systemvalg (standard)</item>
+        <item>Brug systempræference (standard)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>Aktivér Optional Codecs</item>
-        <item>Deaktiver Optional Codecs</item>
+        <item>Aktiver valgfri kodeks</item>
+        <item>Deaktiver valgfri kodeks</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
         <item>AVRCP 1.4 (standard)</item>
@@ -662,13 +662,13 @@
         <item>Quito</item>
     </string-array>
     <string-array name="color_mode_descriptions">
-        <item>Forbedrede farver</item>
-        <item>Naturlige farver, som øjet opfatter dem</item>
-        <item>Farver, der er optimeret til digitalt indhold</item>
+        <item>Udvidede farver</item>
+        <item>Naturlige farver som set med øjet</item>
+        <item>Farver optimeret til digitalt indhold</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Klare (standard)</item>
-        <item>Naturlige</item>
+        <item>Vibrerende (standard)</item>
+        <item>Naturlig</item>
         <item>Standard</item>
     </string-array>
     <string-array name="color_picker">
@@ -696,9 +696,9 @@
         <item>Angiv cyklus for brug...</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Fra</item>
-        <item>Vis områder med overlap</item>
-        <item>Vis områder for deuteranomali</item>
+        <item>Slukket</item>
+        <item>Vis overtegningsområder</item>
+        <item>Vis områder for deuter-uregelmæssigheder</item>
     </string-array>
     <string-array name="debug_hw_renderer_entries">
         <item>OpenGL (standard)</item>
@@ -718,7 +718,7 @@
         <item>Ingen</item>
         <item>Logcat</item>
         <item>Systrace (grafik)</item>
-        <item>Kaldestak på glGetError</item>
+        <item>Sæt stak tændt for glGetError</item>
     </string-array>
     <string-array name="entries_font_size">
         <item>Lille</item>
@@ -751,7 +751,7 @@
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Brug aldrig HDCP-kontrol</item>
-        <item>Brug kun HDCP-kontrol ved DRM-indhold</item>
+        <item>Brug kun HDCP-kontrol til DRM-indhold</item>
         <item>Brug altid HDCP-kontrol</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
@@ -1050,42 +1050,42 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Tillad altid</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>Fra</item>
-        <item>64 kB</item>
-        <item>256 kB</item>
-        <item>1 MB</item>
+        <item>Slukket</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>Fra</item>
-        <item>64 kB pr. logbuffer</item>
-        <item>256 kB pr. logbuffer</item>
-        <item>1 MB pr. logbuffer</item>
-        <item>4 MB pr. logbuffer</item>
-        <item>16 MB pr. logbuffer</item>
+        <item>Slukket</item>
+        <item>64K pr. logbuffer</item>
+        <item>256K pr. logbuffer</item>
+        <item>1M pr. logbuffer</item>
+        <item>4M pr. logbuffer</item>
+        <item>16M pr. logbuffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>Fra</item>
-        <item>64 kB</item>
-        <item>256 kB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>Slukket</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
-        <item>Fra</item>
+        <item>Slukket</item>
         <item>Alle logbuffere</item>
-        <item>Alle undtagen radiologbuffere</item>
-        <item>kun logbuffer for kerne</item>
+        <item>Alt undtagen radio-logbuffere</item>
+        <item>Kun headset-logbuffer</item>
     </string-array>
     <string-array name="select_logpersist_titles">
-        <item>Fra</item>
-        <item>Alle</item>
-        <item>Radio undtaget</item>
-        <item>kun kerne</item>
+        <item>Slukket</item>
+        <item>Alt</item>
+        <item>Alt undtagen radio</item>
+        <item>Kun headset</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Fra</item>
-        <item>Tegn ikke-rektangulært klippeområde med blåt</item>
+        <item>Slukket</item>
+        <item>Tegn ikke-rektangulært klipområde i blåt</item>
         <item>Fremhæv testede tegnekommandoer med grønt</item>
     </string-array>
     <string-array name="silent_mode_duration_text">
@@ -1095,23 +1095,9 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2 timer</item>
         <item>8 timer</item>
     </string-array>
-    <string-array name="standard_configuration_version">
-        <item>3,00 GB</item>
-        <item>32 GB</item>
-        <item>Quad-core Max 2,15 GHz</item>
-    </string-array>
     <string-array name="startup_hips_action">
         <item>Tillad</item>
         <item>Nægt</item>
-    </string-array>
-    <string-array name="status_bar_show_carrier_entries">
-        <item>Vis kun i låseskærm</item>
-        <item>Vis kun i statusbjælke</item>
-        <item>Vis aldrig navn på teleudbyder</item>
-    </string-array>
-    <string-array name="status_bar_style_entries">
-        <item>Kombineret</item>
-        <item>Adskil</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>Amerika</item>
@@ -1123,9 +1109,9 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Alle</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Fra</item>
-        <item>På skærmen som søjler</item>
-        <item>I adb shell dumpsys gfxinfo</item>
+        <item>Slukket</item>
+        <item>På skærm som bjælker</item>
+        <item>In adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="traffic_balance_entries">
         <item>Slukket</item>
@@ -1133,7 +1119,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Ekstrem</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animation fra</item>
+        <item>Animation slukket</item>
         <item>Animationsskala 0,5x</item>
         <item>Animationsskala 1x</item>
         <item>Animationsskala 1,5x</item>
@@ -1147,9 +1133,9 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Normal</item>
         <item>Hurtig</item>
         <item>Hurtigere</item>
-        <item>Meget hurtig</item>
-        <item>Lynhurtig</item>
-        <item>Ekstra lynhurtig</item>
+        <item>Meget hurtigt</item>
+        <item>Hastigt</item>
+        <item>Meget hastigt</item>
         <item>Hurtigst</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
@@ -1161,8 +1147,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Oplader</item>
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
-        <item>RNDIS (USB Ethernet)</item>
-        <item>Lydkilde</item>
+        <item>RNDIS (USB-ethernet)</item>
+        <item>Audiokilde</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
@@ -1293,47 +1279,39 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scanner ...</item>
-        <item>Opretter forbindelse...</item>
-        <item>Godkender...</item>
-        <item>Henter IP-adresse…</item>
+        <item>Scanner…</item>
+        <item>Tilslutter…</item>
+        <item>Autentificerer…</item>
+        <item>Får IP-adresse…</item>
         <item>Tilsluttet</item>
-        <item>Sat på pause</item>
-        <item>Afbryder ...</item>
-        <item>Afbrudt</item>
-        <item>Mislykkedes</item>
+        <item>Suspenderet</item>
+        <item>Afbryder…</item>
+        <item>Forbindelse afbrudt</item>
+        <item>Lykkedes ikke</item>
         <item>Blokeret</item>
         <item>Undgår midlertidigt dårlig forbindelse</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scanner ...</item>
-        <item>Opretter forbindelse til %1$s ...</item>
-        <item>Godkender med %1$s ...</item>
-        <item>Henter IP-adresse fra %1$s ...</item>
-        <item>Forbundet til %1$s</item>
-        <item>Sat på pause</item>
-        <item>Afbryder fra %1$s ...</item>
-        <item>Afbrudt</item>
-        <item>Mislykkedes</item>
+        <item>Scanner…</item>
+        <item>Tillutter til %1$s…</item>
+        <item>Autentificerer med %1$s…</item>
+        <item>Får IP-adresse fra %1$s…</item>
+        <item>Tilsluttet til %1$s</item>
+        <item>Suspenderet</item>
+        <item>Afbryder fra %1$s…</item>
+        <item>Forbindelse afbrudt</item>
+        <item>Lykkedes ikke</item>
         <item>Blokeret</item>
         <item>Undgår midlertidigt dårlig forbindelse</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animation fra</item>
+        <item>Animation slukket</item>
         <item>Animationsskala 0,5x</item>
         <item>Animationsskala 1x</item>
         <item>Animationsskala 1,5x</item>
         <item>Animationsskala 2x</item>
         <item>Animationsskala 5x</item>
         <item>Animationsskala 10x</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_primary">
-        <item>CPU</item>
-        <item>Batterikapacitet</item>
-        <item>Bagkamera</item>
-        <item>Skærmstørrelse</item>
-        <item>Opløsning</item>
-        <item>Android-version</item>
     </string-array>
 </resources>

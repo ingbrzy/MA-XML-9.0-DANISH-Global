@@ -25,10 +25,8 @@
     <string name="HIPS_Perm_VideoRecorder_Desc">kameraadgang for billedtagning eller videooptagelse</string>
     <string name="HIPS_Perm_AudioRecorder">Optag audio</string>
     <string name="HIPS_Perm_AudioRecorder_Desc">optag audio og telefonopkald</string>
-    <string name="HIPS_Perm_Mobile_Connectivity">Ændr forbindelsesmuligheder for mobildata</string>
-    <string name="HIPS_Perm_Mobile_Connectivity_Desc">slå mobildata til eller fra</string>
-    <string name="HIPS_Perm_WIFI_Connectivity">Ændr forbindelsesmuligheder for WiFi</string>
-    <string name="HIPS_Perm_WIFI_Connectivity_Desc">slå WiFi til eller fra</string>
+    <string name="HIPS_Perm_WIFI_Connectivity">Ændr forbindelsesmuligheder for Wi-Fi</string>
+    <string name="HIPS_Perm_WIFI_Connectivity_Desc">slå Wi-Fi til eller fra</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity">Ændr forbindelsesmuligheder for Bluetoot</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">slå Bluetooth til eller fra</string>
     <string name="HIPS_Perm_AutoStart">Kør ved opstart</string>

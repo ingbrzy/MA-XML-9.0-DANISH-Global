@@ -128,25 +128,17 @@
         <item quantity="other">PIN-kode skal være på %d cifre</item>
         <item quantity="one">Pin skal være %d cifre</item>
     </plurals>
-    <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN-kode skal være på %d cifre</item>
-        <item quantity="one">PIN-koden kan indeholde op til %d tal</item>
-    </plurals>
-    <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN-kode skal være på %d cifre</item>
-        <item quantity="one">Pin skal være %d tal i længde</item>
-    </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Connect at least %d dots. Try again.</item>
-        <item quantity="one">Forbind mindst %d prikker. Prøv igen.</item>
+        <item quantity="other">Forbind mindst %d prikker. Prøv igen.</item>
+        <item quantity="one">Forbind mindst %d prikk. Prøv igen.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
         <item quantity="other">For mange mislykkede forsøg. Prøv igen om %d sekunder.</item>
-        <item quantity="one">For mange mislykkede forsøg. Prøv igen om %d sekunder.</item>
+        <item quantity="one">For mange mislykkede forsøg. Prøv igen om %d sekund.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Wait for %d seconds and try again.</item>
-        <item quantity="one">Vent i %d og prøv igen.</item>
+        <item quantity="other">Vent i %d og prøv igen.</item>
+        <item quantity="one">Vent i %d sekunder og prøv igen.</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">%d apps kan læse underretninger</item>
@@ -213,7 +205,7 @@
         <item quantity="one">Vis %d skjult element</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles will appear in the Notification shade</item>
+        <item quantity="other">%1$d skift vises i notifikationsskyggen</item>
         <item quantity="one">%1$d-kontakter vises i notifikations-skyggen</item>
     </plurals>
     <plurals name="show_cit_countdown">
@@ -261,11 +253,11 @@ Kontakt din administrator for at få flere oplysninger om dette certifikat."</it
         <item quantity="one">Tjek certifikat</item>
     </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">%d apps kan ikke vise notifikationer</item>
+        <item quantity="other">%d app kan ikke vise notifikationer</item>
         <item quantity="one">%d app kan ikke vise notifikationer</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%d apps kan vise notifikationer</item>
+        <item quantity="other">%d app kan vise notifikationer</item>
         <item quantity="one">%d app kan vise notifikationer</item>
     </plurals>
     <plurals name="uri_permissions_text">

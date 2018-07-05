@@ -48,7 +48,6 @@
     <string name="account_settings_notify_summary">Vis notifikation, når ny e-mail ankommer</string>
     <string name="account_settings_param">Kontoindstillinger</string>
     <string name="account_settings_policies">Sikkerhedspolitikker</string>
-    <string name="account_settings_preference_add_account">Tilføj e-mailkonto</string>
     <string name="account_settings_preference_att_save_path">Standardplacering for vedhæftelser</string>
     <string name="account_settings_preference_head_icon">Profilfotos</string>
     <string name="account_settings_preference_notify">Underret</string>
@@ -226,6 +225,7 @@
     <string name="battery_saver">Batteribesparer</string>
     <string name="battery_saver_keywords">batteribesparer;mail batteri</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Fakturaindstillinger</string>
     <string name="bill_center_setting_head">Importér info fra disse konti</string>
     <string name="bill_cycle_text">Fakturacyklus</string>
@@ -246,6 +246,7 @@
     <string name="cancel_pop3_attchemt_downloading">Kan ikke annullere igangværende downloads for vedhæftelser i POP3-konti</string>
     <string name="cant_move_or_change_labels">Kan ikke flytte genstande fra flere konti</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="change_folders_selection_dialog_title">Skift mapper</string>
@@ -263,6 +264,7 @@
     <string name="click_download_all_content">[ Tryk for at downloade indhold ]</string>
     <string name="click_to_reload">Tryk på skærmen for at genopfriske</string>
     <string name="collapse_recipient_details">Skjul modtageroplysninger</string>
+    <string name="colon">:</string>
     <string name="compose">Opret</string>
     <string name="compose_attachment_number_limit">Kan ikke tilføje over 10 vedhæftelser</string>
     <string name="compose_paste_address_oob">For mange tegn</string>
@@ -339,8 +341,8 @@
     <string name="date_heading">"Dato: "</string>
     <string name="date_message_received">%1$s %2$s</string>
     <string name="date_message_received_today">I dag, %1$s</string>
-    <string name="debug_mode_preferencecategory">Set up log output</string>
-    <string name="debug_mode_settings">Debug mode settings</string>
+    <string name="debug_mode_preferencecategory">Konfigurer log output</string>
+    <string name="debug_mode_settings">Indstillinger for fejlfindingstilstand</string>
     <string name="default_">STANDARD</string>
     <string name="default_setup">STANDARDINDSTILLINGER</string>
     <string name="default_signature">Sent fra min Mi-telefon</string>
@@ -439,7 +441,7 @@
     <string name="file_rar_not_support">Kan ikke åbne krypterede rar-filer</string>
     <string name="file_save_path_dialog_cancel">Modtaget</string>
     <string name="file_save_path_dialog_ok">Skift nu</string>
-    <string name="file_save_term">File saving terms</string>
+    <string name="file_save_term">Filbesparende vilkår</string>
     <string name="filtered_tag">" [%1$s]%2$s"</string>
     <string name="first_quick_default_reply">Tryk på knappen for at sende \"%s\" til alle personer i samtalen</string>
     <string name="folder_list_display_all">Vis alle mapper</string>
@@ -477,6 +479,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Log ind på Gmail</string>
     <string name="header_category_account">Konti</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Respons</string>
     <string name="header_label_general_preferences">Generelt</string>
     <string name="help_and_info">Hjælp</string>
@@ -498,13 +501,14 @@
     <string name="invalid_recipient">Adressen %s er ugyldig.</string>
     <string name="invalid_recipient_title">Modtagerfejl</string>
     <string name="kilobytes">%s KB</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Søg i mailindbakke på server</string>
     <string name="load_more">Indlæs mere</string>
     <string name="loading_conversation">Indlæser…</string>
     <string name="loading_conversations">Indlæser…</string>
     <string name="loading_from_remote">Indlæser…</string>
     <string name="local_search">Lokal søgning</string>
-    <string name="log_save_path">Log path</string>
+    <string name="log_save_path">Log-sti</string>
     <string name="login">Log ind</string>
     <string name="login139">Log ind med China Mobile</string>
     <string name="login_failed_ticker">%s login mislykkedes.</string>
@@ -518,7 +522,6 @@
     <string name="mail_header_network_not_available">Du har ikke netværksforbindelse.</string>
     <string name="mailbox_list_account_selector_combined_view">Kombineret konto</string>
     <string name="mailbox_name_display_ad">Reklamer</string>
-    <string name="mailbox_name_display_add_account">Tilføj e-mailkonto</string>
     <string name="mailbox_name_display_circular">Notifikationer</string>
     <string name="mailbox_name_display_drafts">Udkast</string>
     <string name="mailbox_name_display_inbox">Indbakke</string>
@@ -692,10 +695,10 @@ Prøv en anden indbakke."</string>
     <string name="outbox_alert_select_operation">Vælg en handling</string>
     <string name="outbox_alert_title_sent_failed">Kunne ikke sende mail</string>
     <string name="outbox_no_mails">Tom</string>
-    <string name="output_all_log">Output all logs</string>
-    <string name="output_db_summary">About to output your database</string>
-    <string name="output_db_title">Output database</string>
-    <string name="output_to_disk">Save logs in a file</string>
+    <string name="output_all_log">Output fra alle logs</string>
+    <string name="output_db_summary">Er klar til at overføre din database</string>
+    <string name="output_db_title">Output-database</string>
+    <string name="output_to_disk">Gem logs i en fil</string>
     <string name="over_due">Hinsides frist</string>
     <string name="parase_setup_data">Henter data…</string>
     <string name="parse_bill_discribe">Behandler kreditkortregninger…</string>
@@ -835,8 +838,10 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="recognize_hotel_other_money">Andre udgifter %1$s</string>
     <string name="recognize_hotel_reverse_date">Check ind før %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">Værelse</string>
+    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
     <string name="recognize_hotel_title">Hotelreservation</string>
     <string name="recognize_hotel_user_names">Gæst</string>
+    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
     <string name="recognize_setting_title">Rejseindstillinger</string>
     <string name="recognize_ticket_air_notification_content">Nyd flyveturen!</string>
     <string name="recognize_ticket_air_notification_title">Flyafgangen %3$s (%1$s/%2$s) flyver snart. Dobbelttjek din afgangsinfo.</string>
@@ -867,7 +872,7 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="reply_attribution" formatted="false">Den %s skrev %s:</string>
     <string name="report_phishing">Rapportér phishing</string>
     <string name="report_spam">Rapportér spam</string>
-    <string name="request_copy_db_to_disk">Mail is requesting to copy your database into a file</string>
+    <string name="request_copy_db_to_disk">Mail anmoder om at kopiere din database til en fil</string>
     <string name="request_entity_large">Filen er for stor</string>
     <string name="respond_inline">"   Svar in-line"</string>
     <string name="retry_login">Log ind igen</string>
@@ -941,6 +946,7 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="silent_ringtone">Tavs</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Adgangskode for udgående mail-server er forkert</string>
     <string name="sort_attachment">Sorter efter</string>
     <string name="storage">Hukommelse</string>
@@ -1013,7 +1019,6 @@ Fjern konto?"</string>
     <string name="unread_string">samtale ulæst</string>
     <string name="unzip_file_failed">Kunne ikke pakke fil ud</string>
     <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
-    <string name="update_to_wps_mail">Nyd flere funktioner med WPS Mail</string>
     <string name="updated_at">Genopfrisket ved %1$s</string>
     <string name="upload_log">Overfør logfiler</string>
     <string name="upload_log_failed">Kunne ikke sende logfiler</string>
@@ -1050,4 +1055,7 @@ Rør ved "<b>Synkronisér nu</b> for at synkronisere mail en gang eller <b>Skift
     <string name="you_are_in_mobile_network">Brug mobildata til at opdatere logfiler?</string>
     <string name="youfuli">Kampagne</string>
     <string name="zip_viewer_no_file">Ingen filer.</string>
+    <string name="account_settings_preference_add_account">Tilføj e-mailkonto</string>
+    <string name="mailbox_name_display_add_account">Tilføj e-mailkonto</string>
+    <string name="update_to_wps_mail">Nyd flere funktioner med WPS Mail</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_firewall_setting">Blokeringsliste</string>
     <string name="activity_not_found">Ingen app blev fundet til at håndtere denne handling.</string>
     <string name="activity_not_found_uri">Ingen app blev fundet til at håndtere denne handling.</string>
@@ -51,15 +52,15 @@
     <string name="bookmark_confirm_delete_message">Fjern stjernemarkering fra valgte beskeder?</string>
     <string name="bookmark_empty">Ingen stjernemarkerede beskeder</string>
     <string name="bookmark_list_title">Stjernemarkeret</string>
-    <string name="button_emoji_creature">Dyr-humørikon</string>
-    <string name="button_emoji_lifestyle">Livsstil humørikon</string>
-    <string name="button_emoji_smiley">Smilende humørikon</string>
-    <string name="button_emoji_symbol">Symbol humørikon</string>
-    <string name="button_emoji_text">Tekst-humørikon</string>
-    <string name="button_fold">fold</string>
+    <string name="button_emoji_creature">Animal emojis</string>
+    <string name="button_emoji_lifestyle">Lifestyle emojis</string>
+    <string name="button_emoji_smiley">Face emojis</string>
+    <string name="button_emoji_symbol">Symbol emojis</string>
+    <string name="button_emoji_text">Text emojis</string>
+    <string name="button_fold">Fold</string>
     <string name="button_next_slide">Næste</string>
     <string name="button_pre_slide">Forrige</string>
-    <string name="button_resend_message">Gensend</string>
+    <string name="button_resend_message">Send again</string>
     <string name="button_unfold">Fold ud</string>
     <string name="call_sender">Ring til afsender</string>
     <string name="cannot_add_picture_and_video">Kan ikke tilføje video og billede til et dias.</string>
@@ -135,7 +136,9 @@
     <string name="delete_wild_sims_title">Slet valgte numre</string>
     <string name="delivery_report_activity">Leveringsrapport</string>
     <string name="delivery_toast_body">besked modtaget af %s</string>
+    <string name="dialog_message_fake_cell_detect_error">Correct the info about this message? To do this, MIUI needs to upload the phone number (%1$s), the contents of the message, and the info about nearby location to its servers.</string>
     <string name="dialog_message_sms_report">"Spam-beskeder og afsenders info vil blive overført til MIUI, når du rapporterer dem. De vil kun blive brugt til at forbedre MIUI's spam-filtre."</string>
+    <string name="dialog_title_fake_cell_detect_error">Correction</string>
     <string name="disable_notifications_dialog_message">Stop dobbelte tekstbeskednotifikationer fra standardbesked-app?</string>
     <string name="disabled">Slukket</string>
     <string name="discard">Smid væk</string>
@@ -165,7 +168,6 @@
     <string name="error_state">Usammenhængende tilstand</string>
     <string name="error_state_text">Tilstanden af tråde og modtagere er uoverensstemmende. Opret en fejlrapport og anmeld det via http://go/droidanizer</string>
     <string name="error_timed_msg">Ugyldig tid.</string>
-    <string name="ex_type_guide">Oplysninger</string>
     <string name="ex_type_mx">Mi Message</string>
     <string name="ex_type_sms">SMS/MMS</string>
     <string name="exceed_message_size_limitation">Beskedens størrelsesgrænse er nået.</string>
@@ -177,6 +179,7 @@
     <string name="fail_to_view_attachment">Vedhæftelse er ikke tilgængelig</string>
     <string name="failed_to_add_media">Du kan ikke tilføje %1$s til din besked.</string>
     <string name="failed_to_resize_image">Billede fik ikke ny størrelse.</string>
+    <string name="fake_cell_alert_detect_error">"This wasn't sent from a fake base cell"</string>
     <string name="fake_cell_alert_hint">"Det ser ud til, at denne besked blev sendt fra et telefonnummer, som er anderledes end det, der er vist. Pas på med SMS'er, der indeholder finansielle forespørgsler."</string>
     <string name="fake_cell_checking_hint">Tjekker sikkerhed…</string>
     <string name="fake_cell_safe_hint">Denne besked er sikker</string>
@@ -189,6 +192,7 @@
     <string name="file_size">Størrelse:</string>
     <string name="file_title">Navn:</string>
     <string name="file_width_height">Størrelse:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ny besked</string>
     <string name="forward_from">Videresend fra:</string>
     <string name="forward_prefix">"Vds: "</string>
@@ -357,6 +361,9 @@
     <string name="no_subject_view">(Intet emne)</string>
     <string name="non_english_subject_limit">Grænse på 13 tegn</string>
     <string name="nosend_message">Send ikke</string>
+    <string name="notification_channel_description">Meddelelser fra Beskedservice</string>
+    <string name="notification_channel_name">Beskedservice</string>
+    <string name="notification_copy">Kopiér OTP</string>
     <string name="notification_failed_multiple">%s beskeder kunne ikke sendes</string>
     <string name="notification_failed_multiple_title">Beskeder ikke sendt</string>
     <string name="notification_multiple">[%s]</string>
@@ -390,7 +397,7 @@
     <string name="pref_show_blocked_messages_summary">Vis blokeret SMS i samtaleliste</string>
     <string name="pref_show_list_avatar_summary">Vis profilfotos og kontaktinfo i listevisning</string>
     <string name="pref_show_photo_word_summary">Tildel automatisk et billede til kontaktpersoner uden et</string>
-    <string name="pref_show_sms_template_entry_summary">Opdag engangsadgangskoder i SMS</string>
+    <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
     <string name="pref_show_sms_template_in_summary">Opdag automatisk engangsadgangskoder i SMS-beskeder</string>
     <string name="pref_show_sms_template_summary">Slå til for at brug de smarte funktioner i Mi Message såsom kodekopiering, saldotjek etc.</string>
     <string name="pref_smart_messages_settings">Smarte beskeder</string>
@@ -537,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">Send besked</string>
     <string name="send_sms">Send besked</string>
     <string name="send_to">Til:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Sendt den: %1s</string>
     <string name="sent_label">"Sendt: "</string>
     <string name="service_message_not_found">Besked udløbet eller utilgængelig</string>
@@ -619,13 +627,14 @@
     <string name="title_show_blocked_messages">Vis blokeret SMS</string>
     <string name="title_show_list_avatar">Vis profilfotos</string>
     <string name="title_show_photo_word">Tildel kontaktpersonfotos</string>
-    <string name="title_show_sms_template">Tjek SMS for bekræftelseskoder</string>
+    <string name="title_show_sms_template">Smart Messaging</string>
     <string name="title_show_sms_template_in">Tjek SMS for OTP</string>
     <string name="title_timed_message_dialog">Indstil besked på tid</string>
     <string name="title_use_gsm_alphabet">Brug GSM-alfabet</string>
     <string name="to_address_label">"Til: "</string>
     <string name="to_label">Til</string>
     <string name="to_send_wrapper">Vil sende %s</string>
+    <string name="toast_pending_hangup_msg">Besked vil blive sendt, når opkaldet slutter</string>
     <string name="today">I dag</string>
     <string name="too_many_attachments">Kan ikke overstige %1$s vedhæftelser. Kun første %2$s vil blive tilføjet.</string>
     <string name="too_many_recipients">Beskeden har for mange modtagere (%1$s). Du kan ikke have mere end %2$s modtagere.</string>
@@ -650,11 +659,12 @@ Forsøg udført: %s."</string>
     <string name="unsupported_media_format">Ikke-understøttet %1$s format.</string>
     <string name="url_fraud_dangerous_alert">"Den hjemmeside, du prøver at besøge, kan være farlig. Den kan muligvis beskadige din enhed og data. Besøg alligevel?
 %s"</string>
-    <string name="url_fraud_risky_alert">"Den hjemmeside, du prøver at besøge, kan være farlig. Besøg alligevel?
-%s"</string>
+    <string name="url_fraud_risky_alert">"Websitet %s, du prøver at besøge, kan være farligt. Besøg alligevel?
+"</string>
     <string name="url_fraud_title">Hjemmeside kan være falsk</string>
     <string name="url_fraud_visit"><u>Besøg alligevel</u></string>
     <string name="url_result_safe">Dette URL er sikkert</string>
+    <string name="url_scan_again">Kontrollér igen</string>
     <string name="url_scanning">Tjekker URL…</string>
     <string name="verification_code_list_title">Bekræftelseskoder</string>
     <string name="view">Se</string>
@@ -666,5 +676,4 @@ Forsøg udført: %s."</string>
     <string name="wild_msg_title">Vælg telefonnumre at synkronisere</string>
     <string name="yes">OK</string>
     <string name="yesterday">I går</string>
-    <string name="fake_cell_detection_entry">Falsk basestationopdagelse</string>
 </resources>

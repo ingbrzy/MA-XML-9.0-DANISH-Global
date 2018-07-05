@@ -1,124 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="change_response_labels">
-        <item>Kun dette event</item>
-        <item>Alle events i serien</item>
-    </string-array>
-    <string-array name="delete_repeating_labels">
-        <item>Kun dette event</item>
-        <item>Dette og kommende events</item>
-        <item>Alle events</item>
-    </string-array>
-    <string-array name="ordinal_labels">
-        <item>første</item>
-        <item>anden</item>
-        <item>tredje</item>
-        <item>fjerde</item>
-        <item>sidste</item>
-    </string-array>
-    <string-array name="prefEntries_alerts_vibrateWhen">
-        <item>Altid</item>
-        <item>Kun, når ringeren er deaktiveret.</item>
-        <item>Aldrig</item>
-    </string-array>
-    <string-array name="preferences_week_start_day_labels">
-        <item>Standard for region</item>
-        <item>Lørdag</item>
-        <item>Søndag</item>
-        <item>Mandag</item>
-    </string-array>
-    <string-array name="response_labels1">
-        <item>Intet svar</item>
-        <item>Ja</item>
-        <item>Måske</item>
-        <item>Nej</item>
-    </string-array>
-    <string-array name="timezone_labels">
-        <item>Marshalløerne</item>
-        <item>Midwayøerne</item>
-        <item>Hawaii</item>
-        <item>Alaska</item>
-        <item>Pacific Time</item>
-        <item>Tijuana</item>
-        <item>Arizona</item>
-        <item>Chihuahua</item>
-        <item>Mountain Time</item>
-        <item>Mellemamerika</item>
-        <item>Central Time</item>
-        <item>Mexico City</item>
-        <item>Saskatchewan</item>
-        <item>Bogotá</item>
-        <item>Eastern Time</item>
-        <item>Venezuela</item>
-        <item>Atlantic Time (Barbados)</item>
-        <item>Atlantic Time (Canada)</item>
-        <item>Manaus</item>
-        <item>Santiago</item>
-        <item>Newfoundland</item>
-        <item>Brasília</item>
-        <item>Buenos Aires</item>
-        <item>Grækenland</item>
-        <item>Montevideo</item>
-        <item>Mid-Atlantic</item>
-        <item>Azorerne</item>
-        <item>Kap Verde</item>
-        <item>Casablanca</item>
-        <item>London, Dublin</item>
-        <item>Amsterdam, Berlin</item>
-        <item>Beograd</item>
-        <item>Bruxelles</item>
-        <item>Sarajevo</item>
-        <item>Windhoek</item>
-        <item>West Africa Time</item>
-        <item>Amman, Jordan</item>
-        <item>Athen, Istanbul</item>
-        <item>Beirut, Libanon</item>
-        <item>Cairo</item>
-        <item>Helsinki</item>
-        <item>Jerusalem</item>
-        <item>Minsk</item>
-        <item>Harare</item>
-        <item>Bagdad</item>
-        <item>Moskva</item>
-        <item>Kuwait</item>
-        <item>Nairobi</item>
-        <item>Teheran</item>
-        <item>Baku</item>
-        <item>Tbilisi</item>
-        <item>Jerevan</item>
-        <item>Dubai</item>
-        <item>Kabul</item>
-        <item>Islamabad, Karachi</item>
-        <item>Uralsk</item>
-        <item>Jekaterinburg</item>
-        <item>Kolkata</item>
-        <item>Sri Lanka</item>
-        <item>Katmandu</item>
-        <item>Astana</item>
-        <item>Rangoon</item>
-        <item>Krasnojarsk</item>
-        <item>Bangkok</item>
-        <item>Beijing</item>
-        <item>Hongkong</item>
-        <item>Irkutsk</item>
-        <item>Kuala Lumpur</item>
-        <item>Perth</item>
-        <item>Taipei</item>
-        <item>Seoul</item>
-        <item>Tokyo, Osaka</item>
-        <item>Yakutsk</item>
-        <item>Adelaide</item>
-        <item>Darwin</item>
-        <item>Brisbane</item>
-        <item>Hobart</item>
-        <item>Sydney, Canberra</item>
-        <item>Vladivostok</item>
-        <item>Guam</item>
-        <item>Magadan</item>
-        <item>Auckland</item>
-        <item>Fiji</item>
-        <item>Tonga</item>
-    </string-array>
     <string-array name="aquarius_info">
         <item>aquarius</item>
         <item>Vandmanden</item>
@@ -143,6 +24,10 @@
         <item>Stenbukken</item>
         <item>22/12 - 19/1</item>
     </string-array>
+    <string-array name="change_response_labels">
+        <item>Kun dette event</item>
+        <item>Alle events i serien</item>
+    </string-array>
     <string-array name="date_calculate_spinner">
         <item>Forlæns</item>
         <item>Baglæns</item>
@@ -157,6 +42,15 @@
         <item>1 dag før</item>
         <item>2 dage før</item>
         <item>1 uge før</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Kun dette event</item>
+        <item>Dette og kommende events</item>
+        <item>Alle events</item>
+    </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
     </string-array>
     <string-array name="gemini_info">
         <item>tvillingerne</item>
@@ -181,10 +75,28 @@
         <item>5</item>
         <item>Ligue 1</item>
     </string-array>
+    <string-array name="ordinal_labels">
+        <item>første</item>
+        <item>anden</item>
+        <item>tredje</item>
+        <item>fjerde</item>
+        <item>sidste</item>
+    </string-array>
     <string-array name="pisces_info">
         <item>pisces</item>
         <item>Fisken</item>
         <item>19/2 - 20/3</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Altid</item>
+        <item>Kun, når ringeren er deaktiveret.</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Standard for region</item>
+        <item>Lørdag</item>
+        <item>Søndag</item>
+        <item>Mandag</item>
     </string-array>
     <string-array name="repeat_choose_day">
         <item>1.</item>
@@ -270,6 +182,12 @@
         <item>måned</item>
         <item>år</item>
     </string-array>
+    <string-array name="response_labels1">
+        <item>Intet svar</item>
+        <item>Ja</item>
+        <item>Måske</item>
+        <item>Nej</item>
+    </string-array>
     <string-array name="sagittarius_info">
         <item>skytten</item>
         <item>Skytten</item>
@@ -288,6 +206,94 @@
         <item>tyren</item>
         <item>tyren</item>
         <item>20/4 - 20/5</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshalløerne</item>
+        <item>Midwayøerne</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Pacific Time</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Mountain Time</item>
+        <item>Mellemamerika</item>
+        <item>Central Time</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogotá</item>
+        <item>Eastern Time</item>
+        <item>Venezuela</item>
+        <item>Atlantic Time (Barbados)</item>
+        <item>Atlantic Time (Canada)</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasília</item>
+        <item>Buenos Aires</item>
+        <item>Grækenland</item>
+        <item>Montevideo</item>
+        <item>Mid-Atlantic</item>
+        <item>Azorerne</item>
+        <item>Kap Verde</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berlin</item>
+        <item>Beograd</item>
+        <item>Bruxelles</item>
+        <item>Sarajevo</item>
+        <item>Windhoek</item>
+        <item>West Africa Time</item>
+        <item>Amman, Jordan</item>
+        <item>Athen, Istanbul</item>
+        <item>Beirut, Libanon</item>
+        <item>Cairo</item>
+        <item>Helsinki</item>
+        <item>Jerusalem</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuwait</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Baku</item>
+        <item>Tbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karachi</item>
+        <item>Uralsk</item>
+        <item>Jekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Rangoon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Beijing</item>
+        <item>Hongkong</item>
+        <item>Macao</item>
+        <item>Singapore</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Seoul</item>
+        <item>Tokyo, Osaka</item>
+        <item>Yakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fiji</item>
+        <item>Tonga</item>
     </string-array>
     <string-array name="travel_reminder_minutes_labels">
         <item>3 timer før</item>

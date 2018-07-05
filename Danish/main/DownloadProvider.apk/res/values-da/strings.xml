@@ -22,12 +22,12 @@
     <string name="download_unknown_title">&lt;Uden overskrift></string>
     <string name="notification_download_complete">Downloadet med succes.</string>
     <string name="notification_download_failed">Kunne ikke download emner.</string>
-    <string name="notification_need_wifi_for_size">Downloadets størrelse kræver wifi.</string>
+    <string name="notification_need_wifi_for_size">Downloadets størrelse kræver Wi-Fi.</string>
     <string name="notification_paused_in_background">Sat på pause i baggrunden.</string>
     <string name="wifi_required_title">Filen er for stor til at downloade ved hjælp af mobildata.</string>
-    <string name="wifi_required_body" formatted="false">"Tilslut til wifi for at færdiggøre dette %s download. 
+    <string name="wifi_required_body" formatted="false">"Tilslut til Wi-Fi for at færdiggøre dette %s download. 
 
-Tryk %s for at starte dette download næste gang du er tilsluttet til et wifi-netværk."</string>
+Tryk %s for at starte denne download, næste gang du er tilsluttet til et Wi-Fi-netværk."</string>
     <string name="wifi_recommended_title">Sæt i kø for at downloade senere?</string>
     <string name="wifi_recommended_body" formatted="false">"Ved at starte denne %s download nu kan det forkorte dit batteris levetid og/eller resultere i overdrevent brug af din mobile dataforbindelse, hvilket kan lede til ekstra gebyrer fra din teleudbyder, afhængigt af din dataplan.
 

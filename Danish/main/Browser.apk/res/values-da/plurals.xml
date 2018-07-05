@@ -8,6 +8,10 @@
         <item quantity="other">%d elementer blokeret</item>
         <item quantity="one">%d element blokeret</item>
     </plurals>
+    <plurals name="articles_updated_amount">
+        <item quantity="other">%1$d artikler opdateret til dig</item>
+        <item quantity="one">%1$d artikel opdateret til dig</item>
+    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Slet %d opgaver?</item>
         <item quantity="one">Slet %d opgave?</item>
@@ -16,12 +20,12 @@
         <item quantity="other">%d maches</item>
         <item quantity="one">%d matches</item>
     </plurals>
-    <plurals name="last_num_days">
-        <item quantity="other">Sidste %d dag</item>
-        <item quantity="one">Sidste %d dage</item>
+    <plurals name="mw_last_num_days">
+        <item quantity="other">Last %d days</item>
+        <item quantity="one">Last %d days</item>
     </plurals>
-    <plurals name="matches_found">
-        <item quantity="other">%1$d af %2$d</item>
+    <plurals name="mw_matches_found">
+        <item quantity="other">%1$d of %2$d</item>
         <item quantity="one">1 match</item>
     </plurals>
     <plurals name="nav_screen_incognito_time">
@@ -44,6 +48,10 @@
         <item quantity="other">%d populære sange</item>
         <item quantity="one">%d populære sang</item>
     </plurals>
+    <plurals name="transfer_prompt">
+        <item quantity="other">Afspil video om %1$d sekunder</item>
+        <item quantity="one">Afspil video om %1$d sekunder</item>
+    </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">%1$d valgt</item>
         <item quantity="one">%1$d valgt</item>
@@ -65,15 +73,27 @@
         <item quantity="one">Slet %1$d element fra historikken?</item>
     </plurals>
     <plurals name="video_push_multi_message">
-        <item quantity="other">%1$d opdateringer er tilgængelige.</item>
-        <item quantity="one">%1$d opdateringer er tilgængelige.</item>
+        <item quantity="other">%1$d updates available.</item>
+        <item quantity="one">%1$d update available.</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">%d minutter tilbage</item>
         <item quantity="one">%d minutter tilbage</item>
     </plurals>
+    <plurals name="videos_updated_amount">
+        <item quantity="other">%1$d videoer opdateret til dig</item>
+        <item quantity="one">%1$d video opdateret til dig</item>
+    </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Nulstil</item>
         <item quantity="one">Nulstil</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Sidste %d dag</item>
+        <item quantity="one">Sidste %d dage</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d af %2$d</item>
+        <item quantity="one">1 match</item>
     </plurals>
 </resources>

@@ -6,6 +6,9 @@ Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
 Størrelse delta-opdatering: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Ingen ledig hukommelse, kontroller dit SD-kort.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke påbegynde download. Kontroller at Download Manager fungerer normalt.</string>
     <string name="app_name">Sikkerhedskopiering</string>
     <string name="local_app_name">Sikkerhedskopiering</string>
@@ -225,11 +228,14 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="restore_backup">Gendan</string>
     <string name="enable_encrypt_description">Kryptér</string>
     <string name="disable_encrypt_description">Kryptér ikke</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Lige et øjeblik…</string>
     <string name="state_mounting">Får adgang til routerlager…</string>
     <string name="abort_backup_confirm">Backup er ikke færdig. Stop alligevel?</string>
     <string name="abort_restore_confirm">Gendannelse er ikke færdig. Stop alligevel?</string>
     <string name="feature_title_call_log">Opkaldshistorik</string>
+    <string name="feature_title_contacts">Kontakter</string>
+    <string name="feature_title_sms">Beskeder</string>
     <string name="feature_title_mms">MMS</string>
     <string name="feature_title_account">Mi-konto</string>
     <string name="feature_title_antispam">Blokeringsliste</string>
@@ -246,6 +252,7 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="err_filesystem_mount">Kan ikke få adgang til routerlager.</string>
     <string name="err_router_disconnected">Kontrollér din routers forbindelse og prøv igen.</string>
     <string name="err_router_files_delete">Kunne ikke slette backupfiler på router.</string>
+    <string name="err_acquire_system_service">"Couldn't start system service."</string>
     <string name="err_not_allow">Ikke understøttet</string>
     <string name="err_bakfile_not_exist">Backup-filen findes ikke.</string>
     <string name="err_pkg_not_exist">Kunne ikke finde app.</string>
@@ -291,7 +298,7 @@ Hold enheder tæt på hinanden."</string>
     <string name="trans_receiver_time_remained">"%s resterer.
 Sluk ikke for wi-fi-hotspot.old enheder tæt på hinanden."</string>
     <string name="trans_time_spent">Brugt tid: %s</string>
-    <string name="trans_restoring_no_items">Synkroniserer elementer</string>
+    <string name="trans_restoring_no_items">Henter info…</string>
     <string name="trans_detail_category_sysdata">Systemdata (herunder beskeder, kontakter og opkaldshistorik)</string>
     <string name="trans_detail_category_userdata">Apps</string>
     <string name="trans_detail_category_account">Konti og kontakter</string>
@@ -339,6 +346,8 @@ Sluk ikke for wi-fi-hotspot.old enheder tæt på hinanden."</string>
     <string name="trans_connecting_toast">Tilslutter…</string>
     <string name="trans_switching_5g">Skifter til 5 GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">Kunne ikke tilslutte.</string>
+    <string name="trans_open_camera_failed_title">Kunne ikke tilslutte til kamera</string>
+    <string name="trans_open_camera_failed_message">Genstart din enhed eller kontrollér, at Mi Mover har tilladelse til at bruge &lt;b>Camera&lt;/b>.</string>
     <string name="trans_generate_qr_code_failed">Kunne ikke oprette QR-kode.</string>
     <string name="trans_scan_invalid_qrcode">QR-kode ugyldig.</string>
     <string name="trans_scan_qr_code_tips">Scan QR-kode ved hjælp af ny enhed</string>
@@ -352,6 +361,7 @@ Tryk [Jeg er en modtager] for at oprette en QR-kode."</string>
 2. Åbn appen og tryk Start.
 3. Scan QR-koden med din gamle enhed."</string>
     <string name="trans_operate_old_phone_tips2">Gå til Indstillinger > Yderligere Indstillinger > Mi Mover. Tryk [Jeg er en sender].</string>
+    <string name="trans_operate_tip_for_other_android">Åbn Mi Mover på din gamle telefon, tryk \"Start\" og scan QR-koden ovenfor.</string>
     <string name="trans_operate_reconnect_new_tips">"Vent, indtil den nye telefon viser \"Forbindelsen blev afbrudt\".
 Tryk så \"Tilslut igen\" for at oprette en QR-kode."</string>
     <string name="trans_operate_reconnect_old_tips">"Vent, indtil den gamle telefon viser \"Forbindelsen blev afbrudt\".
@@ -367,16 +377,25 @@ Identiske filer på den nye enhed vil blive overskrevet."</string>
 Frigør lagerplads eller overfør kun vigtige elementer."</string>
     <string name="trans_select_data_too_large">"Du valgte for mange elementer til overførsel.
 Vælg kun vigtige elementer for at gøre overførslen hurtigere."</string>
-    <string name="trans_calculating_base_size">Beregner datastørrelse</string>
     <string name="trans_calculating">Beregner…</string>
+    <string name="trans_calculating_tip">Beregner %s…</string>
+    <string name="trans_calculating_media_description">Mediafiler</string>
+    <string name="trans_calculating_app_sd_description">Data på SD-kort</string>
     <string name="trans_native_no_space">"Der er ikke nok lagerplads i den gamle enhed (%s til rådighed).
 Frigør lagerplads eller overfør kun vigtige elementer."</string>
-    <string name="trans_calculating_app_sd_size">Beregner størrelse: %s</string>
     <string name="trans_please_waiting">Lige et øjeblik…</string>
     <string name="trans_old_phone_low_space_title">Ikke nok lagerplads</string>
     <string name="trans_old_phone_low_space_msg">Mi Mover har brug for lagerplads til at pakke de overførte data, men det ser ud, som om der ikke er nok plads til rådighed i den gamle enhed. Frigør plads under \"Sikkerhed\" eller overfør kun vigtige elementer.</string>
     <string name="button_clean_garbage">Frigør plads</string>
     <string name="button_quit">Afslut</string>
+    <string name="trans_install_guide_page_title">Installér Mi Mover på din gamle telefon</string>
+    <string name="trans_install_guide_scan_install_tip">"Scan denne QR-kode med din gamle telefon
+for at downloade og installere Mi Mover."</string>
+    <string name="trans_install_guide_step1_title">Trin 1</string>
+    <string name="trans_install_guide_step1_content">Scan QR-koden med din gamle telefon for at downloade og installere \"Mi Mover\".</string>
+    <string name="trans_install_guide_step2_title">Trin 2</string>
+    <string name="trans_install_guide_step2_content">Når installationen er færdig, tryk på \"Start\" nedenfor.</string>
+    <string name="trans_install_guide_button_start">Start</string>
     <string name="size_byte">B</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
@@ -400,10 +419,12 @@ Frigør lagerplads eller overfør kun vigtige elementer."</string>
     <string name="trans_intro_desc_new">Tryk \"Jeg er en modtager\". En QR-kode vil blive genereret.</string>
     <string name="trans_intro_title_old">På en gammel telefon:</string>
     <string name="trans_intro_desc_old">Tryk \"Jeg er en sender\". Scan QR-koden på den nye telefon og vent, indtil Mi Mover finder ud af, hvilke filer der skal sendes, og tryk \"Send\".</string>
+    <string name="trans_intro_desc_old_market">Tryk \"Start\". Scan QR-koden på den nye telefon og vent, indtil Mi Mover finder ud af, hvilke filer der skal sendes, og tryk \"Send\".</string>
     <string name="trans_intro_question_3">%d. Hvad skal jeg gøre, hvis Mi Mover går i stå på et givent trin?</string>
     <string name="trans_intro_desc_3">Annuller overførslen, afslut Mi Mover og begynd forfra. Dubletfiler vil blive overskrevet under den nye overførsel.</string>
     <string name="trans_intro_question_4">%d. Hvorfor kan jeg ikke bruge wi-fi under overførsler?</string>
     <string name="trans_intro_desc_4">Mi Mover bruger wi-fi til overførsel af filer. Det er derfor, at du ikke kan tilslutte til internettet ved hjælp af wi-fi på nogen af enhederne under en overførsel. Men nogle nyere enheder (for eksempel Mi 6) vil stadig være i stand til at tilslutte til internettet ved hjælp af w-fi under overførsler.</string>
+    <string name="trans_intro_desc_4_market">Mi Mover bruger wi-fi til overførsel af filer. Det er derfor, at du ikke kan tilslutte til internettet ved hjælp af wi-fi på nogen af enhederne under en overførsel. Men du kan stadig bruge mobildata.</string>
     <string name="trans_intro_question_5">%d. Hvorfor fortæller Mi Mover mig, at der ikke er nok lagerplads på min gamle telefon?</string>
     <string name="trans_intro_desc_5">Lagerplads på gamle enheder bliver brugt til at lave overførselspakker. Vær sikker på, at du har mindst 500 MB - 1 GB ledig lagerplads på din gamle telefon, inden du starter en overførsel.</string>
     <string name="trans_intro_question_6">%d. Hvorfor bliver nogle apps ikke overført med succes?</string>
@@ -421,16 +442,32 @@ Frigør lagerplads eller overfør kun vigtige elementer."</string>
     <string name="trans_intro_desc_multiuser">Mi Mover kan ikke få adgang til elementer i Second space. Flyt elementer til First space og start Mi Mover der.</string>
     <string name="trans_intro_title_multiapp">Dual apps-data:</string>
     <string name="trans_intro_desc_multiapp">Mi Mover overfører ikke dual app-data for at undgå konflikter mellem filer.</string>
+    <string name="trans_intro_question_9_market">%d. Feedback.</string>
+    <string name="trans_intro_desc_9_method_1_title">1. Del din feedback ved hjælp af \"Feedback\"-appen.</string>
+    <string name="trans_intro_desc_9_method_1_dec">Gå til Startskærm > Værktøjer > Feedback.</string>
+    <string name="trans_intro_desc_9_method_2_title">2. Send os en e-mail</string>
+    <string name="trans_intro_desc_9_method_2_dec">Send din feedback til miui-mover@xiaomi.com.</string>
+    <string name="trans_intro_desc_9_method_3_title">3. Anmeld problemer i QQ</string>
+    <string name="trans_intro_desc_9_method_3_dec">Mi Movers QQ-gruppe: 687338378</string>
     <string name="btn_got_it">Forstået</string>
     <string name="backup_security_tips_title">Backups fungerer muligvis ikke.</string>
     <string name="backup_security_tips_message">Nogle apps kan der muligvis ikke tages backup af, eller de kan ikke blive gendannet.</string>
     <string name="trans_security_tips_title">Mi Mover-kompatibilitet</string>
     <string name="trans_security_tips_message">Nogle apps supporterer ikke Mi Mover.</string>
+    <string name="trans_cancel_selection_title">Stay in Mi Mover</string>
+    <string name="trans_cancel_selection_message">If you exit Mi Mover, the ongoing transfer will be interrupted. Wait until the transfer is complete.</string>
+    <string name="trans_select_notification_title">Mi Mover is working…</string>
+    <string name="trans_select_notification_message">Tap to view</string>
+    <string name="trans_button_stay">Stay</string>
+    <string name="trans_button_exit">Exit</string>
     <string name="trans_wlan_tips_title">Sluk ikke for wi-fi</string>
-    <string name="trans_wlan_tips_message">Sluk ikke for wi-fi eller skift til andre wi-fi-netværk under en overførsel. Ellers vil Mi Mover ikke kunne overføre data.</string>
+    <string name="trans_wlan_tips_message">Sluk ikke for wi-fi eller skift til andre Wi-Fi-netværker under en overførsel. Ellers vil Mi Mover ikke kunne overføre data.</string>
     <string name="trans_disconnected_tips_title">Fjernenhed afbrudt</string>
     <string name="trans_disconnected_tips_message">Fjernenhed afbrudt. Tilslut igen manuelt eller annuller overførslen.</string>
     <string name="trans_button_cancel">Annuller</string>
+    <string name="trans_success_dialog_market_comment_title">"Din nye enhed føler sig hjemme.
+Kunne du lide Mi Mover?"</string>
+    <string name="trans_success_dialog_button_market_favourable_comment">Bedøm Mi Mover</string>
     <string name="trans_failed_details_page_title">Overførsler der mislykkedes</string>
     <string name="close_twice_auth_tutor">"Sluk Apple ID's tofaktor-autentifikation"</string>
     <string name="close_twice_auth_steps">"Følg disse trin for at slukke for Apple ID's tofaktor-autentifikation:"</string>
@@ -444,7 +481,8 @@ Efter at have oprettet et nyt sikkerhedsspørgsmål og bekræftet din fødselsda
 https://appleid.apple.com/#!&amp;page=signin at lukke"</string>
     <string name="platform_chooser_title">Vælg gammel enhed</string>
     <string name="platform_chooser_item_ios">Importér fra en iOS-enhed</string>
-    <string name="platform_chooser_item_android">Importér fra en Android-enhed</string>
+    <string name="platform_chooser_item_android_mi">Mi-telefon</string>
+    <string name="platform_chooser_item_android_others">Andre mærker</string>
     <string name="icloud_need_wifi_title">Tilslut til wi-fi</string>
     <string name="icloud_need_wifi_message">Du er i øjeblikket ikke tilsluttet til wi-fi. For at importere data fra iCloud skal du tilslutte til wi-fi.</string>
     <string name="icloud_login_title">Log ind på iCloud</string>
@@ -467,7 +505,7 @@ https://appleid.apple.com/#!&amp;page=signin at lukke"</string>
     <string name="connect_wifi_tip">Kunne ikke tilslutte til netværket. Tilslut til wi-fi for at importere elementer fra iCloud.</string>
     <string name="connect_wifi">Tilslut til wi-fi</string>
     <string name="notif_icloud_logining">Logger ind på iCloud på den gamle iOS-enhed…</string>
-    <string name="notif_icloud_loading_summary">Loader data…</string>
+    <string name="notif_icloud_loading_summary">Indlæser data…</string>
     <string name="notif_icloud_import_title">Importér data fra iCloud</string>
     <string name="notif_icloud_loaded_summary">Venter…</string>
     <string name="notif_icloud_canceling_summary">Annullerer…</string>
@@ -493,15 +531,16 @@ https://appleid.apple.com/#!&amp;page=signin at lukke"</string>
     <string name="hsa_verify_retry">Prøv igen</string>
     <string name="hsa_verify_shutdown">Sluk</string>
     <string name="import_data_from_icloud">Importér data fra iCloud</string>
-    <string name="loading_data">Loader data</string>
+    <string name="loading_data">Indlæser data</string>
     <string name="icloud_need_sync">"For at importere data fra iOS,
 bør du først oprette en iCloud-backup."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund af kompatibilitetsproblemer kan du kun overføre en del af dataene fra iOS-enheder. Vær sikker på, at du har oprettet en iCloud-backup, inden du begynder overførslen.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importér</string>
     <string name="select_empty">Vælg elementer til import</string>
     <string name="select_item_summary_wait">Venter…</string>
-    <string name="select_item_summary_loading">Loader data…</string>
+    <string name="select_item_summary_loading">Indlæser data…</string>
     <string name="select_item_contacts">Kontakter</string>
     <string name="select_item_photos">Fotos</string>
     <string name="select_item_empty_summary">Ingen elementer</string>
@@ -538,4 +577,36 @@ Dataene, der ikke blev importeret, skal importeres igen."</string>
     <string name="alert_message_restore_from_miasist">Mi PC Suite anmoder om tilladelse til at gendanne elementer på din telefon. Tillad?</string>
     <string name="alert_button_deny">Afvis</string>
     <string name="alert_button_agree_and_continue">Tillad</string>
+    <string name="trans_open_location_button">Tænd</string>
+    <string name="trans_open_location_title">Tænd for placeringsservicer</string>
+    <string name="trans_open_location_message">Tænd for placeringsservicer for at få en liste over tilgængelige wifi-netværk.</string>
+    <string name="perm_camera">Kamera</string>
+    <string name="perm_read_contacts">Læs kontakter</string>
+    <string name="perm_location">Placering</string>
+    <string name="perm_read_phone_state">Læs telefonens status</string>
+    <string name="perm_read_call_log">Læs opkaldshistorik</string>
+    <string name="perm_read_sms">Send SMS</string>
+    <string name="perm_storage">Læs og skriv på ekstern hukommelse</string>
+    <string name="lack_perm_title">Tilladelser påkrævet</string>
+    <string name="lack_perm_msg">Mi Mover kræver følgende tilladelser: &lt;b>%s&lt;/b>.</string>
+    <string name="flash_drive_backup_restore">USB-sikkerhedskopier</string>
+    <string name="flash_drive_backup_note">"Sikkerhedskopiér apps på et USB-drev.
+Vær sikker på, at USB-drevet har nok lagerplads, inden du begynder."</string>
+    <string name="flash_drive_backup_btn">Sikkerhedskopiér til USB-drev</string>
+    <string name="flash_drive_restore_btn">Gendan fra USB-drev</string>
+    <string name="usb_backup_select_data_too_large">"Valgte filer er store. Vær sikker på, at USB-drevet har nok lagerplads.
+Overfør kun vigtige emner."</string>
+    <string name="flash_drive_search_backup_files">"Søger efter USB-sikkerhedskopien.…
+Undlad at ændre eller omdøbe sikkerhedskopier."</string>
+    <string name="flash_drive_connection_failed">USB-drev frakoblet</string>
+    <string name="storage_sd_card">SD-kort</string>
+    <string name="storage_usb">USB-drev</string>
+    <string name="usb_trans_select_data_no_space">"Kun %s er tilgængelig på dit USB-drev
+Frigør plads eller vælg kun vigtige emner."</string>
+    <string name="usb_restore_select_data_too_large">"Backup-filerne er store. Det kan tage nogen tid at gendanne dem.
+Gendannelse af kun vigtige emner vil være hurtigere."</string>
+    <string name="usb_trans_native_no_space">"Kun %s er tilgængelig på din enhed.
+Frigør plads eller lav flere mindre overførsler."</string>
+    <string name="usb_trans_old_phone_low_space_title">Ikke nok lagerplads</string>
+    <string name="usb_trans_old_phone_low_space_msg">Yderligere lagerplads er påkrævet for at pakke dine sikkerhedskopier. Der er ikke nok lagerplads til at fortsætte overførslen. Du kan frigøre plads eller slette unødvendige filer i Sikkerhed eller prøve at overføre kun vigtige emner.</string>
 </resources>

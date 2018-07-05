@@ -4,6 +4,7 @@
     <string name="passport_notification_title">Loginfejl for %1$s</string>
     <string name="passport_login_prompt">En Mi-konto. Alle Mi-tjenester.</string>
     <string name="passport_login_using_other_ways">Andre måder at logge ind på</string>
+    <string name="passport_register_using_other_ways">Other ways to create account</string>
     <string name="passport_login_title">Log på din Mi-konto</string>
     <string name="passport_login">Log ind</string>
     <string name="passport_relogin">Log ind igen</string>
@@ -27,6 +28,7 @@
     <string name="passport_reg_success_summary">%1$s er knyttet til din konto. Du kan bruge den til at logge på eller nulstille din adgangskode.</string>
     <string name="passport_re_register">Tilmeld dig igen</string>
     <string name="passport_register">Opret en konto</string>
+    <string name="passport_new_user_register">Create an account</string>
     <string name="passport_vcode_sms_send_prompt">Send bekræftelseskode til %s</string>
     <string name="passport_get_verify_code">Få kode</string>
     <string name="passport_re_get_verify_code">Få kode igen</string>
@@ -72,6 +74,7 @@ For at aktivere din konto, følg det
     <string name="passport_skip_register">Spring tilmelding over</string>
     <string name="passport_account_not_activated">Kontoen er ikke blevet aktiveret</string>
     <string name="passport_change_account"><u>Skift konto</u></string>
+    <string name="passport_btn_change_account">Change account</string>
     <string name="passport_register_account_verified_confirm">Kontoen er blevet bekræftet</string>
     <string name="passport_register_account_goto_email">Gå til indbakken</string>
     <string name="passport_error_dup_email">Den indtastede e-mail er allerede forbundet med en anden konto.</string>
@@ -85,12 +88,13 @@ For at aktivere din konto, følg det
     <string name="passport_delete_account">Log ud</string>
     <string name="passport_vcode_notification_title">Din loginbekræftelse er ikke fuldført</string>
     <string name="passport_account_name">Konto: %1$s</string>
-    <string name="passport_account_hint_text">E-mail/telefonnummer/Mi-konto-id</string>
+    <string name="passport_account_hint_text">Email/Phone number/Mi Account ID</string>
     <string name="passport_email_or_id_hint_text">E-mail/Mi-konto-id</string>
     <string name="passport_phone_num_hint_text">Telefonnummer</string>
     <string name="passport_input_password_hint">Indtast adgangskode</string>
     <string name="passport_input_captcha_hint">Indtast kode</string>
     <string name="passport_input_vcode_hint">Indtast verifikationskode</string>
+    <string name="passport_input_voice_hint">Enter voice code</string>
     <string name="passport_email">E-mailadresse</string>
     <string name="passport_vcode_prompt_long">Indtast verifikationskode</string>
     <string name="passport_input_phone_hint">Indtast telefonnummer</string>
@@ -104,6 +108,7 @@ For at aktivere din konto, følg det
     <string name="passport_error_empty_pwd">Indtast din adgangskode</string>
     <string name="passport_error_illegal_pwd">Ugyldig adgangskode</string>
     <string name="passport_error_empty_captcha_code">Indtast captcha</string>
+    <string name="passport_error_empty_voice_code">Enter captcha</string>
     <string name="passport_error_empty_vcode">Indtast verifikationskode</string>
     <string name="passport_i_know">Forstået</string>
     <string name="passport_retry">Prøv igen</string>
@@ -116,6 +121,7 @@ For at aktivere din konto, følg det
     <string name="passport_yes">Ja</string>
     <string name="passport_no">Nej</string>
     <string name="passport_continue">Fortsæt</string>
+    <string name="passport_Resend">Resend</string>
     <string name="passport_loading">Indlæser…</string>
     <string name="passport_reging">Opretter konto…</string>
     <string name="passport_checking_account">Kontrollerer adgangskode…</string>
@@ -147,6 +153,7 @@ For at aktivere din konto, følg det
     <string name="passport_error_user_name">Det indtastede brugernavn er ugyldigt.</string>
     <string name="passport_access_denied">Adgang nægtet</string>
     <string name="passport_wrong_captcha">Den indtastede kode er forkert</string>
+    <string name="passport_wrong_voice">The code you entered is incorrect</string>
     <string name="passport_wrong_vcode">Den indtastede kode er forkert</string>
     <string name="passport_error_device_id">Kan ikke hente enheds-id</string>
     <string name="passport_error_invalid_dev_id">Din enheds id er ugyldigt.</string>
@@ -203,6 +210,12 @@ For at aktivere din konto, følg det
     <string name="passport_get_innetdate_agree">Kontroller</string>
     <string name="passport_get_innetdate_disagree">Nej</string>
     <string name="passport_extra_gdpr_license">"Ved at oprette din Mi Account accepterer du, at Xiaomi indsamler, bearbejder og bruger dine personlige oplysninger, herunder verifikationsdata (f.eks. verifikationskoder), Second space-data (f.eks. oplysninger om, hvordan du bruger Second space, ID'er brugt i Second spaces) og andre data, specificeret i vores Privatlivspolitik. Se vores Privatlivspolitik og læs om, hvordan vi bearbejder og bruger personlige data."</string>
+    <string name="passport_talkback_image_captcha">Image verification code</string>
+    <string name="passport_talkback_voice_captcha">Play voice verification code</string>
+    <string name="passport_talkback_switch_voice_captcha">Switch to voice verification code</string>
+    <string name="passport_talkback_switch_image_captcha">Switch to image verification code</string>
+    <string name="passport_license_info_open">Details</string>
+    <string name="passport_license_info_collapse">Collapse</string>
     <string name="search_app_name">Mi-konto</string>
     <string name="search_mi_account">Mi-konto</string>
     <string name="search_mi_account_key_words">Mi Cloud, Kontoindstilling, Mi Pay-oplysninger, Log ud</string>
@@ -334,6 +347,7 @@ For at aktivere din konto, følg det
     <string name="account_user_details">Personlige oplysninger</string>
     <string name="account_security">Konto-sikkerhed</string>
     <string name="account_mibi_center">Mi Credits</string>
+    <string name="account_mibi_charge">Top up</string>
     <string name="account_mipay_info">Mi Pay</string>
     <string name="account_xiaomi_service">Serviceydelser</string>
     <string name="cloud_service">Mi Cloud</string>
@@ -455,7 +469,7 @@ For at aktivere din konto, følg det
     <string name="account_token_expired_msg">"Verifikationskode udløbet. Start forfra eller log ud
  Din konto-ID: %s"</string>
     <string name="bind_safe_phone_msg">Tilføj dit telefonnummer for at kunne logge på Mi Account næste gang.</string>
-    <string name="account_notification_message">>Sessionen udløb. Log ind igen.</string>
+    <string name="account_notification_message">Sessionen udløb. Log på igen.</string>
     <string name="sim_changed_notification_title">Ændret telefonnummer?</string>
     <string name="sim_changed_notification_msg">Tryk for at opdatere din gendannelsestelefon og holde din konto mere sikker.</string>
     <string name="recycle_phone_notification_title">Mi Account-sikkerhedsrisiko</string>

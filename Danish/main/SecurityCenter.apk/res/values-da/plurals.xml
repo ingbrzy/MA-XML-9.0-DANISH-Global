@@ -92,6 +92,14 @@ Hvis du slår mobildata til igen, kan din teleudbyder opkræve dig for yderliger
         <item quantity="other">"%d min "</item>
         <item quantity="one">"%d min "</item>
     </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d mAh</item>
+        <item quantity="one">%d mAh</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+    </plurals>
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">Om %1$d minutter</item>
         <item quantity="one">Om %1$d minutt</item>

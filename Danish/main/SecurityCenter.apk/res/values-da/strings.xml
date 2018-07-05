@@ -179,7 +179,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="report_warning_title">Bemærk</string>
     <string name="st_sub_title_customize_mode_name">Navn</string>
     <string name="read_all_sms">Læs alt</string>
-    <string name="loding">Loader data</string>
+    <string name="loding">Indlæser data</string>
     <string name="action_source_sms_title">Blokeret beskeder</string>
     <string name="action_source_call_title">Blokeret opkald</string>
     <string name="st_title_open_antispam">Blokeringsliste</string>
@@ -386,7 +386,7 @@ svarer"</string>
     <string name="firewall_activity_lable">Begræns dataforbrug efter app</string>
     <string name="firewall_applist">Apps</string>
     <string name="firewall_mobile">Mobildata</string>
-    <string name="firewall_wifi">WiFi</string>
+    <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">Tom</string>
     <string name="firewall_fragment_nonesys_listempty">Tom</string>
     <string name="firewall_restrict_notify_title">%s kan ikke anvende netværk</string>
@@ -400,7 +400,7 @@ svarer"</string>
     <string name="firewall_network_allow">Tillad %1$s to use %2$s adgang</string>
     <string name="search_result_text">Kunne ikke finde nogen apps</string>
     <string name="firewall_mobile_dialog_message">Den installerede app vil ikke kunne forbinde til internettet via mobildata, når kontakten er slået fra.</string>
-    <string name="firewall_wifi_dialog_message">Den installerede app vil ikke kunne forbinde til internettet via WiFi, når kontakten er slået fra.​</string>
+    <string name="firewall_wifi_dialog_message">Den installerede app vil ikke kunne forbinde til internettet via Wi-Fi, når kontakten er slået fra.​</string>
     <string name="firewall_system_title">Dataforbrug for system-apps</string>
     <string name="firewall_temp_rule_reason">%2$s begrænset internetadgang for %1$s​</string>
     <string name="dialog_restrict_all_wlan_title">Begræns Wi-Fi-forbindelse</string>
@@ -417,9 +417,9 @@ svarer"</string>
     <string name="deleted_apps">Slettede apps</string>
     <string name="root">Rodadgang</string>
     <string name="app_detail">Oplysninger</string>
-    <string name="app_version">Version</string>
+    <string name="app_version">Version:</string>
     <string name="app_mobile">Mobil</string>
-    <string name="app_wifi">WiFi</string>
+    <string name="app_wifi">Wi-Fi</string>
     <string name="traffic_none">Ingen</string>
     <string name="sorted_dialog_title">Sorter efter</string>
     <string name="cancel_button">Annuller</string>
@@ -432,6 +432,7 @@ svarer"</string>
     <string name="managed_user_title">Alle arbejds-apps</string>
     <string name="pref_about_traffic_title">Indstillinger for dataforbrug</string>
     <string name="pref_traffic_manage_title">Databrug</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Sæt dataforbrug</string>
     <string name="pref_category_title_other">Yderligere indstillinger</string>
@@ -712,11 +713,11 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
     <string name="btn_stop_diagnostic">Stop</string>
     <string name="btn_finish_diagnostic">OK</string>
     <string name="main_toolbar_internet_by_pc_brige">USB-internet</string>
-    <string name="main_toolbar_internet_by_wifi">WiFi</string>
+    <string name="main_toolbar_internet_by_wifi">Wi-Fi</string>
     <string name="main_toolbar_internet_by_mobiledata">Mobildata</string>
     <string name="connect_internet_by_usbshare">Delt internet via USB</string>
     <string name="connect_internet_by_mobiledata">Mobildataforbindelse</string>
-    <string name="connect_internet_by_wifi">WiFi</string>
+    <string name="connect_internet_by_wifi">Wi-Fi</string>
     <string name="unable_connect_internet">Ingen internetforbindelse</string>
     <string name="enable_network">Slå først netværk til</string>
     <string name="disable_air_mode">Slå først flytilstand fra</string>
@@ -727,8 +728,8 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
     <string name="apn_exception_summary">Kontroller teleudbyders konfigurationer for navn på adgangspunkt</string>
     <string name="dns_exception_title">Kontroller DNS-indstillinger</string>
     <string name="dns_exception_summary">Kontroller routers DNS-indstillinger</string>
-    <string name="wifi_exception_title">Kontroller WiFi-netværk</string>
-    <string name="wifi_exception_summary">Kontroller tilgængelige WiFi-netværk</string>
+    <string name="wifi_exception_title">Kontroller Wi-Fi-netværk</string>
+    <string name="wifi_exception_summary">Kontroller tilgængelige Wi-Fi-netværk</string>
     <string name="signal_exception_title">Kontroller signalstyrke</string>
     <string name="signal_exception_summary">Kan ikke forbinde til netværk i dette område.</string>
     <string name="usbsharenet_exception_title">Kontroller delt internet via USB</string>
@@ -784,8 +785,8 @@ Under kalibrering sender MIUI en tekstbesked til din teleudbyder for at hente de
 3. Vær sikker på at dit SIM-kort og din enheds SIM-slids ikke er beskadigede. Kontroller at det anvendte SIM-kort er korrekt isat din enheds SIM-bakke."</string>
     <string name="network_route_exception_detail">"Der kan være et problem med den router, du er forbundet med:
 
- "<b>1. Problemer med offentligt WiFi</b>"
-Hvis du er forbundet til et offentligt WiFi-netværk, kan antallet af brugere på netværket gøre det langsommere eller skabe forbindelsesproblemer. Skift til et andet netværk og prøv igen.
+ "<b>1. Problemer med offentligt Wi-Fi</b>"
+Hvis du er forbundet til et offentligt Wi-Fi-netværk, kan antallet af brugere på netværket gøre det langsommere eller skabe forbindelsesproblemer. Skift til et andet netværk og prøv igen.
 
  "<b>2. Problemer hos internetudbyder</b>"
 Vær sikker på at din konto er OK hos din internetudbyder.
@@ -802,7 +803,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="bg_network_exception_title">Begrænset baggrundsforbindelse</string>
     <string name="networkchanged_exception_title">Forbindelse ændret</string>
     <string name="networkchanged_exception_summary">Netværksforbindelse er ændret. Kontroller igen.</string>
-    <string name="network_test_speed">Test WiFi-hastighed</string>
+    <string name="network_test_speed">Test Wi-Fi-hastighed</string>
     <string name="network_changed_noti_title">Ikke tilsluttet Wi-Fi</string>
     <string name="network_changed_noti_summary">Anvender mobildata</string>
     <string name="network_speed_for_apps_title">Forbindelse</string>
@@ -861,8 +862,8 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="btn_back">Tilbage</string>
     <string name="firewall_allow_data">Tillad brug af mobildata</string>
     <string name="firewall_restrict_data">Begræns brug af mobildata</string>
-    <string name="firewall_allow_wlan">Tillad brug af WiFi-forbindelse</string>
-    <string name="firewall_restrict_wlan">Begræns brug af WiFi-forbindelse</string>
+    <string name="firewall_allow_wlan">Tillad brug af Wi-Fi-forbindelse</string>
+    <string name="firewall_restrict_wlan">Begræns brug af Wi-Fi-forbindelse</string>
     <string name="firewall_allow_all">Tillad at alle apps forbinder via følgende metode</string>
     <string name="firewall_restrict_all">Begræns alle apps i at forbinde på følgende måde</string>
     <string name="firewall_partial">Tillad at nogle apps forbinder via følgende metode​</string>
@@ -919,7 +920,7 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="optimize_result_header_view_summary">Hastighedsboost</string>
     <string name="optimize_result_available_memory_info">Tilgængelig hukommelse</string>
     <string name="optimize_result_title_uninstall_apps">Apps</string>
-    <string name="om_settings_title">Indstillinger for optimering</string>
+    <string name="om_settings_title">Indstillinger</string>
     <string name="om_settings_lock_app_manage">Lås apps</string>
     <string name="om_settings_lock_app">Lås apps</string>
     <string name="om_settings_speed_up_auto">Automatisk hastighedsboost</string>
@@ -955,6 +956,7 @@ Denne aktivitet forkorter batterilevetiden."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denne app kan hæmme
 din enhed"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Afinstaller %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Afinstaller denne app for at ordne problemer med batteriforbrug.</string>
     <string name="om_ill_proc_type_wakelock_title">Denne app blokerer sovetilstand og dræner batteriet</string>
@@ -1013,6 +1015,7 @@ din enhed"</string>
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uden et signal</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="power_screen">Skærm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1358,6 +1361,7 @@ din enhed"</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">kB</string>
@@ -1732,6 +1736,7 @@ din enhed"</string>
     <string name="card_main_deepclean_wechat_action">Ryd</string>
     <string name="card_main_sectool_title">Værktøjer</string>
     <string name="card_main_monthreport_action">Se</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test netværk</string>
     <string name="card_main_netcheck_summary">Testforbindelse for netværksfejl</string>
     <string name="card_main_netcheck_action">Test</string>
@@ -1772,6 +1777,7 @@ din enhed"</string>
     <string name="ac_notification_contentTitle">Beskyt apps med app-lås</string>
     <string name="ac_pre_notification_contentTitle">Prøv App Lock</string>
     <string name="ac_post_notification_contentTitle">Tænd App Lock</string>
+    <string name="midrop_post_notification_contentTitle">Skal du overføre filer?</string>
     <string name="notification_masked_item">Skjul notifikationer</string>
     <string name="lock_mode_title">Låseindstillinger</string>
     <string name="after_the_lock_screen">Lås apps sammen med skærmen</string>
@@ -1781,6 +1787,7 @@ din enhed"</string>
     <string name="ac_notification_contentText">Tryk for at slå til</string>
     <string name="ac_pre_notification_contentText">Beskyt dine personlige oplysninger</string>
     <string name="ac_post_notification_contentText">Få beskyttelse på systemniveau</string>
+    <string name="midrop_post_notification_contentText">Prøv Mi Drop. Det er hurtigt og reklamefrit.</string>
     <string name="notification_masked_subtitle">Skjul notifikationer fra apps, der er beskyttet med app-lås</string>
     <string name="ac_enter_applock">Indtast app-lås</string>
     <string name="ac_mask_all_apps">Skjul for alle apps</string>
@@ -2077,6 +2084,7 @@ din enhed"</string>
     <string name="app_manager_open_show_all_apps_immediate">Vis alle resultater</string>
     <string name="app_manager_mobile_slot1">Mobildata (SIM 1)</string>
     <string name="app_manager_mobile_slot2">Mobildata (SIM 2)</string>
+    <string name="app_manager_details_title">App-oplysninger</string>
     <string name="ad_btn_default_text">Få mere at vide</string>
     <string name="open_activity_err">Programmet blev ikke fundet</string>
     <string name="low_memory_warning_dialog_title">Ikke nok ledig plads</string>
@@ -2098,6 +2106,8 @@ din enhed"</string>
     <string name="gs_anto_clean_memory_whitelist">Undtagelser</string>
     <string name="gs_call_handsfree">Besvar opkald håndfrit</string>
     <string name="gs_call_handsfree_mute">Lydløs tilstand</string>
+    <string name="gs_gamebox">Genveje i spil</string>
+    <string name="gs_gamebox_detail">Vis genvejspanel i spil</string>
     <string name="gs_forbid_autosync">Begræns baggrundssynkronisering</string>
     <string name="gs_app_back_self_start">Batteribesparer</string>
     <string name="gs_only_self_start_for_list">Begræns baggrundsprocesser for at spare batteri til spil</string>
@@ -2254,7 +2264,15 @@ din enhed"</string>
     <string name="gb_msg_quickly_answer">Tillad hurtige svar</string>
     <string name="gb_msg_transparent_dispaly">Beskeder med transparent baggrund</string>
     <string name="gb_msg_completely_shielded_summary">Skjul</string>
+    <string name="gb_msg_not_shielded_summary">Vis</string>
     <string name="gb_msg_quickly_answer_summary">Hurtige svar</string>
     <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
     <string name="exit_dialog_homepage_optimise_message">Din enheds ydelses-score er lavere end 80. Optimer nu?</string>
+    <string name="screenrecord_not_find">Installer den nyeste version af Screen Recorder og prøv igen.</string>
+    <string name="gamebox_qq_not_find">Installer QQ og prøv igen.</string>
+    <string name="gamebox_wechat_not_find">Installer WeChat og prøv igen.</string>
+    <string name="gamebox_type_close">Vis ikke</string>
+    <string name="gamebox_type_float">Fastgjort genvej</string>
+    <string name="gamebox_type_gesture">Stryg for at vise</string>
+    <string name="notify_channel_name_security">System security</string>
 </resources>

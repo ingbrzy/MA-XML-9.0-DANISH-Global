@@ -9,10 +9,7 @@
     <string name="power_config_apps">Batteribesparer</string>
     <string name="app_list_title">Vælg apper</string>
     <string name="power_hide_mode_app_list_summary">Sparer strøm i baggrunden</string>
-    <string name="enable_hide_mode">Slå batteribesparer til</string>
-    <string name="disable_hide_mode">Slå batteribesparer fra</string>
     <string name="about_hide_mode">Om batteribesparer</string>
-    <string name="disable_hide_mode_warning">Deaktivering af batteribesparer kan øge din enheds strømforbrug.</string>
     <string name="show_system_app">Vis system-apps</string>
     <string name="hide_system_app">Skjul system-apps</string>
     <string name="scenario_policies_title">Smarte scenarier</string>

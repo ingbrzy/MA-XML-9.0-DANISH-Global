@@ -3,6 +3,7 @@
     <string name="menu_clear">Nulstil</string>
     <string name="menu_view">Se i mappe</string>
     <string name="menu_install">Installér denne app</string>
+    <string name="menu_open">Åbn</string>
     <string name="menu_add_to_white_list">Føj til undtagelser</string>
     <string name="text_optimizer">Upload mappenavne</string>
     <string name="summary_optimizer">"Denne funktion uploader mappenavne for at opdatere Cheetah Mobile's online database og kræver enhedens id."</string>
@@ -90,6 +91,7 @@
     <string name="hints_apk_header_left">Pakker</string>
     <string name="hints_residual_header_left">Rester</string>
     <string name="hints_memory_header_left">Hukommelse</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Store filer: %d</string>
     <string name="hints_installed_apps_header_left">Installerede apps: %d</string>
     <string name="toast_resolve_apk_error">Ret APK-fejl</string>
@@ -127,8 +129,8 @@
     <string name="msg_update_error_code_no_newer_db">Renser er opdateret</string>
     <string name="msg_update_error_code_already_running">Opdaterer…</string>
     <string name="msg_update_error_code_network_error">Kan ikke oprette forbindelse til netværket</string>
-    <string name="msg_update_error_code_unknown_error">Servers are busy. Wait a minute or two and try again.</string>
-    <string name="msg_cleanup_db_update_time_unknown">Last update: Unknown</string>
+    <string name="msg_update_error_code_unknown_error">Servere er optaget. Vent et minut eller to og prøv så igen.</string>
+    <string name="msg_cleanup_db_update_time_unknown">Sidste opdatering: Ukendt</string>
     <string name="item_title_process_mode">Vælg en handling</string>
     <string name="clean_content_zero">Ingen</string>
     <string name="clean_content_one">1 element</string>
@@ -166,7 +168,7 @@
     <string name="hints_quick_scanning">Scanner…</string>
     <string name="hints_quick_cleanuping">Optimerer…</string>
     <string name="hints_deepclean_scanning">Scanner %s</string>
-    <string name="cache_title_system_cache">Systemcache</string>
+    <string name="cache_title_system_cache">Datacache</string>
     <string name="hints_storage_free">Gratis</string>
     <string name="hints_storage_free_size">I alt %1$s, %2$s tilgængelig</string>
     <string name="apps_sort_type_title">Sorter</string>
@@ -271,7 +273,7 @@
     <string name="toast_select_white_need_remove">Vælg elementer at fjerne</string>
     <string name="network_not_available">Kan ikke oprette forbindelse til netværket</string>
     <string name="no_network_btn">Prøv igen</string>
-    <string name="name_debuglog_dir">BSP debug log</string>
+    <string name="name_debuglog_dir">BSP-fejlfindingslog</string>
     <string name="just_now">Lige nu</string>
     <string name="yesterday">I går</string>
     <string name="month_day_format">d. MMM</string>
@@ -297,6 +299,7 @@
     <string name="downloading">Downloader</string>
     <string name="installing">Installerer</string>
     <string name="start_install">Installer nu</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Åbn i browser</string>
     <string name="title_share_link">Del URL</string>
     <string name="connecting">Opretter forbindelse…</string>
@@ -307,7 +310,7 @@
     <string name="seton_immediately">Slå til</string>
     <string name="notify_when">Få en notifikation, når papirkurven når 100 MB</string>
     <string name="goto_set">Indstil</string>
-    <string name="virus_scan">Sikkerhedsscanning</string>
+    <string name="virus_scan">Virusscanning</string>
     <string name="tips_of_virus_scan">Scan din enhed for virus regelmæssigt for at holde den sikker</string>
     <string name="conn_of_function_safe">Netværksforbindelse til Sikkerhed</string>
     <string name="tips_of_connect">Opret forbindelse til internettet for at bruge det fulde sæt af sikkerhedsfunktioner</string>
@@ -517,4 +520,14 @@
     <string name="guide_virus_dialog_message">Scannings-apper og installationspakker beskytter din enhed mod vira og malware. Scan din enhed nu?</string>
     <string name="guide_virus_dialog_positive">Scan</string>
     <string name="guide_virus_dialog_negative">Annuller</string>
+    <string name="tips_low_storage_dialog_title">Der er snart ikke mere lagerplads</string>
+    <string name="tips_low_storage_dialog_msg_storage">Du bruger 90 % af din lagerplads. Afinstaller de apps, du ikke bruger.</string>
+    <string name="tips_low_storage_dialog_msg_wechat">WeChat-cachestørrelsen har nået 3 GB. Dette kan gøre din enhed langsommere. Ryd WeChat-cachen nu?</string>
+    <string name="tips_low_storage_dialog_msg_qq">QQ-cachestørrelsen har nået 3 GB. Dette kan gøre din enhed langsommere. Ryd QQ-cachen nu?</string>
+    <string name="tips_low_storage_dialog_ok_storage">Frigør plads</string>
+    <string name="tips_low_storage_dialog_ok">Ryd</string>
+    <string name="tips_low_storage_dialog_cancel">Annuller</string>
+    <string name="wechat_msg_time_long">yyyy-MM-dd</string>
+    <string name="wechat_msg_time_short">MM-dd</string>
+    <string name="wechat_video_time">%1$s:%2$s</string>
 </resources>

@@ -57,6 +57,7 @@
     <string name="save_pic_success">Gemt billede på %s</string>
     <string name="save_pic_fail">Kunne ikke gemme billede, kontroller dit SD-kort</string>
     <string name="pic_not_exist">Billedet findes ikke</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Vælg produkt</string>
     <string name="michat_skillset_business_type_title">Vælg service</string>
     <string name="michat_close_text">Chat afsluttet</string>
@@ -254,6 +255,12 @@
     <string name="feedback_status_jira_comment">Tilføj en kommentar</string>
     <string name="feedback_status_forum_reply">Svar</string>
     <string name="feedback_status_submit_attachment">Indsendt vedhæftede fil med succes.</string>
+    <string name="feedback_status_collect_log_failed">Kunne ikke hente logge</string>
+    <string name="feedback_status_submit_feedback_failed">Kunne ikke indsende feedback</string>
+    <string name="feedback_status_save_log_info_failed">Kunne ikke ændre URL for det vedhæftede</string>
+    <string name="feedback_status_submit_bbs_failed">Kunne ikke indsende feedback-indhold</string>
+    <string name="feedback_status_get_and_save_bbs_info_failed">Kunne ikke hente URL for det vedhæftede</string>
+    <string name="feedback_status_upload_log_failed">Kunne ikke uploade de vedhæftede</string>
     <string name="feedback_status_change_notification_title">Din rapports sagsforløb er blevet opdateret.</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s problem \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s forslag \"%2$s\"</string>

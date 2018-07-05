@@ -294,6 +294,7 @@ for at åbne Andet rum fra låseskærm"</string>
     <string name="weibo_send">Send til Weibo</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="qq_send">Send til QQ-venner/-computer</string>
+    <string name="qq_login">Log på QQ</string>
     <string name="xspace_default_setting_label">Standard app</string>
     <string name="xspace_default_app_title">Standard app</string>
     <string name="xspace_default_app_summary">Angiv standardapp for betalinger, deling, favoritter og meget mere.</string>
@@ -331,7 +332,7 @@ for at åbne Andet rum fra låseskærm"</string>
     <string name="can_not_delete_when_calling">Kan ikke slette rum under et opkald</string>
     <string name="support_desc">Sikkerhedstjenester tilbudt af Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">Vigtig opdatering</string>
-    <string name="sdcardfs_dialog_message">MIUI 9 har et nyt filsystem. Gamle data vil muligvis ikke være kompatible med det. For at løse dette problem, følg trinnene til at installere en opdatering. Din enhed vil genstarte to gange i løbet af denne opdatering.</string>
+    <string name="sdcardfs_dialog_message">Et nyt filsystem er introduceret i denne opdatering. Gamle data vil muligvis ikke være kompatible med det. For at løse dette problem, følg trinnene til at installere en opdatering. Din enhed vil genstarte to gange i løbet af denne opdatering.</string>
     <string name="do_not_ask">Spørg ikke igen</string>
     <string name="gpg_message">Oprettelse af dobbelte apps til spil kræver, at der arbejdes med Google Play Games. Opret en dobbelt app til Google Play Games?</string>
     <string name="gpg_title">Dobbelt app til Google Play-spil</string>
@@ -363,14 +364,14 @@ To rum. En enhed."</string>
     <string name="remove_user_click_message">*Hvis du ikke har nogen vigtige elementer i det Andet rum, %s</string>
     <string name="remove_user_click_message_action">du kan slette Andet rum og genstarte din enhed nu.</string>
     <string name="sdcradfs_dialog_in_owner_title">Andet rum</string>
-    <string name="sdcradfs_dialog_in_owner_message">"MIUI 9 har et nyt filsystem. Gamle data vil ikke være kompatible med det. For at opdatere skal du flytte elementer fra Andet rum, genstarte din enhed og oprette Andet rum igen.
-Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string>
+    <string name="sdcradfs_dialog_in_owner_message">"Et nyt filsystem er blevet introduceret i denne opdatering. Gamle data vil ikke være kompatible med det. For at opdatere skal du flytte elementer fra Andet rum, genstarte din enhed og oprette Andet rum igen.
+Hvis du ikke opdaterer, vil dobbelte apps muligvis ikke fungere korrekt."</string>
     <string name="sdcradfs_dialog_in_sec_title">Vigtig opdatering</string>
     <string name="sdcradfs_dialog_in_sec_message">"For at opdatere skal du slette dit Andet rum og derefter oprette det igen. Flyt dataene fra det Andet rum til Første rum, og genstart din enhed for at fuldføre opdateringen.
 Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string>
     <string name="space_created_success">Andet rum er nu oprettet</string>
     <string name="encrypt_space_delete_dialog_title">Bemærk</string>
-    <string name="encrypt_space_delete_dialog_message">Du er ved at opdatere Android. Efter opdateringen vil data i Second space være inkompatible. For at undgå dette skal du flytte alle data til First space, slette Second space og oprette det igen.</string>
+    <string name="encrypt_space_delete_dialog_message">Du er ved at gennemføre en systemopdatering. Efter opdateringen bliver Second Space-data inkompatible. For at undgå dette skal du flytte alle data til First Space, slette Second Space og oprette det igen.</string>
     <string name="encrypt_space_delete_dialog_click_message">*Hvis du ikke har behov for at flytte data, %s</string>
     <string name="encrypt_space_delete_dialog_click_message_action">slet og opret Second space nu.</string>
     <string name="encrypt_space_delete_dialog_positive_text">Flyt data</string>
@@ -387,7 +388,7 @@ Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string
     <string name="second_space_desktop_tips_dialog_positive_text">Forstået</string>
     <string name="second_space_desktop_tips_dialog_message">Efter denne opdatering vil ikonerne for at flytte data og administrere Second space ikke længere være vist på startskærmen. Du vil kunne få adgang til deres korresponderende funktioner i Indstillingerne.</string>
     <string name="green_guard">Forældrekontrol</string>
-    <string name="bind_device">Tilføj enhed</string>
+    <string name="bind_device">Tilføj enheder</string>
     <string name="green_guard_des1">Tilføj enheder for at kunne administrere dem langt væk fra</string>
     <string name="green_guard_title2">Se placeringsoplysninger</string>
     <string name="green_guard_des2">Ved, hvor alle administrerede enheder præcis er</string>
@@ -395,8 +396,6 @@ Hvis du ikke opdaterer, vil dobbelt apps muligvis ikke fungere korrekt."</string
     <string name="green_guard_des3">Kontrollér installerede apps og begræns anvendelse</string>
     <string name="experience_more_features">Tilføj en enhed for at se alle funktioner</string>
     <string name="can_not_switch_when_green_kid_active">Skift til Second space er begrænset af forældrekontrol</string>
-    <string name="need_network_when_bind">Tilslut til netværket før tilføjelse af enheder</string>
-    <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. This permissions are required to send the info about battery levels, step count, and your location to the controlled devices. Allow?</string>
-    <string name="agree">Agree</string>
-    <string name="disagree">"Don't agree"</string>
+    <string name="need_network_when_bind">Opret forbindelse til netværket, inden du tilføjer enheder</string>
+    <string name="this_function_can_not_use_in_second_space">Denne funktion kan kun bruges i First space</string>
 </resources>
