@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_calllog_detail">Oplysninger om opkaldshistorik</string>
     <string name="accessibility_contact_detail">Kontaktoplysninger</string>
     <string name="account_container_title">Importeret fra</string>
@@ -100,7 +99,6 @@
     <string name="call_sim_menu_title_suffix">(Primær)</string>
     <string name="call_telex">Opkald telex</string>
     <string name="call_tty_tdd">Opkald TTY/TDD</string>
-    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Opkald arbejde</string>
     <string name="call_work_mobile">Opkald arbejde mobil</string>
@@ -490,7 +488,6 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="force_touch_new_contact">Ny kontakt</string>
     <string name="foundTooManyContacts">Flere end %d fundet.</string>
     <string name="frequentList">Ofte</string>
-    <string name="from_account_format">%1$s</string>
     <string name="full_name">Navn</string>
     <string name="gallery">Galleri</string>
     <string name="generic_no_account_prompt">Opbevar dine kontakter sikkert, selv hvis du mister din telefon: synkroniser med en onlineservice.</string>
@@ -569,7 +566,6 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="keep_local">Synkroniser ikke</string>
     <string name="keep_local_btn">Brug enhedens interne lager</string>
     <string name="label_custom_type">Brugertilpasset</string>
-    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">Ingen dubletter fundet.</string>
     <string name="label_notes">Noter</string>
     <string name="label_sip_address">Internetopkald</string>
@@ -673,7 +669,6 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="miprofile_contact_header">Kontakter med kontaktkort</string>
     <string name="miprofile_contact_meaasge">Lokale kontakter</string>
     <string name="miprofile_contact_verifying">Bekræfter</string>
-    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Rediger profil</string>
     <string name="miprofile_error_accept_self">Kan ikke udveksle dit eget kontaktkort</string>
     <string name="miprofile_error_no_miaccount">Log på din Mi-konto</string>
@@ -818,10 +813,7 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="path_wipe_data">System-apps/Kontakter/Organiser kontakter/Clear data</string>
     <string name="payphone">Mønttelefon</string>
     <string name="people">Kontakter</string>
-    <string name="percent_sign">%</string>
-    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefon</string>
-    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Nummer er for langt.</string>
     <string name="phone_primary">Primær</string>
     <string name="photoPickerNotFoundText">Der er ingen tilgængelige billeder på enheden.</string>
@@ -1068,7 +1060,6 @@ For at undgå hyppige forespørgsler opdaterer vi saldooplysningerne en gang om 
     <string name="sim_unloaded">SIM-kort er ikke installeret.</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Ingen gruppemedlemmer</string>
-    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">Firmaer</string>
     <string name="smart_group_company_unavailable">Ingen firmaoplysninger</string>
     <string name="smart_group_frequency_1">Indenfor den sidste måned</string>
@@ -1201,7 +1192,6 @@ Vælg en af de følgende muligheder:"</string>
     <string name="voip_audio_description">VoIP-opkald</string>
     <string name="voip_video_description">VoIP-videoopkald</string>
     <string name="websiteLabelsGroup">Website</string>
-    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Nulstil data</string>
     <string name="yellowPageNavigationIconLabel">De Gule Sider</string>
     <string name="yellowPageNavigationLabel">De Gule Sider</string>

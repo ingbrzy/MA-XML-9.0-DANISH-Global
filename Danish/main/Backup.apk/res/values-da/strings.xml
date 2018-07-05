@@ -6,9 +6,6 @@ Size: %2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Introducerer version %1$s
 Størrelse delta-opdatering: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Ingen ledig hukommelse, kontroller dit SD-kort.</string>
-    <string name="xiaomi_bytes_unit">%1$sB</string>
-    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
-    <string name="xiaomi_megabytes_unit">%1$sMB</string>
     <string name="xiaomi_connect_download_manager_fail">Kunne ikke påbegynde download. Kontroller at Download Manager fungerer normalt.</string>
     <string name="app_name">Sikkerhedskopiering</string>
     <string name="local_app_name">Sikkerhedskopiering</string>
@@ -228,7 +225,6 @@ Størrelse delta-opdatering: %2$s"</string>
     <string name="restore_backup">Gendan</string>
     <string name="enable_encrypt_description">Kryptér</string>
     <string name="disable_encrypt_description">Kryptér ikke</string>
-    <string name="digit_percent">%</string>
     <string name="state_waiting">Lige et øjeblik…</string>
     <string name="state_mounting">Får adgang til routerlager…</string>
     <string name="abort_backup_confirm">Backup er ikke færdig. Stop alligevel?</string>
@@ -536,7 +532,6 @@ https://appleid.apple.com/#!&amp;page=signin at lukke"</string>
 bør du først oprette en iCloud-backup."</string>
     <string name="list_footer_tip_title">Tips:</string>
     <string name="import_tip_summary">På grund af kompatibilitetsproblemer kan du kun overføre en del af dataene fra iOS-enheder. Vær sikker på, at du har oprettet en iCloud-backup, inden du begynder overførslen.</string>
-    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Importér</string>
     <string name="select_empty">Vælg elementer til import</string>
     <string name="select_item_summary_wait">Venter…</string>

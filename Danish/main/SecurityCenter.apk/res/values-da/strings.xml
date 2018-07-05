@@ -432,7 +432,6 @@ svarer"</string>
     <string name="managed_user_title">Alle arbejds-apps</string>
     <string name="pref_about_traffic_title">Indstillinger for dataforbrug</string>
     <string name="pref_traffic_manage_title">Databrug</string>
-    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">Dataplan</string>
     <string name="pref_adjust_traffic_data">Sæt dataforbrug</string>
     <string name="pref_category_title_other">Yderligere indstillinger</string>
@@ -956,7 +955,6 @@ Denne aktivitet forkorter batterilevetiden."</string>
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Denne app kan hæmme
 din enhed"</string>
-    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Afinstaller %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Afinstaller denne app for at ordne problemer med batteriforbrug.</string>
     <string name="om_ill_proc_type_wakelock_title">Denne app blokerer sovetilstand og dræner batteriet</string>
@@ -1015,7 +1013,6 @@ din enhed"</string>
     <string name="usage_type_data_send">Mobildata sendt</string>
     <string name="usage_type_no_coverage">Tid uden et signal</string>
     <string name="usage_type_gps">GPS</string>
-    <string name="process_kernel_label">Android</string>
     <string name="process_mediaserver_label">Medieserver</string>
     <string name="power_screen">Skærm</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1361,7 +1358,6 @@ din enhed"</string>
     <string name="menu_text_networkassistants">Dataforbrug</string>
     <string name="menu_text_networkassistants_remain">%s tilbage</string>
     <string name="menu_text_networkassistants_danger">%s over</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">GB</string>
     <string name="menu_text_networkassistants_unit_mb">MB</string>
     <string name="menu_text_networkassistants_unit_kb">kB</string>
@@ -1736,7 +1732,6 @@ din enhed"</string>
     <string name="card_main_deepclean_wechat_action">Ryd</string>
     <string name="card_main_sectool_title">Værktøjer</string>
     <string name="card_main_monthreport_action">Se</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Test netværk</string>
     <string name="card_main_netcheck_summary">Testforbindelse for netværksfejl</string>
     <string name="card_main_netcheck_action">Test</string>

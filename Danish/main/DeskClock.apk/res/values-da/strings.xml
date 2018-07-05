@@ -145,7 +145,6 @@
     <string name="shutdown_alarm_enable_summary">Alarm vil ringe efter slukning.</string>
     <string name="shutdown_alarm_title">Sluk for alarm</string>
     <string name="silent_alarm_summary">Stille</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Sluk én gang på %s</string>
     <string name="slider_text">Swipe op for at slukke</string>
     <string name="snooze_confirm_cancel">Afblæs alarm</string>
@@ -154,7 +153,6 @@
     <string name="start_up">Start</string>
     <string name="stopwatch_lap_empty_text">Ingen overlap</string>
     <string name="stopwatch_title">Stopur</string>
-    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Indstillinger</string>
     <string name="system_time_settings_category_title">Tidsindstillinger</string>
     <string name="temperature_unit">%1$s°</string>

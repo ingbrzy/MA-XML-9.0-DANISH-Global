@@ -225,7 +225,6 @@
     <string name="battery_saver">Batteribesparer</string>
     <string name="battery_saver_keywords">batteribesparer;mail batteri</string>
     <string name="bcc">Bcc</string>
-    <string name="bcc_heading">"Bcc: "</string>
     <string name="bill_center_setting">Fakturaindstillinger</string>
     <string name="bill_center_setting_head">Importér info fra disse konti</string>
     <string name="bill_cycle_text">Fakturacyklus</string>
@@ -246,7 +245,6 @@
     <string name="cancel_pop3_attchemt_downloading">Kan ikke annullere igangværende downloads for vedhæftelser i POP3-konti</string>
     <string name="cant_move_or_change_labels">Kan ikke flytte genstande fra flere konti</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Cc: %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="change_folders_selection_dialog_title">Skift mapper</string>
@@ -264,7 +262,6 @@
     <string name="click_download_all_content">[ Tryk for at downloade indhold ]</string>
     <string name="click_to_reload">Tryk på skærmen for at genopfriske</string>
     <string name="collapse_recipient_details">Skjul modtageroplysninger</string>
-    <string name="colon">:</string>
     <string name="compose">Opret</string>
     <string name="compose_attachment_number_limit">Kan ikke tilføje over 10 vedhæftelser</string>
     <string name="compose_paste_address_oob">For mange tegn</string>
@@ -479,7 +476,6 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Log ind på Gmail</string>
     <string name="header_category_account">Konti</string>
-    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Respons</string>
     <string name="header_label_general_preferences">Generelt</string>
     <string name="help_and_info">Hjælp</string>
@@ -501,7 +497,6 @@
     <string name="invalid_recipient">Adressen %s er ugyldig.</string>
     <string name="invalid_recipient_title">Modtagerfejl</string>
     <string name="kilobytes">%s KB</string>
-    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Søg i mailindbakke på server</string>
     <string name="load_more">Indlæs mere</string>
     <string name="loading_conversation">Indlæser…</string>
@@ -946,7 +941,6 @@ for at modtage påmindelser om betalinger og rejser"</string>
     <string name="silent_ringtone">Tavs</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
-    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Adgangskode for udgående mail-server er forkert</string>
     <string name="sort_attachment">Sorter efter</string>
     <string name="storage">Hukommelse</string>

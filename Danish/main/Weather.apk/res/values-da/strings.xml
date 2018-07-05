@@ -81,12 +81,10 @@
     <string name="daily_forecast_add_city_message">Følg vejret i %1$s for en mere detaljeret vejrudsigt.</string>
     <string name="daily_forecast_add_city_title">Følg vejret i %1$s</string>
     <string name="daily_forecast_detail_date">M/d</string>
-    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Kunne ikke hente vejroplysninger
 Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="data_provided_by">Data leveret af</string>
     <string name="edit_city">Administrer by</string>
-    <string name="empty">" "</string>
     <string name="eu_region_version_first_start_network_msg">Ved at bruge dette produkt accepterer du, at Xiaomi indsamler, bearbejder og bruger dine personoplysninger, her iblandt koordinaterne for de byer, som du leder efter og andre former for data specificeret vi vores Fortrolighedspolitik. Se vores Fortrolighedspolitik for at finde ud af, hvordan vi indsamler og bearbejder oplysninger. Ved at trykke på \"Accepter\", erklærer du dig enig i Xiaomis %1$s og %2$s.</string>
     <string name="feedback_heavy_rain">Kraftig nedbør</string>
     <string name="feedback_heavy_snow">Sne</string>
@@ -99,8 +97,6 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="first_start_network_title">Adgangs til internetforbindelse og placering</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Nu</string>
-    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="index_item_experience_now">Installer nu</string>
     <string name="index_item_install_dialog" />
@@ -112,12 +108,10 @@ Træk ned for at opdatere eller kontrollere netværksindstillingerne"</string>
     <string name="indices_title_feel">Ægte fornemmelse</string>
     <string name="indices_title_pressure">Tryk</string>
     <string name="install">Installer</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">TRYK</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Oplysninger</string>
     <string name="international_details_uv_index_title">UV-INDEKS</string>
-    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">VIND</string>
     <string name="it_is_going_to_rain">Det kommer til at regne</string>
     <string name="locate_fail_detail_err">"Kan ikke finde enheden
@@ -188,7 +182,6 @@ Tryk på skærmen for manuelt at tilføje eller omplacere by"</string>
     <string name="share_menu_title">Del</string>
     <string name="share_subject">Del</string>
     <string name="share_weather_desc">\#MIUI Vejr#I dag %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Kunne ikke tage skærmbillede</string>
     <string name="some_where_on_earth">Et sted på jorden</string>
